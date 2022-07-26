@@ -3,20 +3,16 @@ title: "Footer"
 description: "The only truly decentralized metaverse on the planet awaits you."
 insert_anchor_links: "left"
 extra:
-  logoPath: "/images/OurVerse-logo.png"
+  logoPath: "/images/ff_logo.png"
   socialLinks: { Github: "https://" }
 ---
 
-{% row(style="center narrow invert-color" bgColor="#2d103e") %}
+{% row(style="center narrow" bgColor="#eae8e3") %}
 
-## WANNA GET INVOLVED?
+![FreeFlow Footer Logo](footer/footer_logo.png#mx-auto)
 
 <br/>
 
-Interested in partnering up? Or just wanna say hi?
-
-Drop us a message!
-
-<button>[Email](/)</button>
+ALL RIGHTS RESERVED 2022
 
 {% end %}
