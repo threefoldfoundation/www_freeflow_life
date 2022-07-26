@@ -11,8 +11,9 @@ draft: false
 {% row(style="center" margin="moderate" bgPath="landing/FF_background.png") %}
 
 <br>
-<br>
-<br>
+
+![FF Logo](landing/ff_landing.png#mx-auto) 
+
 <br>
 
 # EXPERIENCE THE
@@ -164,9 +165,11 @@ A typical FreeFlow user consumes less than five watts to access their entire dig
 
 {% row(style="center") %}
 
+<br>
+
 ## FREEFLOW
 
-## _BLOGS_
+## **BLOGS**
 
 Stay Updated with everything ThreeFold.
 
@@ -174,18 +177,21 @@ Stay Updated with everything ThreeFold.
 
 {% row(style="center between") %}
 
-## FREEFLOW KEY
-## _BLOG_
+### FREEFLOW KEY
+### **BLOG**
 
 |||
 
-## TOKENOMICS
-## _BLOG_
+### TOKENOMICS
+### **BLOG**
 
 |||
 
-## CHI
-## _BLOG_
+### CHI
+### **BLOG**
+
+<br>
+<br>
 
 {% end %}
 
@@ -198,10 +204,14 @@ Stay Updated with everything ThreeFold.
 
 Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor incididunt ut . . labore et dolore magna aliqua. 
 
+<br>
+
 <button>[HOW IT WORKS]("/howitworks")</button>
 
 |||
 
-![FreeFlow Benefits](landing/FF_benefits.png)
+<br>
+
+![FreeFlow Benefits](landing/ff_landing_key.png)
 
 {% end %}
