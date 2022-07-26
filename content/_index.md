@@ -1,6 +1,12 @@
-<!-- section 1 (header) -->
+---
+title: "FreeFlow"
+description: ""
+date: 2018-09-14
+updated: 2021-02-20
+draft: false
+---
 
-{% row(style="center margin") %}
+<!-- section 1 (header) -->
 
 ![FreeFlow Background](landing/FF_background.png)
 
@@ -14,11 +20,7 @@ The FreeFlow experience puts you and your entire society at the healm of your di
 
 <button>[SEE THE ECOSYSTEM]("/ecosystem")</button>
 
-{% end %}
-
 <!-- section 2 (FF LIFE) -->
-
-{% row(style="") %}
 
 ![FreeFlow Life](landing/FF_life.png)
 
@@ -35,8 +37,6 @@ The FreeFlow experience puts you and your entire society at the healm of your di
 * A life where online privacy and security are no longer a concern. 
 
 * A life where our usage of the Internet is not a burden to our planet. 
-
-{% end %}
 
 <!-- section 3 (ECOSYSTEM) -->
 
