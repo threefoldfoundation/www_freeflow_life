@@ -18,7 +18,7 @@ draft: false
 
 Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor incididunt ut . . labore et dolore magna aliqua. 
 
-![step 1](ecosystem/FF_ecosystem_1.png.png)
+![step 1](FF_ecosystem_1.png)
 
 {% end %}
 

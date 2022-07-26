@@ -8,9 +8,7 @@ draft: false
 
 <!-- section 1 (header) -->
 
-{% row(style="center margin") %}
-
-![EXPERIENCES BG](experiences/FF_experiences.png)
+{% row(style="center" margin="none" bgColor="#d1c3b9") %}
 
 Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
 
