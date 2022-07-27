@@ -44,7 +44,7 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 ## THE GATEWAY TO
 
-## THE FREEFLOW LIFE. 
+## THE FREEFLOW LIFE.
 
 <br>
 
