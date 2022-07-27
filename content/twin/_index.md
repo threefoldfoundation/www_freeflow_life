@@ -61,6 +61,22 @@ Every application is available for you and your society to utilize endlessly wit
 
 {% row(style="center" bgColor="#EFEDEB" margin="narrow") %}
 
+## OUT WITH 
+## THE OLD... 
+
+<br>
+
+Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity. 
+
+<br>
+
+![CENTRALIZED](twin/centralized.png)
+
+<br>
+<br>
+<br>
+
+|||
 
 ## YOU ARE 
 ## THE SERVER 
@@ -71,20 +87,11 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 <br>
 
-![CENTRALIZED](twin/decentralized.png)
-
-|||
-
-## OUT WITH 
-## THE OLD... 
+![DECENTRALIZED](twin/decentralized.png)
 
 <br>
-
-Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity. 
-
 <br>
-
-![DECENTRALIZED](twin/centralized.png)
+<br>
 
 {% end %}
 
@@ -94,7 +101,7 @@ Centralized hosting creates many obstacles in privacy and security. Due to most 
 
 <!-- row 1 sustainability-->
 
-![SUSTAINABLE 1](twin/________.png)
+![SUSTAINABLE 1](twin/sustainable_1.png)
 
 <br>
 
@@ -107,10 +114,9 @@ Uses less than 5 watts per person for a full blown digital life (ultra sustainab
 
 <br>
 
-
 |||
 
-![SUSTAINABLE 2](twin/________.png)
+![SUSTAINABLE 2](twin/sustainable_2.png)
 
 <br>
 
@@ -125,7 +131,7 @@ Access to your digital life is personal and ultra secure. No one can ever manipu
 
 |||
 
-![SUSTAINABLE 3](twin/________.png)
+![SUSTAINABLE 3](twin/sustainable_3.png)
 
 <br>
 
@@ -144,7 +150,7 @@ An array of tools and applica-tions is readily available to every user with no l
 
 {% row(style="center between margin" bgColor="#f3fdf6") %}
 
-![FF SUSTAINABLE 4](twin/_________.png)
+![FF SUSTAINABLE 4](twin/sustainable_4.png)
 
 <br>
 
@@ -156,10 +162,12 @@ An array of tools and applica-tions is readily available to every user with no l
 Available to gift to anyone of your choosing
 
 <br>
+<br>
+<br>
 
 |||
 
-![SUSTAINABLE 5](twin/________.png)
+![SUSTAINABLE 5](twin/sustainable_5.png)
 
 <br>
 
@@ -171,10 +179,12 @@ Available to gift to anyone of your choosing
 Unlimited information and educational content will now be a click away for every member of society.
 
 <br>
+<br>
+<br>
 
 |||
 
-![SUSTAINABLE 6](twin/________.png)
+![SUSTAINABLE 6](twin/sustainable_6.png)
 
 <br>
 
@@ -185,6 +195,8 @@ Unlimited information and educational content will now be a click away for every
 
 NO server or companies involved, all data is yours forever and 100% private.
 
+<br>
+<br>
 <br>
 
 {% end %}
@@ -204,5 +216,9 @@ NO server or companies involved, all data is yours forever and 100% private.
 Lorem ipsum
 
 <button>[EXPERIENCES]("/experiences")</button>
+
+<br>
+<br>
+<br>
 
 {% end %}
