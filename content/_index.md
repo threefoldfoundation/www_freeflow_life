@@ -175,7 +175,7 @@ Stay Updated with everything ThreeFold.
 
 {% end %}
 
-{% row(style="center between") %}
+{% row(style="center") %}
 
 ### FREEFLOW KEY
 ### **BLOG**

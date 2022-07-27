@@ -8,33 +8,51 @@ draft: false
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center narrow") %}
+{% row(style="center") %}
+
+![FF TWIN](twin/FF_twin.png)
+
+|||
 
 ### Introducing the Free Flow Twin
 
+<br>
+
 ## BECOME THE CENTER 
 
-## _OF YOUR DIGITAL LIFE_
+## OF YOUR DIGITAL LIFE
+
+*_____________________*
+
+<br>
 
 Let's become the center of our own digital lives, free from external influences, manipulation and attacks. 
-Let's progress our societies towards true freedom and absolute inclusion. by utilizing the power of decentralizing our data, storage and compute. 
 
-![FF TWIN](twin/FF_twin.png)
+<br>
+
+Let's progress our societies towards true freedom and absolute inclusion. by utilizing the power of decentralizing our data, storage and compute. 
 
 {% end %}
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center narrow") %}
+{% row(style="center" bgColor="#eae8e3") %}
+
+![FF LIFE](twin/FF_life.png)
+
+|||
 
 ## THE GATEWAY TO
 
-##  THE FREEFLOW LIFE. 
+## THE FREEFLOW LIFE. 
+
+<br>
 
 The Free Flow Twin provdes you with access to decentralized alternatives to world's most popular applications. 
-Every application is available for you and your society to utilize endlessly without ever worrying about online privacy. 
 
-![FF LIFE](twin/FF_life.png)
+<br>
+
+Every application is available for you and your society to utilize endlessly without ever worrying about online privacy. 
 
 {% end %}
 
@@ -43,21 +61,21 @@ Every application is available for you and your society to utilize endlessly wit
 
 <!-- title -->
 
-{% row(style="________") %}
+{% row(bgColor="#f3fdf6" margin="narrow") %}
+
+<br>
 
 ## ULTRA
 
 ## SUSTAINABLE
 
+<br>
+
 Uses less than 5 watts per person for a full blown digital life (ultra sustainable).
 
-{% end %}
+<br>
 
-<!-- row 1 sustainability -->
-
-{% row(style="center between margin") %}
-
-![FF SUSTAINABLE](twin/FF_sustainable.png)
+![FreeFlow sustainability image](twin/F_sustainable.png)
 
 |||
 
@@ -65,17 +83,20 @@ Uses less than 5 watts per person for a full blown digital life (ultra sustainab
 
 Access to your digital life is personal and ultra secure. No one can ever manipulate data
 
+|||
+
 ![SUSTAINABLE 2](twin/________.png)
 
 An array of tools and applica-tions is readily available to every user with no limits. 
+
 
 {% end %}
 
 <!-- row 2 sustainability -->
 
-{% row(style="center between margin") %}
+{% row(style="center between margin" bgColor="#f3fdf6") %}
 
-![FF SUSTAINABLE 3](twin/FF_sustainable.png)
+![FF SUSTAINABLE 3](twin/_________.png)
 
 Available to gift to anyone of your choosing
 
@@ -95,15 +116,17 @@ NO server or companies involved, all data is yours forever and 100% private.
 
 <!-- section 4 (EXPERIENCES) -->
 
-{% row(style="________") %}
+{% row(style="center" margin="wide" bgColor="#f9f8f6") %}
+
+![experiences](twin/FF_twin_experiences.png)
+
+|||
 
 ## CHECK OUT
 
-### _THE EXPERIENCES_
+### **THE EXPERIENCES**
 
 Lorem ipsum
-
-![experiences](twin/FF_twin_experiences.png)
 
 <button>[EXPERIENCES]("/experiences")</button>
 

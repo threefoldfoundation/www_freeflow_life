@@ -10,6 +10,8 @@ draft: false
 
 {% row(style="center" margin="none" bgColor="#d1c3b9") %}
 
+![Experiences Hero Image](FF_experiences.png)
+
 Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
 
 {% end %}
