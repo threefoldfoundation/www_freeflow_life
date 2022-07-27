@@ -18,6 +18,10 @@ draft: false
 
 ## __FREEFLOW JOURNEY__
 
+*_____________________*
+
+<br>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ternpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
 
 {% end %}
