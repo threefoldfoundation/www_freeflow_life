@@ -10,7 +10,7 @@ draft: false
 
 {% row(style="center" margin="narrow" bgColor="#EFEDEB") %}
 
-![___](ecosystem/___.png)
+![FF_ecosystem_1](ecosystem/FF_ecosystem_1.png)
 
 |||
 
@@ -52,7 +52,7 @@ Numerous applications and programs are immediately available to users of the Fre
 
 |||
 
-![___](ecosystem/___.png)
+![FF_ecosystem_2](ecosystem/FF_ecosystem_2.png)
 
 {% end %}
 
@@ -60,7 +60,7 @@ Numerous applications and programs are immediately available to users of the Fre
 
 {% row(style="center" margin="narrow" bgColor="#D9E7DF") %}
 
-![___](ecosystem/___.png)
+![FF_ecosystem_3](ecosystem/FF_ecosystem_3.png)
 
 |||
 
@@ -86,8 +86,6 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 {% row(style="center" margin="narrow") %}
 
-
-
 # UNLOCK IT WITH
 
 # _FREEFLOW KEY_
@@ -102,6 +100,6 @@ The FreeFlow Key is your digital identity. Created as an NFT, this identity prov
 
 |||
 
-![___](ecosystem/___.png)
+![FF_ecosystem_4](ecosystem/FF_ecosystem_4.png)
 
 {% end %}
