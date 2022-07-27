@@ -17,6 +17,8 @@ draft: false
 # THE FOUNDATION
 # _BEGINS WITH YOU_
 
+![FF_ecosystem_step1](ecosystem/FF_ecosystem_step1.png)
+
 <br>
 
 FreeFlow Nodes can generate compute, storage and network capacity for your entire country. People deploy FreeFlow Nodes in homes, offices, schools, telco infrastructure or datacenters and generate income. 
@@ -65,7 +67,6 @@ Numerous applications and programs are immediately available to users of the Fre
 |||
 
 # YOUR TWIN GIVES
-
 # _COMPLETE ACCESS_
 
 <br>
@@ -87,7 +88,6 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 {% row(style="center" margin="narrow") %}
 
 # UNLOCK IT WITH
-
 # _FREEFLOW KEY_
 
 <br>
