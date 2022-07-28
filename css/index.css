@@ -41,6 +41,11 @@ img[src*="#medium"] {
   margin: auto;
 }
 
+img[src*="#medium"] {
+    width: 400px;
+    margin: auto;
+}
+
 img[src*="#logo"] {
   max-width: min(250px, 100%);
   margin: auto;
