@@ -4,11 +4,12 @@ description: ""
 date: 2018-09-14
 updated: 2021-02-20
 draft: false
+weight: 4
 ---
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center") bgColor="#F9F8F6" %}
+{% row(style="center" bgColor="#F9F8F6") %}
 
 ![FF TWIN](twin/FF_twin.png)
 
@@ -20,7 +21,7 @@ draft: false
 
 ## BECOME THE CENTER 
 
-## OF YOUR DIGITAL LIFE
+## **OF YOUR DIGITAL LIFE**
 
 *_____________________*
 
@@ -36,7 +37,7 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center" bgColor="#eae8e3" margin="narrow") %}
+{% row(style="center" bgColor="#eae8e3" margin="wide") %}
 
 ![FF LIFE](twin/FF_life.png)
 
@@ -46,7 +47,7 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 ## THE FREEFLOW LIFE.
 
-<br>
+<br
 
 The Free Flow Twin provdes you with access to decentralized alternatives to world's most popular applications. 
 

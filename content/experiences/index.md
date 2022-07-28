@@ -4,11 +4,12 @@ description: ""
 date: 2018-09-14
 updated: 2021-02-20
 draft: false
+weight: 2
 ---
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="none" bgColor="#d1c3b9") %}
+{% row(style="center" margin="tight" bgColor="#d1c3b9") %}
 
 ![Experiences Hero Image](FF_experiences.png)
 

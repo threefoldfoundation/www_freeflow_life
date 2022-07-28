@@ -22,7 +22,7 @@ Parameters:
     {% set row_class = row_class ~ " lg:items-center" %}
 {% endif %}
 
-{% set col_class = "flex-1 mb-20 lg:mb-0 " %}
+{% set col_class = "flex-1 mb-12 lg:mb-0 " %}
 {% set col_class = col_class ~ " lg:mx-8 " %}
 
 
@@ -36,6 +36,8 @@ Parameters:
         {% set row_class = row_class ~ " mx-20 " %}
     {% elif "narrow" in margin %}
         {% set row_class = row_class ~ " mx-28 " %}
+    {% elif "tight" in margin %}
+        {% set row_class = row_class ~ " mx-28 sm:mx-44 md:mx-60 lg:mx-80 xl:mx-96 " %}
     {% endif %}
     {% if "lean-right" in margin %}
         {% set col_class = col_class ~ " lg:max-w-[50%] lg:mx-0 " %}
