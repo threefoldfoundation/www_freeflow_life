@@ -1,4 +1,4 @@
-name: freeflow-life
+name: freeflow.life
 on: 
   push:
     branch: [ development ]
