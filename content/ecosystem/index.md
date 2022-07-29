@@ -9,16 +9,18 @@ weight: 1
 
 <!-- section 1 (step 1) -->
 
-{% row(style="center" margin="narrow" bgColor="#EFEDEB") %}
+{% row(margin="wide" bgColor="#EFEDEB") %}
 
-![FF_ecosystem_1](ecosystem/FF_ecosystem_1.png)
+![FF_ecosystem_1](FF_ecosystem_1.png)
 
 |||
 
-# THE FOUNDATION
-# _BEGINS WITH YOU_
+## THE FOUNDATION
+## **BEGINS WITH YOU**
 
-![FF_ecosystem_step1](ecosystem/FF_ecosystem_step1.png)
+<br>
+
+![FF_ecosystem_step1](FF_ecosystem_step1.png#medium)
 
 <br>
 
@@ -36,10 +38,10 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 <!-- section 2 (step 2) -->
 
-{% row(style="center" margin="narrow") %}
+{% row(margin="narrow") %}
 
-# EXPERIENCES
-# _ARE BUILT_
+## EXPERIENCES
+## **ARE BUILT**
 
 <br>
 
@@ -55,20 +57,20 @@ Numerous applications and programs are immediately available to users of the Fre
 
 |||
 
-![FF_ecosystem_2](ecosystem/FF_ecosystem_2.png)
+![FF_ecosystem_2](FF_ecosystem_2.png)
 
 {% end %}
 
 <!-- section 3 (step 3) -->
 
-{% row(style="center" margin="narrow" bgColor="#D9E7DF") %}
+{% row(margin="narrow" bgColor="#D9E7DF") %}
 
-![FF_ecosystem_3](ecosystem/FF_ecosystem_3.png)
+![FF_ecosystem_3](FF_ecosystem_3.png)
 
 |||
 
-# YOUR TWIN GIVES
-# _COMPLETE ACCESS_
+## YOUR TWIN GIVES
+## **COMPLETE ACCESS**
 
 <br>
 
@@ -86,10 +88,10 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 <!-- section 4 (step 4) -->
 
-{% row(style="center" margin="narrow") %}
+{% row(margin="narrow") %}
 
-# UNLOCK IT WITH
-# _FREEFLOW KEY_
+## UNLOCK IT WITH
+## **FREEFLOW KEY**
 
 <br>
 
@@ -101,6 +103,6 @@ The FreeFlow Key is your digital identity. Created as an NFT, this identity prov
 
 |||
 
-![FF_ecosystem_4](ecosystem/FF_ecosystem_4.png)
+![FF_ecosystem_4](FF_ecosystem_4.png)
 
 {% end %}

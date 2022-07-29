@@ -37,13 +37,7 @@ img[src*="#small"] {
 }
 
 img[src*="#medium"] {
-  width: 400px;
-  margin: auto;
-}
-
-img[src*="#medium"] {
     width: 400px;
-    margin: auto;
 }
 
 img[src*="#logo"] {

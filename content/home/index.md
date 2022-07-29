@@ -9,11 +9,11 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="moderate" bgPath="home/FF_background.png") %}
+{% row(style="center" margin="moderate" bgPath="FF_background.png") %}
 
 <br>
 
-![FF Logo](home/ff_home.png#mx-auto) 
+![FF Logo](ff_home.png#mx-auto) 
 
 <br>
 
@@ -45,7 +45,7 @@ The FreeFlow experience puts you and your entire society at the healm of your di
 {% row(bgColor="#eae8e2" margin="moderate") %}
 
 
-![FreeFlow Life](home/FF_life.png)
+![FreeFlow Life](FF_life.png)
 
 |||
 
@@ -107,7 +107,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 |||
 
-![FreeFlow Ecosystem](home/FF_ecosystem.png)
+![FreeFlow Ecosystem](FF_ecosystem.png)
 
 {% end %}
 
@@ -115,7 +115,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 {% row(bgColor="#e8f2f5" style="center" margin="wide") %}
 
-![FreeFlow Discover](home/FF_discover.png)
+![FreeFlow Discover](FF_discover.png)
 
 |||
 
@@ -158,7 +158,7 @@ A typical FreeFlow user consumes less than five watts to access their entire dig
 
 |||
 
-![FreeFlow Benefits](home/FF_benefits.png)
+![FreeFlow Benefits](FF_benefits.png)
 
 {% end %}
 
@@ -213,6 +213,6 @@ Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor 
 
 <br>
 
-![FreeFlow Benefits](home/ff_home_key.png)
+![FreeFlow Benefits](ff_home_key.png)
 
 {% end %}

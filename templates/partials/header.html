@@ -86,23 +86,18 @@
 
 {%- set section = get_section(path="_index.md") %}
 
-
-{% for section in section.subsections %}
-{% endfor %}
-
 {% if "header/_index.md" in section.subsections %}
     {%- set section = get_section(path="header/_index.md") %}
     {% set header_items = section.content | safe | split(pat="<li>") %}
     {% include "partials/custom_header" %}
 {% else %}
     <header id="header-container">
-        {{section.subsections}}
         <div class="z-10 bg-white fixed w-screen">
             <div class="relative z-50 shadow">
             <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
-                        <img class="w-32 h-auto sm:w-15" src="{{section.extra.logo_path}}" alt="Ourworld Logo" />
+                        <img class="w-32 h-auto sm:w-15" src="{{get_url(path=section.extra.logo_path)}}" alt="Ourworld Logo" />
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
@@ -200,7 +195,7 @@
                             <hr/>
                         {% endfor %}
                         {% set section = get_section(path="footer/_index.md")%}
-                        {%- set logoPath = section.extra.logoPath %}
+                        {%- set logoPath = get_url(path=section.extra.logoPath) %}
                         <div class="mx-8 mt-8">
                             <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
                               <img class="w-48 h-auto" src="{{logoPath}}" alt="Company name" />
