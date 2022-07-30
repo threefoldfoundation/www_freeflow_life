@@ -19,3 +19,4 @@ jobs:
           cd /opt/www_freeflow_life
           git log -1
           git pull
+          sh build
