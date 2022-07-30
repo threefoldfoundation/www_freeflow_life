@@ -130,7 +130,8 @@ Parameters:
 {% set styles = ""  %}
 {% set div_class = " " %}
 {% if bgPath %}
-    {% set styles = "background: url('" ~ bgPath ~ "'); background-size: cover; background-position: center;"  %}
+    {% set background_url = page.permalink ~ bgPath %}
+    {% set styles = "background: url('" ~ background_url ~ "'); background-size: cover; background-position: center;"  %}
     {% if "#desktop" in bgPath %}
         {% set bgStyle = false %}
         {% set div_class = " !bg-[length:0px_0px] !bg-no-repeat lg:!bg-cover " %}

@@ -1,16 +1,10 @@
-// Makes a simple ./static/css/index.css file right after "clean" so there *is* one
-// ... thus keeping Zola from erroring out when you do `npm run start` (dev mode)
+// Taken from: https://github.com/brycewray/zola_twcss/blob/main/initcss.js
+// Initializes ./static/css/index.css necessary for package scripts
 
 const fs = require("fs")
 const initDir = 'static/css'
 const initCSSFile = 'static/css/index.css'
-const initValue = `
-  body {
-    color: green;
-    background-color: yellow;
-    font-family: monospace;
-  }
-`
+const initValue = ``
 
 if(!fs.existsSync(initDir)) {
   fs.mkdirSync(initDir)
