@@ -85,7 +85,7 @@ img[src*="#tft_img"] {
     @apply text-xl lg:text-xl font-normal;
   }
   h6 {
-    @apply text-md not-italic font-normal my-1;
+    @apply text-lg not-italic font-normal my-1;
   }
   p {
     @apply text-lg lg:text-xl leading-snug;
