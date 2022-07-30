@@ -34,7 +34,7 @@ Unlimited access to decentralized alternatives to the world's most popular appli
 
 {% row(style="center between") %}
 
-![EXPERIENCES 1](experiences/FF_experiences_1.png)
+![EXPERIENCES 1](FF_experiences_1.png)
 
 #### EDUCATION VIDEOS
 ### SIKANA
@@ -47,7 +47,7 @@ Improve your life - one skill at a time. Sikana is a free education platform, wi
 
 |||
 
-![EXPERIENCES 2](experiences/FF_experiences_2.png)
+![EXPERIENCES 2](FF_experiences_2.png)
 
 #### CHAT APP
 ### OURCHAT
@@ -60,7 +60,7 @@ Is it really necessary to use tens of different chat mediums just to get a messa
 
 |||
 
-![EXPERIENCES 3](experiences/FF_experiences_3.png)
+![EXPERIENCES 3](FF_experiences_3.png)
 
 #### METAVERSE
 ### OURVERSE
@@ -77,7 +77,7 @@ State of the art rendering and experiences beyond e-commerce and marketing. A me
 
 {% row(style="center between") %}
 
-![EXPERIENCES 4](experiences/FF_experiences_4.png)
+![EXPERIENCES 4](FF_experiences_4.png)
 
 #### OFFICE TOOLS
 ### FREEFLOW DOCS
@@ -90,7 +90,7 @@ Keep your business files in your own personal server and collaborate with your c
 
 |||
 
-![EXPERIENCES 5](experiences/FF_experiences_5.png)
+![EXPERIENCES 5](FF_experiences_5.png)
 
 #### VIDEO CONFERENCING
 ### FREEFLOW ROOMS
@@ -103,7 +103,7 @@ A truly peer to peer video chat experience starting from your digital twin to yo
 
 |||
 
-![EXPERIENCES 6](experiences/FF_experiences_6.png)
+![EXPERIENCES 6](FF_experiences_6.png)
 
 #### BROWSING
 ### FREEFLOW DISCOVER
@@ -120,7 +120,7 @@ A browser that protects your privacy all the way. Regain control over your digit
 
 {% row(style="center between") %}
 
-![EXPERIENCES 7](experiences/FF_experiences_7.png)
+![EXPERIENCES 7](FF_experiences_7.png)
 
 #### DISCORD ALTERNATIVE
 ### FREEFLOW CHILL
@@ -133,7 +133,7 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 |||
 
-![EXPERIENCES 8](experiences/FF_experiences_8.png)
+![EXPERIENCES 8](FF_experiences_8.png)
 
 #### GITHUB ALTERNATIVE
 ### FREEFLOW GIT
@@ -146,7 +146,7 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 |||
 
-![EXPERIENCES 9](experiences/FF_experiences_9.png)
+![EXPERIENCES 9](FF_experiences_9.png)
 
 #### FORUM
 ### FREEFLOW FORUM
@@ -164,7 +164,7 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 {% row(style="center between") %}
 
-![comingsoon 1](experiences/comingsoon_1.png)
+![comingsoon 1](comingsoon_1.png)
 
 #### REGENERATION EFFORTS
 ### UTOPIA
@@ -177,7 +177,7 @@ A social experience that flows like a river, where you choose what you interact 
 
 |||
 
-![comingsoon 2](experiences/comingsoon_2.png)
+![comingsoon 2](comingsoon_2.png)
 
 #### REGENERATION EFFORTS
 ### MATTERMOST
@@ -190,7 +190,7 @@ In FreeFlow Cloud Your data is kept in your digital home, never leaving the pres
 
 |||
 
-![comingsoon 3](experiences/comingsoon_3.png)
+![comingsoon 3](comingsoon_3.png)
 
 # MANY MORE
 # APPS TO COME

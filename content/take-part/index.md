@@ -11,7 +11,7 @@ weight: 3
 
 {% row(style="center margin") %}
 
-![TAKE PART](take-part/___.png)
+![TAKE PART](___.png)
 
 |||
 

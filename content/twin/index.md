@@ -11,7 +11,7 @@ weight: 4
 
 {% row(style="center" bgColor="#F9F8F6") %}
 
-![FF TWIN](twin/FF_twin.png)
+![FF TWIN](FF_twin.png)
 
 |||
 
@@ -39,7 +39,7 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 {% row(style="center" bgColor="#eae8e3" margin="wide") %}
 
-![FF LIFE](twin/FF_life.png)
+![FF LIFE](FF_life.png)
 
 |||
 
@@ -71,7 +71,7 @@ Centralized hosting creates many obstacles in privacy and security. Due to most 
 
 <br>
 
-![CENTRALIZED](twin/centralized.png)
+![CENTRALIZED](centralized.png)
 
 <br>
 <br>
@@ -88,7 +88,7 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 <br>
 
-![DECENTRALIZED](twin/decentralized.png)
+![DECENTRALIZED](decentralized.png)
 
 <br>
 <br>
@@ -102,7 +102,7 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 <!-- row 1 sustainability-->
 
-![SUSTAINABLE 1](twin/sustainable_1.png)
+![SUSTAINABLE 1](sustainable_1.png)
 
 <br>
 
@@ -117,7 +117,7 @@ Uses less than 5 watts per person for a full blown digital life (ultra sustainab
 
 |||
 
-![SUSTAINABLE 2](twin/sustainable_2.png)
+![SUSTAINABLE 2](sustainable_2.png)
 
 <br>
 
@@ -132,7 +132,7 @@ Access to your digital life is personal and ultra secure. No one can ever manipu
 
 |||
 
-![SUSTAINABLE 3](twin/sustainable_3.png)
+![SUSTAINABLE 3](sustainable_3.png)
 
 <br>
 
@@ -151,7 +151,7 @@ An array of tools and applica-tions is readily available to every user with no l
 
 {% row(style="center between margin" bgColor="#f3fdf6") %}
 
-![FF SUSTAINABLE 4](twin/sustainable_4.png)
+![FF SUSTAINABLE 4](sustainable_4.png)
 
 <br>
 
@@ -168,7 +168,7 @@ Available to gift to anyone of your choosing
 
 |||
 
-![SUSTAINABLE 5](twin/sustainable_5.png)
+![SUSTAINABLE 5](sustainable_5.png)
 
 <br>
 
@@ -185,7 +185,7 @@ Unlimited information and educational content will now be a click away for every
 
 |||
 
-![SUSTAINABLE 6](twin/sustainable_6.png)
+![SUSTAINABLE 6](sustainable_6.png)
 
 <br>
 
@@ -206,7 +206,7 @@ NO server or companies involved, all data is yours forever and 100% private.
 
 {% row(style="center" margin="wide" bgColor="#f9f8f6") %}
 
-![experiences](twin/FF_twin_experiences.png)
+![experiences](FF_twin_experiences.png)
 
 |||
 
