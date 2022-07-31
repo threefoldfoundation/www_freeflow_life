@@ -4,6 +4,7 @@ trap "killall background" EXIT
 echo "Installing & building tailwind"
 if [[ ! -f "tailwindcss" ]]
 then
+    echo "Checking environment"
     #https://stackoverflow.com/a/8597411 
     ASSET="tailwindcss"
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
@@ -17,6 +18,8 @@ then
     elif [[ "$(uname -m)" == "arm64"* ]]; then
         ASSET="$ASSET-arm64"
     fi
+
+    echo "Installing & building tailwind from ${ASSET}"
     curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/${ASSET}"
     chmod +x $ASSET
     mv $ASSET tailwindcss
