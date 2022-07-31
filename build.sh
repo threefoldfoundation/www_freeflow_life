@@ -2,6 +2,7 @@ trap "killall background" EXIT
 
 # gets and builds executable for os and cpu if doesn't exist
 echo "Installing & building tailwind"
+ls
 if [[ ! -f "tailwindcss" ]]
 then
     echo "Checking environment"
