@@ -7,7 +7,7 @@ then
     #https://stackoverflow.com/a/8597411 
     ASSET="tailwindcss"
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        $ASSET = "$ASSET-linux"
+        ASSET = "$ASSET-linux"
     elif [[ "$OSTYPE" == "darwin"* ]]; then
         ASSET="$ASSET-macos"
     fi
