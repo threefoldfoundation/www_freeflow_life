@@ -92,12 +92,12 @@
     {% include "partials/custom_header" %}
 {% else %}
     <header id="header-container">
-        <div class="z-10 bg-white fixed w-screen">
+        <div class="{{'z-10 bg-white fixed w-screen ' ~ config.extra.header_class}}">
             <div class="relative z-50 shadow">
             <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
-                        <img class="w-32 h-auto sm:w-15" src="{{get_url(path=section.extra.logo_path)}}" alt="Ourworld Logo" />
+                        <img class="w-48 h-auto sm:w-15" src="{{get_url(path=section.extra.logo_path)}}" alt="Ourworld Logo" />
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
@@ -118,7 +118,7 @@
                     <nav class="flex space-x-10">    
                     {% for page in section.pages %}
                     {% if page.relative_path == "home/index.md" %} {% continue %} {% endif %}
-                        <a href="{{page.permalink}}" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                        <a href="{{page.permalink}}" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{page.title}}
                         </a>
                         <div class="relative">
@@ -128,7 +128,7 @@
                         {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}                        
                         {% set button_id = subsection ~ "-menu-btn" | slugify %}
                         <div class="relative">
-                        <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
+                        <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
                             <span>{{ subsection }}</span>
                             <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                         </button>

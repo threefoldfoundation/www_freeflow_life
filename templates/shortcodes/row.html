@@ -63,8 +63,11 @@ Parameters:
     {% elif "tight" in margin %}
         {% set row_class = row_class ~ " mx-28 sm:mx-44 md:mx-60 lg:mx-80 xl:mx-96 " %}
     {% endif %}
-    {% if "lean-right" in margin %}
-        {% set col_class = col_class ~ " lg:max-w-[50%] lg:mx-0 " %}
+    {% if "lean-left" in margin %}
+        {% set col_class = col_class ~ " last:px-20 lg:max-w-[50%] lg:mx-0 " %}
+        {% set row_class = row_class ~ " ml-0 sm:gap-0 " %}
+    {% elif "lean-right" in margin %}
+        {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] lg:mx-0 " %}
         {% set row_class = row_class ~ " mr-0 sm:gap-0 " %}
     {% endif %}
 {% else %}

@@ -8,19 +8,35 @@
 @import "tailwindcss/components";
 @import "admonition.css";
 @import "tailwindcss/utilities";
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Custom CSS for header partial */
 .backdrop-blur {
   -webkit-backdrop-filter: blur(40px);
 }
 
+@font-face {
+    font-family: "CercoDEMO";
+    src: url("/static/fonts/CercoDEMO-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "CercoDEMO";
+    font-weight: bold;
+    src: url("../public/fonts/CercoDEMO-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "CercoDEMO";
+    font-weight: light;
+    src: url("../static/fonts/CercoDEMO-Light.otf") format("opentype");
+}
+
 * {
-  font-family: "Exo", sans-serif;
+  font-family: "CercoDEMO", sans-serif;
+  font-weight: bold;
 }
 
 a {
-  font-family: "Lato", sans-serif;
+  font-family: CercoDEMO, sans-serif;
 }
 
 .bg-semi-white {
@@ -89,7 +105,7 @@ img[src*="#tft_img"] {
   }
   p {
     @apply text-lg lg:text-xl leading-snug;
-    font-family: "Lato", sans-serif;
+    font-family: "CercoDEMO", sans-serif;
   }
   blockquote {
     @apply border-l-4 border-gray-400 mx-2 my-2 p-2;
@@ -113,6 +129,12 @@ img[src*="#tft_img"] {
   }
 }
 
+#text-1xl { @apply text-xl }
+#text-2xl { @apply text-2xl }
+#text-3xl { @apply text-3xl }
+#text-7xl { @apply text-7xl }
+#text-8xl { @apply text-8xl }
+
 button:hover :is(:where(a)) {
   color: #c6f8ff;
 }
@@ -122,6 +144,17 @@ button :is(:where(p)) {
   font-weight: 400;
 }
 
+header .freeflow {
+    background-color: transparent;
+    position: absolute;
+}
+
+header .freeflow div {
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
 button {
   background-color: #1a1a1a;
   border-radius: 20px;
@@ -129,6 +162,14 @@ button {
   box-shadow: none;
   font-size: 20px;
 }
+
+button {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+  }
 
 button a {
   color: white;

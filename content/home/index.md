@@ -13,7 +13,7 @@ weight: 0
 
 <br>
 
-![FF Logo](ff_home.png#mx-auto) 
+![FF Logo](ff_landing.png#mx-auto) 
 
 <br>
 
@@ -23,7 +23,7 @@ weight: 0
 
 <br>
 
-#### **Become the center of your own digital world.**
+#### Become the center of your own digital world.
 
 <br>
 
@@ -42,7 +42,7 @@ The FreeFlow experience puts you and your entire society at the healm of your di
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#eae8e2" margin="moderate") %}
+{% row(bgColor="#eae8e2" margin="narrow lean-left") %}
 
 
 ![FreeFlow Life](FF_life.png)
@@ -85,7 +85,7 @@ The FreeFlow experience puts you and your entire society at the healm of your di
 
 <!-- section 3 (ECOSYSTEM) -->
 
-{% row(style="center" margin="wide") %}
+{% row(style="center" margin="narrow lean-right") %}
 
 
 <br>
@@ -113,7 +113,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <!-- section 4 (DISCOVER) -->
 
-{% row(bgColor="#e8f2f5" style="center" margin="wide") %}
+{% row(bgColor="#e8f2f5" style="center" margin="narrow lean-left") %}
 
 ![FreeFlow Discover](FF_discover.png)
 
@@ -121,9 +121,9 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <br>
 
-# **FLOW**
+## **FLOW** {#text-8xl}
 
-# FREELY 
+## FREELY {#text-8xl}
 
 #### with the FreeFlow Twin.
 
@@ -213,6 +213,6 @@ Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor 
 
 <br>
 
-![FreeFlow Benefits](ff_home_key.png)
+![FreeFlow Benefits](ff_landing_key.png)
 
 {% end %}
