@@ -1,3 +1,5 @@
+trap "killall background" EXIT
+
 # gets and builds executable for os and cpu if doesn't exist
 echo "Installing & building tailwind"
 if [[ ! -f "tailwindcss" ]]
@@ -28,6 +30,7 @@ then
 fi
 
 # compiles tailwind css for prod & builds project
+rm -rf public static/css
 ./tailwindcss -i css/index.css -o ./static/css/index.css --minify
 zola build
 
