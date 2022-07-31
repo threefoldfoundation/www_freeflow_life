@@ -11,15 +11,15 @@ then
     #https://stackoverflow.com/a/8597411 
     ASSET="tailwindcss"
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-        ASSET = "${ASSET}-linux"
+        ASSET="$ASSET-linux"
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-        ASSET="${ASSET}-macos"
+        ASSET="$ASSET-macos"
     fi
     echo $(uname -m)
     if [[ "$(uname -m)" == "x86_64"* ]]; then
-        ASSET="${ASSET}-x64"
+        ASSET="$ASSET-x64"
     elif [[ "$(uname -m)" == "arm64"* ]]; then
-        ASSET="${ASSET}-arm64"
+        ASSET="$ASSET-arm64"
     fi
 
     echo "Installing & building tailwind from ${ASSET}"
