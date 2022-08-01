@@ -13,7 +13,7 @@ weight: 0
 
 <br>
 
-![FF Logo](ff_landing.png#mx-auto) 
+![FF Logo](FF_landing.png#mx-auto) 
 
 <br>
 
