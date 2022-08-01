@@ -54,6 +54,10 @@ img[src*="#small"] {
   width: 68px;
 }
 
+img[src*="#md"] {
+    width: 300px;
+}
+
 img[src*="#medium"] {
     width: 400px;
 }
@@ -85,16 +89,16 @@ img[src*="#tft_img"] {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-normal leading-none;
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-normal leading-none;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl font-medium;
+    @apply text-3xl font-light;
   }
   h3 strong {
-    @apply font-semibold;
+    @apply font-medium;
   }
   h4 {
     @apply text-xl lg:text-2xl font-normal;
@@ -106,7 +110,7 @@ img[src*="#tft_img"] {
     @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-lg lg:text-xl leading-snug;
+    @apply text-lg lg:text-xl leading-tight tracking-normal font-normal;
     font-family: "CercoDEMO", sans-serif;
   }
   blockquote {
@@ -131,12 +135,6 @@ img[src*="#tft_img"] {
   }
 }
 
-#text-1xl { @apply text-xl }
-#text-2xl { @apply text-2xl }
-#text-3xl { @apply text-3xl }
-#text-7xl { @apply text-7xl }
-#text-8xl { @apply text-8xl }
-
 button:hover :is(:where(a)) {
   color: #c6f8ff;
 }
@@ -150,6 +148,21 @@ header .freeflow {
     background-color: transparent;
     position: absolute;
 }
+
+footer .freeflow {
+    width: 100vw;
+    background-color: #eae8e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+footer .freeflow img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
 
 header .freeflow div {
     box-shadow: none;

@@ -57,9 +57,9 @@ Parameters:
     {% elif "wide" in margin %}
         {% set row_class =  row_class ~ " mx-12 " %}
     {% elif "moderate" in margin %}
-        {% set row_class = row_class ~ " mx-20 " %}
-    {% elif "narrow" in margin %}
         {% set row_class = row_class ~ " mx-28 " %}
+    {% elif "narrow" in margin %}
+        {% set row_class = row_class ~ " mx-32 " %}
     {% elif "tight" in margin %}
         {% set row_class = row_class ~ " mx-28 sm:mx-44 md:mx-60 lg:mx-80 xl:mx-96 " %}
     {% endif %}
@@ -71,7 +71,7 @@ Parameters:
         {% set row_class = row_class ~ " mr-0 sm:gap-0 " %}
     {% endif %}
 {% else %}
-    {% set row_class =  row_class ~ "mx-24" %}
+    {% set row_class =  row_class ~ " mx-24 " %}
 {% endif %}
 
 
@@ -170,7 +170,7 @@ Parameters:
 {% endif %}
 
 <div id="{{anchor_link}}" class="{{'w-screen relative justify-center flex ' ~ div_class ~ no_margins}}" style="{{styles}}">
-    <div class="{{row_class}}" style="width: -webkit-fill-available; width: -moz-available"> 
+    <div class="{{row_class}}" style="min-width: -webkit-fill-available; min-width: -moz-available"> 
 
         {% for column in columns%} 
 
