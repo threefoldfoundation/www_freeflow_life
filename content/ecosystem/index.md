@@ -9,14 +9,19 @@ weight: 1
 
 <!-- section 1 (step 1) -->
 
-{% row(margin="wide" bgColor="#EFEDEB") %}
+{% row(margin="moderate" bgColor="#EFEDEB") %}
 
 ![FF_ecosystem_1](FF_ecosystem_1.png)
 
 |||
 
-## THE FOUNDATION
-## **BEGINS WITH YOU**
+<br>
+<br>
+<br>
+<br>
+
+## THE FOUNDATION {#text-6xl}
+## **BEGINS WITH YOU** {#text-6xl}
 
 <br>
 
@@ -38,10 +43,10 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 <!-- section 2 (step 2) -->
 
-{% row(margin="narrow") %}
+{% row(margin="narrow lean-right") %}
 
-## EXPERIENCES
-## **ARE BUILT**
+## EXPERIENCES {#text-6xl}
+## **ARE BUILT** {#text-6xl}
 
 <br>
 
@@ -49,7 +54,7 @@ Numerous applications and programs are immediately available to users of the Fre
 
 <br>
 
-<button>[EXPERIENCES]("/experiences")</button>
+<button>[SEE EXPERIENCES]("/experiences")</button>
 
 <br>
 <br>
@@ -63,14 +68,14 @@ Numerous applications and programs are immediately available to users of the Fre
 
 <!-- section 3 (step 3) -->
 
-{% row(margin="narrow" bgColor="#D9E7DF") %}
+{% row(margin="moderate lean-left" bgColor="#D9E7DF") %}
 
 ![FF_ecosystem_3](FF_ecosystem_3.png)
 
 |||
 
-## YOUR TWIN GIVES
-## **COMPLETE ACCESS**
+## YOUR TWIN GIVES {#text-6xl}
+## **COMPLETE ACCESS** {#text-6xl}
 
 <br>
 
@@ -80,6 +85,8 @@ The FreeFlow Twin allows users to access the applications and programs on the Fr
 
 By eliminating the need for centralized servers, the FreeFlow Twin allows you, the user, to be the only central point of data accumulation, making YOU the server. 
 
+<button>[KNOW MORE]("/twin")</button>
+
 <br>
 <br>
 <br>
@@ -88,10 +95,10 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 <!-- section 4 (step 4) -->
 
-{% row(margin="narrow") %}
+{% row(margin="narrow lean-right") %}
 
-## UNLOCK IT WITH
-## **FREEFLOW KEY**
+## UNLOCK IT WITH {#text-6xl}
+## **FREEFLOW KEY** {#text-6xl}
 
 <br>
 

@@ -34,10 +34,13 @@ Unlimited access to decentralized alternatives to the world's most popular appli
 
 {% row(style="center between") %}
 
-![EXPERIENCES 1](FF_experiences_1.png)
+![EXPERIENCES 1](FF_experiences_1.png#md#mx-auto)
+
+<br>
+<br>
 
 #### EDUCATION VIDEOS
-### SIKANA
+### **SIKANA**
 
 <br>
 
@@ -47,10 +50,13 @@ Improve your life - one skill at a time. Sikana is a free education platform, wi
 
 |||
 
-![EXPERIENCES 2](FF_experiences_2.png)
+![EXPERIENCES 2](FF_experiences_2.png#md#mx-auto)
+
+<br>
+<br>
 
 #### CHAT APP
-### OURCHAT
+### **OURCHAT**
 
 <br>
 
@@ -60,10 +66,13 @@ Is it really necessary to use tens of different chat mediums just to get a messa
 
 |||
 
-![EXPERIENCES 3](FF_experiences_3.png)
+![EXPERIENCES 3](FF_experiences_3.png#md#mx-auto)
+
+<br>
+<br>
 
 #### METAVERSE
-### OURVERSE
+### **OURVERSE**
 
 <br>
 
@@ -77,10 +86,13 @@ State of the art rendering and experiences beyond e-commerce and marketing. A me
 
 {% row(style="center between") %}
 
-![EXPERIENCES 4](FF_experiences_4.png)
+![EXPERIENCES 4](FF_experiences_4.png#md#mx-auto)
+
+<br>
+<br>
 
 #### OFFICE TOOLS
-### FREEFLOW DOCS
+### **FREEFLOW DOCS**
 
 <br>
 
@@ -90,10 +102,13 @@ Keep your business files in your own personal server and collaborate with your c
 
 |||
 
-![EXPERIENCES 5](FF_experiences_5.png)
+![EXPERIENCES 5](FF_experiences_5.png#md#mx-auto)
+
+<br>
+<br>
 
 #### VIDEO CONFERENCING
-### FREEFLOW ROOMS
+### **FREEFLOW ROOMS**
 
 <br>
 
@@ -103,10 +118,13 @@ A truly peer to peer video chat experience starting from your digital twin to yo
 
 |||
 
-![EXPERIENCES 6](FF_experiences_6.png)
+![EXPERIENCES 6](FF_experiences_6.png#md#mx-auto)
+
+<br>
+<br>
 
 #### BROWSING
-### FREEFLOW DISCOVER
+### **FREEFLOW DISCOVER**
 
 <br>
 
@@ -120,10 +138,13 @@ A browser that protects your privacy all the way. Regain control over your digit
 
 {% row(style="center between") %}
 
-![EXPERIENCES 7](FF_experiences_7.png)
+![EXPERIENCES 7](FF_experiences_7.png#md#mx-auto)
+
+<br>
+<br>
 
 #### DISCORD ALTERNATIVE
-### FREEFLOW CHILL
+### **FREEFLOW CHILL**
 
 <br>
 
@@ -133,10 +154,13 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 |||
 
-![EXPERIENCES 8](FF_experiences_8.png)
+![EXPERIENCES 8](FF_experiences_8.png#md#mx-auto)
+
+<br>
+<br>
 
 #### GITHUB ALTERNATIVE
-### FREEFLOW GIT
+### **FREEFLOW GIT**
 
 <br>
 
@@ -146,10 +170,13 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 |||
 
-![EXPERIENCES 9](FF_experiences_9.png)
+![EXPERIENCES 9](FF_experiences_9.png#md#mx-auto#md#mx-auto)
+
+<br>
+<br>
 
 #### FORUM
-### FREEFLOW FORUM
+### **FREEFLOW FORUM**
 
 <br>
 
@@ -162,12 +189,25 @@ Host your own servers and chatrooms from your own server. Seamlessly provide acc
 
 <!-- coming soon row 1 -->
 
-{% row(style="center between") %}
+{% row(style="center between" bgColor="#e8f2f5") %}
 
-![comingsoon 1](comingsoon_1.png)
+<br>
+<br>
+
+## COMING {#text-6xl}
+## **SOON** {#text-6xl}
+
+{% end %}
+
+{% row(style="center between" bgColor="#e8f2f5") %}
+
+![comingsoon 1](comingsoon_1.png#md#mx-auto)
+
+<br>
+<br>
 
 #### REGENERATION EFFORTS
-### UTOPIA
+### **UTOPIA** {#text-4xl}
 
 <br>
 
@@ -177,10 +217,13 @@ A social experience that flows like a river, where you choose what you interact 
 
 |||
 
-![comingsoon 2](comingsoon_2.png)
+![comingsoon 2](comingsoon_2.png#md#mx-auto)
+
+<br>
+<br>
 
 #### REGENERATION EFFORTS
-### MATTERMOST
+### **MATTERMOST** {#text-4xl}
 
 <br>
 
@@ -190,10 +233,13 @@ In FreeFlow Cloud Your data is kept in your digital home, never leaving the pres
 
 |||
 
-![comingsoon 3](comingsoon_3.png)
+![comingsoon 3](comingsoon_3.png#md#mx-auto)
 
-# MANY MORE
-# APPS TO COME
+<br>
+<br>
+
+#### MANY MORE
+### **APPS TO COME** {#text-4xl}
 
 <br>
 

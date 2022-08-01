@@ -9,20 +9,16 @@ weight: 3
 
 <!-- section 1 (header) -->
 
-{% row(style="center margin") %}
+{% row(style="center") %}
 
-![TAKE PART](___.png)
+<a href="">![Node Image](takepart1.png)</a>
 
 |||
 
-## START YOUR 
+<a href="">![Node Image](takepart2.png)</a>
 
-## __FREEFLOW JOURNEY__
+|||
 
-*_____________________*
-
-<br>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ternpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+<a href="">![Node Image](takepart3.png)</a>
 
 {% end %}

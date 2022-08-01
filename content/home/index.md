@@ -9,7 +9,7 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="moderate" bgPath="FF_background.png") %}
+{% row(style="center" margin="narrow" bgPath="FF_background.png") %}
 
 <br>
 
@@ -23,8 +23,8 @@ weight: 0
 
 <br>
 
-### Become the center of your
-### own digital world.
+### **Become the center of your**
+### **own digital world.**
 
 <br>
 
@@ -45,7 +45,7 @@ Control every aspect of your online presence.
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#eae8e2" margin="narrow lean-left") %}
+{% row(bgColor="#eae8e2" margin="moderate lean-left") %}
 
 
 ![FreeFlow Life](FF_life.png)
@@ -88,7 +88,7 @@ Control every aspect of your online presence.
 
 <!-- section 3 (ECOSYSTEM) -->
 
-{% row(style="center" margin="narrow lean-right") %}
+{% row(style="center" margin="moderate lean-right") %}
 
 
 <br>
@@ -116,7 +116,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <!-- section 4 (DISCOVER) -->
 
-{% row(bgColor="#e8f2f5" style="center" margin="narrow lean-left") %}
+{% row(bgColor="#e8f2f5" style="center" margin="moderate lean-left") %}
 
 ![FreeFlow Discover](FF_discover.png)
 
@@ -128,7 +128,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 ## FREELY {#text-8xl}
 
-#### with the FreeFlow Twin.
+### **with the FreeFlow Twin.**
 
 <br>
 
@@ -147,7 +147,7 @@ Communicate, network and collaborate with anyone without worrying about data bre
 
 <!-- section 5 (BENEFITS) -->
 
-{% row(bgColor="#f3fcf6" style="center" margin="narrow lean-right") %}
+{% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
 
 ## RIDICULOUSLY 
 
@@ -201,7 +201,7 @@ Stay Updated with everything ThreeFold.
 
 <!-- section 6 (HOW IT WORKS) -->
 
-{% row(bgColor="#defff6" style="center" margin="narrow lean-right") %}
+{% row(bgColor="#defff6" style="center" margin="moderate lean-right") %}
 
 ## ACCESS IT ALL WITH 
 ## **THE FREEFLOW KEY**

@@ -4,7 +4,7 @@ description: ""
 date: 2018-09-14
 updated: 2021-02-20
 draft: false
-weight: 4
+weight: 2
 ---
 
 <!-- section 1 (heade FF TWIN) -->
@@ -15,7 +15,7 @@ weight: 4
 
 |||
 
-### Introducing the Free Flow Twin
+#### Introducing the Free Flow Twin
 
 <br>
 
@@ -23,7 +23,7 @@ weight: 4
 
 ## **OF YOUR DIGITAL LIFE**
 
-*_____________________*
+*________________*
 
 <br>
 
@@ -39,15 +39,15 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 {% row(style="center" bgColor="#eae8e3" margin="wide") %}
 
-![FF LIFE](FF_life.png)
+![FF LIFE](FF_life.png#large)
 
 |||
 
-## THE GATEWAY TO
+## **THE GATEWAY TO**
 
-## THE FREEFLOW LIFE.
+## **THE FREEFLOW LIFE.**
 
-<br
+<br>
 
 The Free Flow Twin provdes you with access to decentralized alternatives to world's most popular applications. 
 
@@ -63,7 +63,7 @@ Every application is available for you and your society to utilize endlessly wit
 {% row(style="center" bgColor="#EFEDEB" margin="narrow") %}
 
 ## OUT WITH 
-## THE OLD... 
+## **THE OLD...**
 
 <br>
 
@@ -79,7 +79,7 @@ Centralized hosting creates many obstacles in privacy and security. Due to most 
 
 |||
 
-## YOU ARE 
+## **YOU** ARE 
 ## THE SERVER 
 
 <br>
@@ -102,12 +102,12 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 <!-- row 1 sustainability-->
 
-![SUSTAINABLE 1](sustainable_1.png)
+![SUSTAINABLE 1](sustainable_1.png#md#mx-auto)
 
 <br>
 
-## ULTRA
-## SUSTAINABLE
+### ULTRA
+### **SUSTAINABLE**
 
 <br>
 
@@ -117,12 +117,12 @@ Uses less than 5 watts per person for a full blown digital life (ultra sustainab
 
 |||
 
-![SUSTAINABLE 2](sustainable_2.png)
+![SUSTAINABLE 2](sustainable_2.png#md#mx-auto)
 
 <br>
 
-## SUPER
-## SECURE
+### SUPER
+### **SECURE**
 
 <br>
 
@@ -132,12 +132,12 @@ Access to your digital life is personal and ultra secure. No one can ever manipu
 
 |||
 
-![SUSTAINABLE 3](sustainable_3.png)
+![SUSTAINABLE 3](sustainable_3.png#md#mx-auto)
 
 <br>
 
-## NUMEROOUS
-## APPS
+### NUMEROUS
+### **APPS**
 
 <br>
 
@@ -151,12 +151,12 @@ An array of tools and applica-tions is readily available to every user with no l
 
 {% row(style="center between margin" bgColor="#f3fdf6") %}
 
-![FF SUSTAINABLE 4](sustainable_4.png)
+![FF SUSTAINABLE 4](sustainable_4.png#md#mx-auto)
 
 <br>
 
-## READY
-## TO GIFT
+### READY
+### **TO GIFT**
 
 <br>
 
@@ -168,12 +168,12 @@ Available to gift to anyone of your choosing
 
 |||
 
-![SUSTAINABLE 5](sustainable_5.png)
+![SUSTAINABLE 5](sustainable_5.png#md#mx-auto)
 
 <br>
 
-## UNLIMITED
-## ACCESS
+### UNLIMITED
+### **ACCESS**
 
 <br>
 
@@ -185,12 +185,12 @@ Unlimited information and educational content will now be a click away for every
 
 |||
 
-![SUSTAINABLE 6](sustainable_6.png)
+![SUSTAINABLE 6](sustainable_6.png#md#mx-auto)
 
 <br>
 
-## CONTROLLED BY
-## ONLY YOU
+### CONTROLLED BY
+### **ONLY YOU**
 
 <br>
 
@@ -206,13 +206,15 @@ NO server or companies involved, all data is yours forever and 100% private.
 
 {% row(style="center" margin="wide" bgColor="#f9f8f6") %}
 
-![experiences](FF_twin_experiences.png)
+![experiences](FF_twin_experiences.png#large)
 
 |||
 
 ## CHECK OUT
 
-### **THE EXPERIENCES**
+## **THE EXPERIENCES**
+
+<br>
 
 Lorem ipsum
 
