@@ -85,19 +85,20 @@
 </script>
 
 {%- set section = get_section(path="_index.md") %}
+{% set subsections_str = section.subsections | join(sep=" ") %}
 
 {% if "header/_index.md" in section.subsections %}
     {%- set section = get_section(path="header/_index.md") %}
     {% set header_items = section.content | safe | split(pat="<li>") %}
-    {% include "partials/custom_header" %}
+    {% include "partials/header_custom" %}
 {% else %}
     <header id="header-container">
-        <div class="{{'z-10 bg-white fixed w-screen ' ~ config.extra.header_class}}">
+        <div class="{{'z-10 bg-white fixed w-screen ' ~ config.extra.header_class | default(value='')}}">
             <div class="relative z-50 shadow">
             <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
-                        <img class="w-48 h-auto sm:w-15" src="{{get_url(path=section.extra.logo_path)}}" alt="Ourworld Logo" />
+                        <img class="w-48 h-auto sm:w-15" src="{{get_url(path=section.extra.logo_path)}}" alt="FreeFlow Logo" />
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
@@ -194,6 +195,7 @@
                         
                             <hr/>
                         {% endfor %}
+                        {% if "footer/_index.md" in subsections_str %}
                         {% set section = get_section(path="footer/_index.md")%}
                         {%- set logoPath = get_url(path=section.extra.logoPath) %}
                         <div class="mx-8 mt-8">
@@ -203,6 +205,7 @@
                                 {{section.description}}
                               </p>
                           </div>
+                          {% endif %}
                         </nav>                    
                     </div>
                 

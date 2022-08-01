@@ -68,3 +68,4 @@ paginate_path = "blog-posts"
 
 [extra]
 header_class = "freeflow"
+footer_class = "freeflow"
