@@ -108,40 +108,6 @@ a.navborderless {
 }
 */
 
-@font-face {
-    font-family: CercoDEMO;
-    src: url"../static/fonts/CercoDEMO-Medium.otf") format("opentype");
-}
-
-@font-face {
-    font-family: CercoDEMO;
-    font-weight: bold;
-    src: url("../static/fonts/CercoDEMO-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: CercoDEMO;
-    font-weight: light;
-    src: url("../static/fonts/CercoDEMO-Light.otf") format("opentype");
-}
-
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  @apply font-sans tracking-tight leading-normal;
-  font-family: CercoDEMO;
-}
-
 h1,
 .h1,
 h2,

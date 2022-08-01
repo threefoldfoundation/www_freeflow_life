@@ -23,15 +23,18 @@ weight: 0
 
 <br>
 
-#### Become the center of your own digital world.
+### Become the center of your
+### own digital world.
 
 <br>
 
-*_______________________*
+*___________________*
 
 <br>
 
-The FreeFlow experience puts you and your entire society at the healm of your digital lives. Control every aspect of your online presence.
+The FreeFlow experience puts you and your entire society at the healm of your digital lives. 
+
+Control every aspect of your online presence.
 
 <button>[SEE THE ECOSYSTEM]("/ecosystem")</button>
 
