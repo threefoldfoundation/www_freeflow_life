@@ -83,7 +83,7 @@ img[src*="#tft_img"] {
 
 @layer components {
   h1 {
-    @apply text-5xl lg:text-6xl leading-none font-normal;
+    @apply text-4xl md:text-5xl lg:text-6xl leading-none font-normal;
   }
   h1 strong {
     @apply font-medium;
@@ -95,7 +95,7 @@ img[src*="#tft_img"] {
     @apply font-medium;
   }
   h3 {
-    @apply text-3xl font-light;
+    @apply text-xl md:text-2xl lg:text-3xl font-light;
   }
   h3 strong {
     @apply font-medium;
@@ -124,6 +124,7 @@ img[src*="#tft_img"] {
   }
   button {
     @apply inline-block
+    text-base
     lg:text-lg
     px-12
     py-1

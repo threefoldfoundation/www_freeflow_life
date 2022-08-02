@@ -26,7 +26,7 @@ Unlimited access to decentralized alternatives to the world's most popular appli
 {% row(style="center") %}
 
 # FREEFLOW
-# _EXPERIENCES_
+# **EXPERIENCES**
 
 {% end %}
 
