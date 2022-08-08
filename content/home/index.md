@@ -9,7 +9,7 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="narrow" bgPath="FF_background.png") %}
+{% row(style="center" margin="moderate" bgPath="FF_background.png") %}
 
 <br>
 
@@ -17,9 +17,9 @@ weight: 0
 
 <br>
 
-# EXPERIENCE THE
+## EXPERIENCE THE
 
-# **FREEFLOW LIFE**
+## **FREEFLOW LIFE**
 
 <br>
 
@@ -32,7 +32,7 @@ weight: 0
 
 <br>
 
-The FreeFlow experience puts you and your entire society at the healm of your digital lives. 
+The FreeFlow experience puts you <br> and your entire society at the healm of your digital lives. 
 
 Control every aspect of your online presence.
 
@@ -45,7 +45,7 @@ Control every aspect of your online presence.
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#eae8e2" margin="moderate lean-left") %}
+{% row(bgColor="#eae8e2" margin="narrow") %}
 
 
 ![FreeFlow Life](FF_life.png)
@@ -86,7 +86,7 @@ Control every aspect of your online presence.
 
 <!-- section 3 (ECOSYSTEM) -->
 
-{% row(style="center" margin="moderate lean-right") %}
+{% row(style="center" margin="narrow") %}
 
 
 <br>
@@ -114,7 +114,7 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <!-- section 4 (DISCOVER) -->
 
-{% row(bgColor="#e8f2f5" style="center" margin="moderate lean-left") %}
+{% row(bgColor="#e8f2f5" style="center" margin="narrow") %}
 
 ![FreeFlow Discover](FF_discover.png)
 
@@ -122,9 +122,9 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <br>
 
-## **FLOW** {#text-8xl}
+# **FLOW** {#text-7xl}
 
-## FREELY {#text-8xl}
+## FREELY {#text-7xl}
 
 ### **with the FreeFlow Twin.**
 
@@ -145,7 +145,7 @@ Communicate, network and collaborate with anyone without worrying about data bre
 
 <!-- section 5 (BENEFITS) -->
 
-{% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
+{% row(bgColor="#f3fcf6" style="center" margin="narrow") %}
 
 ## RIDICULOUSLY 
 
@@ -199,7 +199,7 @@ Stay Updated with everything ThreeFold.
 
 <!-- section 6 (HOW IT WORKS) -->
 
-{% row(bgColor="#defff6" style="center" margin="moderate lean-right") %}
+{% row(bgColor="#defff6" style="center" margin="narrow") %}
 
 ## ACCESS IT ALL WITH 
 ## **THE FREEFLOW KEY**

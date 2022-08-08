@@ -20,8 +20,8 @@ weight: 1
 <br>
 <br>
 
-## THE FOUNDATION {#text-6xl}
-## **BEGINS WITH YOU** {#text-6xl}
+## THE FOUNDATION 
+## **BEGINS WITH YOU** 
 
 <br>
 
@@ -43,10 +43,10 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 <!-- section 2 (step 2) -->
 
-{% row(margin="narrow lean-right") %}
+{% row(margin="narrow") %}
 
-## EXPERIENCES {#text-6xl}
-## **ARE BUILT** {#text-6xl}
+## EXPERIENCES {#text-5xl}
+## **ARE BUILT** {#text-5xl}
 
 <br>
 
@@ -68,14 +68,14 @@ Numerous applications and programs are immediately available to users of the Fre
 
 <!-- section 3 (step 3) -->
 
-{% row(margin="moderate lean-left" bgColor="#D9E7DF") %}
+{% row(margin="narrow" bgColor="#D9E7DF") %}
 
 ![FF_ecosystem_3](FF_ecosystem_3.png)
 
 |||
 
-## YOUR TWIN GIVES {#text-6xl}
-## **COMPLETE ACCESS** {#text-6xl}
+## YOUR TWIN GIVES 
+## **COMPLETE ACCESS** 
 
 <br>
 
@@ -95,10 +95,10 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 <!-- section 4 (step 4) -->
 
-{% row(margin="narrow lean-right") %}
+{% row(margin="narrow") %}
 
-## UNLOCK IT WITH {#text-6xl}
-## **FREEFLOW KEY** {#text-6xl}
+## UNLOCK IT WITH 
+## **FREEFLOW KEY** 
 
 <br>
 

@@ -9,7 +9,7 @@ weight: 3
 
 <!-- section 1 (header) -->
 
-{% row(style="center") %}
+{% row(style="center" margin="narrow") %}
 
 <a href="">![Node Image](takepart1.png)</a>
 

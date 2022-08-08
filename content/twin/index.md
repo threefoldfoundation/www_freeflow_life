@@ -9,7 +9,7 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgColor="#F9F8F6") %}
+{% row(style="center" margin="moderate" bgColor="#F9F8F6") %}
 
 ![FF TWIN](FF_twin.png)
 
@@ -37,7 +37,7 @@ Let's progress our societies towards true freedom and absolute inclusion. by uti
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center" bgColor="#eae8e3" margin="wide") %}
+{% row(style="center" bgColor="#eae8e3" margin="narrow") %}
 
 ![FF LIFE](FF_life.png#large)
 
@@ -67,7 +67,11 @@ Every application is available for you and your society to utilize endlessly wit
 
 <br>
 
-Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity. 
+Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity.
+
+<br>
+
+<br>
 
 <br>
 
@@ -84,7 +88,11 @@ Centralized hosting creates many obstacles in privacy and security. Due to most 
 
 <br>
 
-Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions, applications and capabilities of your FreeFlow Twin are part of your digital identity and __not stored in centralized servers.__ With the FreeFlow Twin, YOU become the server and the center of your online presence. 
+Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions, applications and capabilities of your FreeFlow Twin are part of your digital identity and __not stored in centralized servers.__ With the FreeFlow Twin, YOU become the server and the center of your online presence.
+
+ 
+
+<br>
 
 <br>
 
@@ -98,7 +106,7 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 <!-- section 4 (SUSTAINABLE) -->
 
-{% row(bgColor="#f3fdf6" margin="narrow") %}
+{% row(bgColor="#f3fdf6" style="center" margin="moderate") %}
 
 <!-- row 1 sustainability-->
 
@@ -149,7 +157,7 @@ An array of tools and applica-tions is readily available to every user with no l
 
 <!-- row 2 sustainability -->
 
-{% row(style="center between margin" bgColor="#f3fdf6") %}
+{% row(style="center between margin"  bgColor="#f3fdf6") %}
 
 ![FF SUSTAINABLE 4](sustainable_4.png#md#mx-auto)
 
@@ -204,7 +212,7 @@ NO server or companies involved, all data is yours forever and 100% private.
 
 <!-- section 5 (EXPERIENCES) -->
 
-{% row(style="center" margin="wide" bgColor="#f9f8f6") %}
+{% row(style="center" margin="narrow" bgColor="#f9f8f6") %}
 
 ![experiences](FF_twin_experiences.png#large)
 

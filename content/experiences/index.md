@@ -11,9 +11,9 @@ weight: 2
 
 {% row(style="center" margin="tight" bgColor="#d1c3b9") %}
 
-![Experiences Hero Image](FF_experiences.png)
+![Experiences Hero Image](FF_experiences.png#auto)
 
-Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
+Unlimited access to decentralized alternatives to the world's most popular applications. <br> Stay safe, secure and green with experiences built especially for FreeFlow users. 
 
 <br>
 <br>
