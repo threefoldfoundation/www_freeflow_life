@@ -9,7 +9,7 @@ weight: 2
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgColor="#d1c3b9") %}
+{% row(style="center" margin="tight" bgColor="#d1c3b9" bgStyle="hero") %}
 
 ![Experiences Hero Image](FF_experiences.png)
 

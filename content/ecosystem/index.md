@@ -9,7 +9,7 @@ weight: 1
 
 <!-- section 1 (step 1) -->
 
-{% row(margin="moderate" bgColor="#EFEDEB") %}
+{% row(margin="moderate" bgColor="#EFEDEB" bgStyle="hero") %}
 
 ![FF_ecosystem_1](FF_ecosystem_1.png)
 

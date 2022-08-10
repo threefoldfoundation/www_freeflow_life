@@ -9,7 +9,7 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgColor="#F9F8F6") %}
+{% row(style="center" bgColor="#F9F8F6" bgStyle="hero") %}
 
 ![FF TWIN](FF_twin.png)
 

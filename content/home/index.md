@@ -9,7 +9,7 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="narrow" bgPath="FF_background.png") %}
+{% row(style="center" margin="narrow" bgPath="FF_background.png" bgStyle="hero") %}
 
 <br>
 
