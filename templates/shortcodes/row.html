@@ -37,8 +37,6 @@ Parameters:
 
 {% set row_class =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 md:flex md:flex-row md:py-4 lg:py-8 flex-wrap max-w-fit "%}
 
-
-
 <!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
     {% set row_class = row_class ~ " lg:items-start" %}
@@ -64,11 +62,11 @@ Parameters:
         {% set row_class = row_class ~ " mx-20 sm:mx-32 md:mx-60 lg:mx-80 xl:mx-96 " %}
     {% endif %}
     {% if "lean-left" in margin %}
-        {% set col_class = col_class ~ " last:px-8 lg:last:px-20 lg:max-w-[50%] lg:mx-0 " %}
-        {% set row_class = row_class ~ " ml-0 sm:gap-0 " %}
+        {% set col_class = col_class ~ " lg:last:px-20 lg:max-w-[50%] lg:mx-0 " %}
+        {% set row_class = row_class ~ " !ml-0 sm:gap-0 " %}
     {% elif "lean-right" in margin %}
-        {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] lg:mx-0 " %}
-        {% set row_class = row_class ~ " mr-0 sm:gap-0 " %}
+        {% set col_class = col_class ~ " lg:first:px-20 lg:max-w-[50%] lg:mx-0 " %}
+        {% set row_class = row_class ~ " !mr-0 sm:gap-0 " %}
     {% endif %}
 {% else %}
     {% set row_class =  row_class ~ " mx-4 md:mx-16 lg:mx-24 " %}
@@ -88,7 +86,7 @@ Parameters:
             {% set col_class = col_class ~ " last:px-20 lg:max-w-[50%] " %}
             {% set row_class = row_class ~ " sm:gap-0 " %}
         {% elif "lean-right" in style %}
-            {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] " %}
+            {% set col_class = col_class ~ " first:px-20 lg:max-w-[50%] -mr-8 md:-mr-12 lg:-mr-16 xl:-mr-20 " %}
             {% set row_class = row_class ~ " sm:gap-0 " %}
         {% else %}
             {% set row_class = row_class ~ " md:py-0 " %}
@@ -149,6 +147,8 @@ Parameters:
 {% if bgStyle %}
     {% if "full" in bgStyle %}
         {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
+    {% elif "hero" in bgStyle %}
+        {% set div_class = div_class ~ " -mt-24 pt-24 " %}
     {% endif %}
 {% endif %}
 {% if bgColor %}
@@ -157,17 +157,8 @@ Parameters:
 {% endif %}
 
 <!-- Cancels page margins so that rows can have separate margins -->
-{% set no_margins = "-mx-20" %}
+{% set no_margins = " -mx-8 md:-mx-12 lg:-mx-16 xl:-mx-20" %}
 
-<!--
-{% if nth == 1 %}
-    {% set div_class = div_class ~ " -pt-12 sm:-pt-12 md:-pt-16 lg:-pt-24 " %}
-{% endif %}
--->
-
-{% if nth == 1 %}
-    {% set div_class = div_class ~ " pt-16 " %}
-{% endif %}
 
 <div id="{{anchor_link}}" class="{{'w-screen relative justify-center flex ' ~ div_class ~ no_margins}}" style="{{styles}}">
     <div class="{{row_class}}" style="min-width: -webkit-fill-available; min-width: -moz-available"> 

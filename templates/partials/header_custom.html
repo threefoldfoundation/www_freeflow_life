@@ -84,18 +84,8 @@
 
 </script>
 
-{%- set section = get_section(path="_index.md") %}
-{% set subsections_str = section.subsections | join(sep=" ") %}
-
-{% if "header/_index.md" in section.subsections %}
-    {%- set section = get_section(path="header/_index.md") %}
-    {% set header_items = section.content | safe | split(pat="<li>") %}
-{% else %}
-    {% set header_items = section.pages %}
-    {% for page in section.pages %}
-    {% endfor %}
-{% endif %}
-
+{%- set section = get_section(path="header/_index.md") %}
+{% set header_items = section.content | safe | split(pat="<li>") %}
 
 <header id="header-container">
     <div class="z-10 bg-white fixed w-screen">
@@ -103,7 +93,7 @@
         <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
             <div>
                 <a href="/" class="flex">
-                    <img class="w-32 h-auto sm:w-15" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
+                    <img class="w-48 h-auto sm:w-15" src="{{section.extra.logoPath}}" alt="Ourworld Logo" />
                 </a>
             </div>
             <div class="-mr-2 -my-2 lg:hidden">

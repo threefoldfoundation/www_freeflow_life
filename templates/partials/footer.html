@@ -7,12 +7,13 @@
 
 {% set subsections_str = section.subsections | join(sep=" ") %}
 
-<footer>
+<footer class="bottom-0 mx-20">
     {% if "footer/_index.md" in subsections_str %}
         {%- set section = get_section(path="footer/_index.md") %}
         {{ section.content | safe }}
     {% else %}
-        <div class="{{config.extra.footer_class | default(value='')}}">
+        {% set footer_class = config.extra.footer_class | default(value='') %}
+        <div class="{{ footer_class ~ ' -mx-20 pt-20'}}">
             <img src="{{get_url(path='images/footer_logo.png')}}" alt="">
             ALL RIGHTS RESERVED 2022
         </div>
