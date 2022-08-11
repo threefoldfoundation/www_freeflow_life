@@ -35,7 +35,7 @@ Parameters:
 
 {% set columns = body | safe | markdown | split(pat="<p>|||</p>") %}
 
-{% set row_class =  "relative pt-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 md:flex md:flex-row md:py-4 lg:py-8 flex-wrap max-w-fit "%}
+{% set row_class =  "relative py-12 flex flex-col sm:grid sm:grid-cols-2 sm:gap-10 md:flex md:flex-row flex-wrap max-w-fit "%}
 
 <!-- aligns columns depending on col number-->
 {% if 2 < columns | length %}
@@ -49,17 +49,20 @@ Parameters:
 
 
 <!-- Margins -->
+
+{% set margin_class = " mx-4 md:mx-16 lg:mx-24 " %}
+
 {% if margin %}
     {% if "none" in margin %}
-        {% set row_class =  row_class ~ " mx-0 " %}
+        {% set margin_class = " mx-0 " %}
     {% elif "wide" in margin %}
-        {% set row_class =  row_class ~ " mx-12 " %}
+        {% set margin_class = " mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 " %}
     {% elif "moderate" in margin %}
-        {% set row_class = row_class ~ " mx-8 sm:mx-16 md:mx-24 lg:mx-28 " %}
+        {% set margin_class = " mx-8 sm:mx-16 md:mx-24 lg:mx-28 " %}
     {% elif "narrow" in margin %}
-        {% set row_class = row_class ~ " mx-12 sm:mx-20 md:mx-28 lg:mx-32 " %}
+        {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-32 " %}
     {% elif "tight" in margin %}
-        {% set row_class = row_class ~ " mx-20 sm:mx-32 md:mx-60 lg:mx-80 xl:mx-96 " %}
+        {% set margin_class = " mx-20 sm:mx-32 md:mx-60 lg:mx-80 xl:mx-96 " %}
     {% endif %}
     {% if "lean-left" in margin %}
         {% set col_class = col_class ~ " lg:last:px-20 lg:max-w-[50%] lg:mx-0 " %}
@@ -68,10 +71,9 @@ Parameters:
         {% set col_class = col_class ~ " lg:first:px-20 lg:max-w-[50%] lg:mx-0 " %}
         {% set row_class = row_class ~ " !mr-0 sm:gap-0 " %}
     {% endif %}
-{% else %}
-    {% set row_class =  row_class ~ " mx-4 md:mx-16 lg:mx-24 " %}
 {% endif %}
 
+{% set row_class =  row_class ~ margin_class %}
 
 {% if style %}
 
