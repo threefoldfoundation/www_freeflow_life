@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 examples/builder
 examples/docker
 examples/publisher
@@ -5,6 +6,8 @@ examples/texttools
 examples/gittools
 examples/tmux
 examples/vredis2
+=======
+>>>>>>> template/master
 *dSYM/
 publisher/publish
 install_publisher
@@ -20,7 +23,10 @@ src/.temp
 content/news
 content/person
 content/project
+<<<<<<< HEAD
 node_modules
+=======
+>>>>>>> template/master
 !.env.example
 .env
 .env.*
