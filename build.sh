@@ -26,7 +26,6 @@ curl -sLO "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/
 chmod +x $ASSET
 mv $ASSET tailwindcss
 
-
 # initialized and configures tailwind if not configured
 echo "Initializing tailwind..."
 if [[ ! -f "tailwind.config.js" ]]

@@ -15,13 +15,8 @@ weight: 1
 
 |||
 
-<br>
-<br>
-<br>
-<br>
-
-## THE FOUNDATION {#text-6xl}
-## **BEGINS WITH YOU** {#text-6xl}
+## THE FOUNDATION {#h1}
+## **BEGINS WITH YOU** {#h1}
 
 <br>
 
@@ -35,15 +30,11 @@ FreeFlow Nodes can generate compute, storage and network capacity for your entir
 
 Our unique operating system interconnects these nodes to create the FreeFlow Grid, your own sovereign and decentralized Internet. 
 
-<br>
-<br>
-<br>
-
 {% end %}
 
 <!-- section 2 (step 2) -->
 
-{% row(margin="narrow lean-right") %}
+{% row(margin="moderate") %}
 
 ## EXPERIENCES {#text-6xl}
 ## **ARE BUILT** {#text-6xl}
@@ -56,10 +47,6 @@ Numerous applications and programs are immediately available to users of the Fre
 
 <button>[SEE EXPERIENCES]("/experiences")</button>
 
-<br>
-<br>
-<br>
-
 |||
 
 ![FF_ecosystem_2](FF_ecosystem_2.png)
@@ -68,7 +55,7 @@ Numerous applications and programs are immediately available to users of the Fre
 
 <!-- section 3 (step 3) -->
 
-{% row(margin="moderate lean-left" bgColor="#D9E7DF") %}
+{% row(margin="moderate" bgColor="#D9E7DF") %}
 
 ![FF_ecosystem_3](FF_ecosystem_3.png)
 
@@ -87,15 +74,11 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 <button>[KNOW MORE]("/twin")</button>
 
-<br>
-<br>
-<br>
-
 {% end %}
 
 <!-- section 4 (step 4) -->
 
-{% row(margin="narrow lean-right") %}
+{% row(margin="moderate") %}
 
 ## UNLOCK IT WITH {#text-6xl}
 ## **FREEFLOW KEY** {#text-6xl}
@@ -103,10 +86,6 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 <br>
 
 The FreeFlow Key is your digital identity. Created as an NFT, this identity provides an unprecedented level of security never before seen in the industry.
-
-<br>
-<br>
-<br>
 
 |||
 

@@ -11,22 +11,13 @@ weight: 0
 
 {% row(style="center" margin="narrow" bgPath="FF_background.png" bgStyle="hero") %}
 
-<br>
-
 ![FF Logo](FF_landing.png#mx-auto) 
 
 <br>
 
-# EXPERIENCE THE
+# EXPERIENCE THE <br> **FREEFLOW LIFE**
 
-# **FREEFLOW LIFE**
-
-<br>
-
-### **Become the center of your**
-### **own digital world.**
-
-<br>
+### **Become the center of your** <br> **own digital world.**
 
 *___________________*
 
@@ -45,62 +36,30 @@ Control every aspect of your online presence.
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#eae8e2" margin="moderate lean-left") %}
+{% row(bgColor="#eae8e2" margin="moderate") %}
 
 
 ![FreeFlow Life](FF_life.png)
 
 |||
 
-<br>
-
-## WHAT IS THE
-## **FREEFLOW LIFE?**
-
-<br>
+## WHAT IS THE <br> **FREEFLOW LIFE?**
 
 * A life where your internet is sovereign and it is owned by everyone.
-
-<br>
-
 * A life where every member of society has the opportunity to learn, partake and succeed. 
-
-<br>
-
 * A life where there is unlimited access to the tools required for progress. 
-
-<br>
-
 * A life where online privacy and security are no longer a concern. 
-
-<br>
-
 * A life where our usage of the Internet is not a burden to our planet. 
-
-
-<br>
-<br>
-<br>
 
 {% end %}
 
 <!-- section 3 (ECOSYSTEM) -->
 
-{% row(style="center" margin="moderate lean-right") %}
+{% row(style="center" margin="moderate") %}
 
-
-<br>
-<br>
-
-## FORMED BY 
-
-## **ALL OF US**
-
-<br>
+## FORMED BY <br> **ALL OF US**
 
 FreeFlow exists due to a vast grid formed by Farmers, independent people that connect FreeFlow Nodes in any location that electricity and network are present. 
-
-<br>
 
 Together, they form a globally distributed Internet infrastructure and earn income in the form of CHI, the currency of the FreeFlow ecosystem. 
 
@@ -114,32 +73,21 @@ Together, they form a globally distributed Internet infrastructure and earn inco
 
 <!-- section 4 (DISCOVER) -->
 
-{% row(bgColor="#e8f2f5" style="center" margin="moderate lean-left") %}
+{% row(bgColor="#e8f2f5" style="center" margin="moderate") %}
 
 ![FreeFlow Discover](FF_discover.png)
 
 |||
 
-<br>
-
-## **FLOW** {#text-8xl}
-
-## FREELY {#text-8xl}
+## **FLOW** <br> FREELY {#text-8xl}
 
 ### **with the FreeFlow Twin.**
 
-<br>
-
 The FreeFlow Twin allows you access to numerous decentralized annlicatinns built for the FreeFlow ecosystem. 
-
-<br>
 
 Communicate, network and collaborate with anyone without worrying about data breaches and identiy theft. Experience the feeling of freedom. 
 
 <button>[DISCOVER]("/discover")</button>
-
-<br>
-
 
 {% end %}
 
@@ -147,11 +95,7 @@ Communicate, network and collaborate with anyone without worrying about data bre
 
 {% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
 
-## RIDICULOUSLY 
-
-## **GREEN.**
-
-<br>
+## RIDICULOUSLY <br> **GREEN.**
 
 A typical FreeFlow user consumes less than five watts to access their entire digital life. This ul-tra-sustainable approach allows the system to easily scale without being a burden to the planet. 
 
@@ -167,11 +111,7 @@ A typical FreeFlow user consumes less than five watts to access their entire dig
 
 {% row(style="center") %}
 
-<br>
-
-## FREEFLOW
-
-## **BLOGS**
+## FREEFLOW <br> **BLOGS**
 
 Stay Updated with everything ThreeFold.
 
@@ -179,40 +119,29 @@ Stay Updated with everything ThreeFold.
 
 {% row(style="center") %}
 
-### FREEFLOW KEY
-### **BLOG**
+### FREEFLOW KEY <br> **BLOG**
 
 |||
 
-### TOKENOMICS
-### **BLOG**
+### TOKENOMICS <br> **BLOG**
 
 |||
 
-### CHI
-### **BLOG**
-
-<br>
-<br>
+### CHI <br> **BLOG**
 
 {% end %}
 
 <!-- section 6 (HOW IT WORKS) -->
 
-{% row(bgColor="#defff6" style="center" margin="moderate lean-right") %}
+{% row(bgColor="#defff6" style="center" margin="moderate") %}
 
-## ACCESS IT ALL WITH 
-## **THE FREEFLOW KEY**
+## ACCESS IT ALL WITH <br> **THE FREEFLOW KEY**
 
 Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor incididunt ut . . labore et dolore magna aliqua. 
-
-<br>
 
 <button>[HOW IT WORKS]("/howitworks")</button>
 
 |||
-
-<br>
 
 ![FreeFlow Benefits](ff_landing_key.png)
 
