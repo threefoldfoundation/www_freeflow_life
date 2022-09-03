@@ -15,18 +15,13 @@ weight: 2
 
 Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
 
-<br>
-<br>
-<br>
-
 {% end %}
 
 <!-- section 2 (experiences) -->
 
 {% row(style="center") %}
 
-# FREEFLOW
-# **EXPERIENCES**
+# FREEFLOW <br> **EXPERIENCES**
 
 {% end %}
 
@@ -36,29 +31,16 @@ Unlimited access to decentralized alternatives to the world's most popular appli
 
 ![EXPERIENCES 1](FF_experiences_1.png#md#mx-auto)
 
-<br>
-<br>
-
-#### EDUCATION VIDEOS
-### **SIKANA**
-
-<br>
+#### EDUCATION VIDEOS <br> **SIKANA**
 
 Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 million views, aiming to deliver quality education and necessary skills to everyone. 
-
-<br>
 
 |||
 
 ![EXPERIENCES 2](FF_experiences_2.png#md#mx-auto)
 
-<br>
-<br>
-
 #### CHAT APP
 ### **OURCHAT**
-
-<br>
 
 Is it really necessary to use tens of different chat mediums just to get a message across? The FreeFlow Chat is a cross application chat tool that can connect you to anyone. No need to juggle different applications and remember multiple email aliases, phone numbers, etc. An end to end encrypted, decentralized, simple chat experience. 
 
