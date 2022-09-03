@@ -33,6 +33,13 @@
     src: url("../fonts/CercoDEMO-Light.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "BebasNeue";
+    font-weight: 600;
+    src: url("https://www2.freeflow.life/fonts/BebasNeue-Bold.otf") format("opentype");
+    src: url("../fonts/BebasNeue-Bold.otf") format("opentype");
+}
+
 * {
   font-family: "CercoDEMO", sans-serif;
 }
@@ -59,7 +66,7 @@ img[src*="#md"] {
 }
 
 img[src*="#medium"] {
-    width: 400px;
+    width: 500px;
 }
 
 img[src*="#logo"] {
@@ -70,6 +77,11 @@ img[src*="#logo"] {
 img[src*="#large"] {
   width: min(60vw, 100vh);
   margin: auto;
+}
+
+img[src*="#fill"] {
+  width: 100%;
+  height: 100%;
 }
 
 img[src*="#tft_img"] {
@@ -89,7 +101,8 @@ img[src*="#tft_img"] {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-normal leading-none my-4;
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold leading-none my-4;
+    font-family: "BebasNeue", sans-serif
   }
   h2 strong {
     @apply font-medium;

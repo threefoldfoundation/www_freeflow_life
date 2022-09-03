@@ -9,28 +9,17 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="narrow" bgPath="FF_background.png" bgStyle="hero") %}
-
-![FF Logo](FF_landing.png#mx-auto) 
+{% row(style="center" margin="tight" bgPath="FFAsset3.png" bgStyle="hero") %}
 
 <br>
 
-# EXPERIENCE THE <br> **FREEFLOW LIFE**
-
-### **Become the center of your** <br> **own digital world.**
-
-*___________________*
+![FF Logo](FFAsset4.png#medium#mx-auto) 
 
 <br>
 
-The FreeFlow experience puts you and your entire society at the healm of your digital lives. 
+FreeFlow is the new internet, where you own your data, and security and privacy is just not an issue.  Formed by people just like you, the FreeFlow movement is now truly global.
 
-Control every aspect of your online presence.
-
-<button>[SEE THE ECOSYSTEM]("/ecosystem")</button>
-
-|||
-
+<button>[TAKE PART]("/take-part")</button>
 
 {% end %}
 
@@ -38,18 +27,29 @@ Control every aspect of your online presence.
 
 {% row(bgColor="#eae8e2" margin="moderate") %}
 
-
-![FreeFlow Life](FF_life.png)
+![FreeFlow Life](FFAsset5.png#fill)
 
 |||
 
-## WHAT IS THE <br> **FREEFLOW LIFE?**
+Earn revenue by plugging in a FreeFlow Node and generating internet capacity for the world.
 
-* A life where your internet is sovereign and it is owned by everyone.
-* A life where every member of society has the opportunity to learn, partake and succeed. 
-* A life where there is unlimited access to the tools required for progress. 
-* A life where online privacy and security are no longer a concern. 
-* A life where our usage of the Internet is not a burden to our planet. 
+<button>[TAKE PART]("/take-part")</button>
+
+{% end %}
+
+{% row(style="center" margin="moderate" bgColor="#F2EDE8") %}
+
+![FF Logo](FFAsset9.png#fill) 
+
+{% end %}
+
+{% row(style="center" margin="tight") %}
+
+![FF Logo](FFAsset7.png#fill) 
+
+The FreeFlow Twin is your unique NFT-based identification to access any information hosted on the FreeFlow Grid.
+
+<button>[GET MY TWIN]("/twin")</button>
 
 {% end %}
 
@@ -57,92 +57,13 @@ Control every aspect of your online presence.
 
 {% row(style="center" margin="moderate") %}
 
-## FORMED BY <br> **ALL OF US**
-
-FreeFlow exists due to a vast grid formed by Farmers, independent people that connect FreeFlow Nodes in any location that electricity and network are present. 
-
-Together, they form a globally distributed Internet infrastructure and earn income in the form of CHI, the currency of the FreeFlow ecosystem. 
-
-<button>[SEE THE ECOSYSTEM]("/ecosystem")</button>
+![FreeFlow Ecosystem](FFAsset8.png)
 
 |||
 
-![FreeFlow Ecosystem](FF_ecosystem.png)
+We are all achieving this vision together.  Find out more about what the world looks like with FreeFlow.
+
+<button>[VISION FREEFLOW]("/vision")</button>
 
 {% end %}
 
-<!-- section 4 (DISCOVER) -->
-
-{% row(bgColor="#e8f2f5" style="center" margin="moderate") %}
-
-![FreeFlow Discover](FF_discover.png)
-
-|||
-
-## **FLOW** <br> FREELY {#text-8xl}
-
-### **with the FreeFlow Twin.**
-
-The FreeFlow Twin allows you access to numerous decentralized annlicatinns built for the FreeFlow ecosystem. 
-
-Communicate, network and collaborate with anyone without worrying about data breaches and identiy theft. Experience the feeling of freedom. 
-
-<button>[DISCOVER]("/discover")</button>
-
-{% end %}
-
-<!-- section 5 (BENEFITS) -->
-
-{% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
-
-## RIDICULOUSLY <br> **GREEN.**
-
-A typical FreeFlow user consumes less than five watts to access their entire digital life. This ul-tra-sustainable approach allows the system to easily scale without being a burden to the planet. 
-
-<button>[SEE ALL BENEFITS]("/benefits")</button>
-
-|||
-
-![FreeFlow Benefits](FF_benefits.png)
-
-{% end %}
-
-<!-- section 6 (BLOGS) -->
-
-{% row(style="center") %}
-
-## FREEFLOW <br> **BLOGS**
-
-Stay Updated with everything ThreeFold.
-
-{% end %}
-
-{% row(style="center") %}
-
-### FREEFLOW KEY <br> **BLOG**
-
-|||
-
-### TOKENOMICS <br> **BLOG**
-
-|||
-
-### CHI <br> **BLOG**
-
-{% end %}
-
-<!-- section 6 (HOW IT WORKS) -->
-
-{% row(bgColor="#defff6" style="center" margin="moderate") %}
-
-## ACCESS IT ALL WITH <br> **THE FREEFLOW KEY**
-
-Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor incididunt ut . . labore et dolore magna aliqua. 
-
-<button>[HOW IT WORKS]("/howitworks")</button>
-
-|||
-
-![FreeFlow Benefits](ff_landing_key.png)
-
-{% end %}

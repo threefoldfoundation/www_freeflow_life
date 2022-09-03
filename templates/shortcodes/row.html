@@ -58,7 +58,7 @@ Parameters:
     {% elif "moderate" in margin %}
         {% set margin_class = " mx-8 sm:mx-16 md:mx-20 lg:mx-28" %}
     {% elif "narrow" in margin %}
-        {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-32" %}
+        {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-40" %}
     {% elif "tight" in margin %}
         {% set margin_class = " mx-20 sm:mx-32 md:mx-40 lg:mx-80 xl:mx-96" %}
     {% endif %}
@@ -138,7 +138,7 @@ Parameters:
     {% if "full" in bgStyle %}
         {% set styles = styles ~ "height: -webkit-fill-available; height: 100vh;"  %}
     {% elif "hero" in bgStyle %}
-        {% set div_class = div_class ~ " -mt-24 pt-24 " %}
+        {% set div_class = div_class ~ " -mt-24 pt-12 " %}
     {% endif %}
 {% endif %}
 {% if bgColor %}
