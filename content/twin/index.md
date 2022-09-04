@@ -9,90 +9,73 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgColor="#F9F8F6" bgStyle="hero") %}
+{% row(style="center" bgPath="twin1.png" bgStyle="hero") %}
 
-![FF TWIN](FF_twin.png)
+![FF TWIN](twin2.png)
 
-|||
+<button>[GET THE TWIN]("/twin")</button>
 
-#### Introducing the Free Flow Twin
+{%end%}
 
-<br>
+{% row(style="center" bgColor="#F5F1ED" margin="wide") %}
 
-## BECOME THE CENTER 
-
-## **OF YOUR DIGITAL LIFE**
-
-*________________*
-
-<br>
-
-Let's become the center of our own digital lives, free from external influences, manipulation and attacks. 
-
-<br>
-
-Let's progress our societies towards true freedom and absolute inclusion. by utilizing the power of decentralizing our data, storage and compute. 
-
-{% end %}
-
-<!-- section 2 (FF LIFE) -->
-
-{% row(style="center" bgColor="#eae8e3" margin="wide") %}
-
-![FF LIFE](FF_life.png#large)
+![FF LIFE](twin3.png)
 
 |||
 
-## **THE GATEWAY TO**
+## NFT BASED <br> AUTHENTICATION
 
-## **THE FREEFLOW LIFE.**
+Your digital identity is an NFT known as the FreeFlow Key.
 
-<br>
-
-The Free Flow Twin provdes you with access to decentralized alternatives to world's most popular applications. 
-
-<br>
-
-Every application is available for you and your society to utilize endlessly without ever worrying about online privacy. 
+This ultra-secure and unique attribute allows you to stay completely safe while accessing all the different functions offered via the FreeFlow Twin.
 
 {% end %}
-
 
 <!-- section 3 (oldnew) -->
 
-{% row(style="center" bgColor="#EFEDEB" margin="narrow") %}
+{% row(style="center" margin="narrow") %}
 
-## OUT WITH 
-## **THE OLD...**
+## DO ANYTHING. <br> DO EVERYTHING.
 
-<br>
+Your FreeFlow Twin comes with endless skills and capabilities.
 
-Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity. 
+{% end %}
 
-<br>
+{% row(style="center" margin="narrow") %}
 
-![CENTRALIZED](centralized.png)
+![Twin Capabilities](twin4.png)
 
-<br>
-<br>
-<br>
+{% end %}
+
+{% row(style="center" bgColor="#EAF3F7" margin="wide") %}
+
+![FF LIFE](twin5.png)
 
 |||
 
-## **YOU** ARE 
-## THE SERVER 
+## FREE FLOWING <br> EXPERIENCES
 
-<br>
+Communicate, network and collaborate with anyone without worrying about data breaches and identiy theft.  Experience the feeling of freedom.
 
-Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions, applications and capabilities of your FreeFlow Twin are part of your digital identity and __not stored in centralized servers.__ With the FreeFlow Twin, YOU become the server and the center of your online presence. 
+<button>[THE EXPERIENCES]("/experiences")</button>
 
-<br>
+{% end %}
 
-![DECENTRALIZED](decentralized.png)
+{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
 
-<br>
-<br>
-<br>
+## THIS IS WHERE <br> DATA COMES <br> TOGETHER
+
+All of your data is always dispersed into different servers on the FreeFlow Grid.
+
+Your FreeFlow Twin is the only place where your dispersed data is reassemled.
+
+This model completely alliviates the concerns of the centralized data center model.
+
+<button>[COMPARE MODELS]("/")</button>
+
+|||
+
+![FF LIFE](twin8.png#fill)
 
 {% end %}
 
@@ -100,141 +83,26 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 ## RIDICULOUSLY <br> **GREEN.**
 
-A typical FreeFlow user consumes less than five watts to access their entire digital life. This ul-tra-sustainable approach allows the system to easily scale without being a burden to the planet. 
+A typical FreeFlow user consumes less than five watts to access their entire digital life. 
 
-<button>[SEE ALL BENEFITS]("/benefits")</button>
-
-|||
-
-![FreeFlow Benefits](FF_benefits.png)
-
-{% end %}
-<!-- section 4 (SUSTAINABLE) -->
-
-{% row(bgColor="#f3fdf6" margin="narrow") %}
-
-<!-- row 1 sustainability-->
-
-![SUSTAINABLE 1](sustainable_1.png#md#mx-auto)
-
-<br>
-
-### ULTRA
-### **SUSTAINABLE**
-
-<br>
-
-Uses less than 5 watts per person for a full blown digital life (ultra sustainable).
-
-<br>
+This ultra-sustainable approach allows the system to easily scale without being a burden to the planet. 
 
 |||
 
-![SUSTAINABLE 2](sustainable_2.png#md#mx-auto)
-
-<br>
-
-### SUPER
-### **SECURE**
-
-<br>
-
-Access to your digital life is personal and ultra secure. No one can ever manipulate data
-
-<br>
-
-|||
-
-![SUSTAINABLE 3](sustainable_3.png#md#mx-auto)
-
-<br>
-
-### NUMEROUS
-### **APPS**
-
-<br>
-
-An array of tools and applica-tions is readily available to every user with no limits. 
-
-<br>
+![FreeFlow Benefits](twin7.png)
 
 {% end %}
 
-<!-- row 2 sustainability -->
+{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
 
-{% row(style="center between margin" bgColor="#f3fdf6") %}
-
-![FF SUSTAINABLE 4](sustainable_4.png#md#mx-auto)
-
-<br>
-
-### READY
-### **TO GIFT**
-
-<br>
-
-Available to gift to anyone of your choosing
-
-<br>
-<br>
-<br>
-
-|||
-
-![SUSTAINABLE 5](sustainable_5.png#md#mx-auto)
-
-<br>
-
-### UNLIMITED
-### **ACCESS**
-
-<br>
-
-Unlimited information and educational content will now be a click away for every member of society.
-
-<br>
-<br>
-<br>
-
-|||
-
-![SUSTAINABLE 6](sustainable_6.png#md#mx-auto)
-
-<br>
-
-### CONTROLLED BY
-### **ONLY YOU**
-
-<br>
-
-NO server or companies involved, all data is yours forever and 100% private.
-
-<br>
-<br>
-<br>
+![FF LIFE](twin6.png#fill)
 
 {% end %}
 
-<!-- section 5 (EXPERIENCES) -->
+{% row(style="center" bgColor="#EFEDEB" margin="tight") %}
 
-{% row(style="center" margin="wide" bgColor="#f9f8f6") %}
+Become the center of your digital life and experience complete control.  Get your FreeFlow key now!
 
-![experiences](FF_twin_experiences.png#large)
-
-|||
-
-## CHECK OUT
-
-## **THE EXPERIENCES**
-
-<br>
-
-Lorem ipsum
-
-<button>[EXPERIENCES]("/experiences")</button>
-
-<br>
-<br>
-<br>
+<button>[GET THE TWIN]("/")</button>
 
 {% end %}
