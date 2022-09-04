@@ -12,9 +12,9 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: www2.freeflow.life
-        username: root
+        username: nashaatp
         key: ${{ secrets.TF_SECRET }}
-        port: 22
+        port: 34022
         script: |
           cd /opt/www_freeflow_life
           git log -1
