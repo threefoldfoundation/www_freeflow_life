@@ -96,6 +96,19 @@ Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions,
 
 {% end %}
 
+{% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
+
+## RIDICULOUSLY <br> **GREEN.**
+
+A typical FreeFlow user consumes less than five watts to access their entire digital life. This ul-tra-sustainable approach allows the system to easily scale without being a burden to the planet. 
+
+<button>[SEE ALL BENEFITS]("/benefits")</button>
+
+|||
+
+![FreeFlow Benefits](FF_benefits.png)
+
+{% end %}
 <!-- section 4 (SUSTAINABLE) -->
 
 {% row(bgColor="#f3fdf6" margin="narrow") %}
