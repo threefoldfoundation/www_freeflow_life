@@ -11,7 +11,7 @@ weight: 2
 
 {% row(style="center" bgPath="FFVISIONAsset_20.png" bgStyle="hero" margin="tight") %}
 
-![FF TWIN](FFVISIONAsset_21.png#fill)
+![FF TWIN](vision1.png#fill)
 
 A global network of decentralized compute and storage that fuels unparalleled privacy, impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
 
@@ -21,13 +21,13 @@ A global network of decentralized compute and storage that fuels unparalleled pr
 
 {% row(bgColor="#f0ece8" margin="moderate") %}
 
-![FF LIFE](FFVISIONAsset_22.png#fill)
+![FF LIFE](vision2.png#fill)
 
 |||
 
 ## IT STARTS WITH <br> THE FREEFLOW GRID
 
-![FF LIFE](FFVISIONAsset_23.png)
+![FF LIFE](vision3.png)
 
 People just like you deploy the FreeFlow Node is residential and commercial units.  
 
@@ -37,7 +37,7 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 {% row(style="center" bgColor="#f0ece8" margin="narrow") %}
 
-![FF LIFE](FFVISIONAsset_24.png#fill)
+![FF LIFE](vision5.png#fill)
 
 {% end %}
 
@@ -55,19 +55,19 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 |||
 
-![FF LIFE](FFVISIONAsset_25.png#fill)
+![FF LIFE](vision6.png#fill)
 
 {% end %}
 
 {% row(bgColor="#D9E7DF" margin="narrow") %}
 
-![FF LIFE](FFVISIONAsset_26.png#fill)
+![FF LIFE](vision7.png#fill)
 
 {% end %}
 
 {% row(margin="moderate") %}
 
-![FF LIFE](FFVISIONAsset_27.png#fill)
+![FF LIFE](vision8.png#fill)
 
 |||
 
@@ -83,15 +83,15 @@ Each application is decentralized and allows users a fully private and secure ex
 
 {% row(style="center" margin="narrow") %}
 
-![FF LIFE](FFVISIONAsset_28.png#fill)
+![FF LIFE](vision10.png#fill)
 
 {% end %}
 
 {% row(style="center" margin="tight" bgColor="#f9f8f6") %}
 
-![FF LIFE](FFVISIONAsset_29.png#fill)
+![FF LIFE](vision11.png#fill)
 
-Play your part in the rise of the new digital life. 
+### Play your part in the rise of the new digital life. 
 
 <button>[TAKE PART]("/experiences")</button>
 

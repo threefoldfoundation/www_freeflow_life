@@ -81,7 +81,7 @@ This model completely alliviates the concerns of the centralized data center mod
 
 {% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
 
-## RIDICULOUSLY <br> **GREEN.**
+## RIDICULOUSLY <br> GREEN.
 
 A typical FreeFlow user consumes less than five watts to access their entire digital life. 
 
@@ -93,16 +93,20 @@ This ultra-sustainable approach allows the system to easily scale without being 
 
 {% end %}
 
-{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
+{% row(style="center" bgColor="#EFEDEB" margin="moderate" css="!pb-0") %}
 
 ![FF LIFE](twin6.png#fill)
 
 {% end %}
 
-{% row(style="center" bgColor="#EFEDEB" margin="tight") %}
+{% row(style="center" bgColor="#EFEDEB" margin="none" css="!pt-0") %}
 
-Become the center of your digital life and experience complete control.  Get your FreeFlow key now!
+|||
+
+Become the center of your digital life and experience complete control. Get your FreeFlow key now!
 
 <button>[GET THE TWIN]("/")</button>
+
+|||
 
 {% end %}

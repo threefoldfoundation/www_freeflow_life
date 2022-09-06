@@ -36,8 +36,8 @@
 @font-face {
     font-family: "BebasNeue";
     font-weight: 600;
-    src: url("https://www2.freeflow.life/fonts/BebasNeue-Bold.otf") format("opentype");
-    src: url("../fonts/BebasNeue-Bold.otf") format("opentype");
+    src: url("https://www2.freeflow.life/fonts/BebasNeue-Bold.ttf") format("opentype");
+    src: url("../fonts/BebasNeue-Bold.ttf") format("opentype");
 }
 
 * {
@@ -96,19 +96,21 @@ img[src*="#tft_img"] {
 @layer components {
   h1, #h1  {
     @apply text-4xl md:text-4xl lg:text-6xl leading-none font-normal my-4;
+    font-family: "BebasNeue", sans-serif
   }
   h1 strong {
     @apply font-medium;
   }
   h2 {
-    @apply text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold leading-none my-4;
-    font-family: "BebasNeue", sans-serif
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold leading-none my-4;
+    font-family: "BebasNeue", sans-serif;
+    line-height: 0.8;
   }
   h2 strong {
     @apply font-medium;
   }
   h3 {
-    @apply text-xl md:text-2xl lg:text-3xl font-light my-4;
+    @apply text-xl md:text-xl lg:text-2xl font-normal my-4;
   }
   h3 strong {
     @apply font-medium;
@@ -123,7 +125,7 @@ img[src*="#tft_img"] {
     @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-base lg:text-lg leading-tight tracking-normal font-normal my-4;
+    @apply text-base lg:text-xl leading-tight tracking-normal font-normal my-4;
     font-family: "CercoDEMO", sans-serif;
   }
   blockquote {
@@ -149,7 +151,11 @@ img[src*="#tft_img"] {
 }
 
 button:hover :is(:where(a)) {
-  color: #c6f8ff;
+  color: #984210;
+}
+
+button :is(:where(a)) {
+font-weight: 500;
 }
 
 button :is(:where(p)) {
@@ -163,6 +169,10 @@ button :is(:where(p)) {
     color: black;
     padding: 20px;
     width: fit-content;
+}
+
+.experience-btn p {
+    @apply text-lg;
 }
 
 .experience-btn:hover {

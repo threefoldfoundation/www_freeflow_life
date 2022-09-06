@@ -11,13 +11,16 @@ weight: 0
 
 {% row(style="center" margin="moderate" bgStyle="hero") %}
 
+<br>
+<br>
+
 ![FF Logo](node1.png#fill) 
 
 {% end %}
 
 {% row(style="center" margin="tight" bgColor="#F2EDE8") %}
 
-## EARN.
+## EARN.{#text-9xl}
 
 Provide the compute, storage and network capacity needed to store data and run applications on the FreeFlow Grid and start earning.
 
@@ -35,9 +38,9 @@ Provide the compute, storage and network capacity needed to store data and run a
 
 |||
 
-## BE THE <br> INTERNET.
+## BE THE <br> INTERNET.{#text-9xl}
 
-By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users.
+### By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users.
 
 {% end %}
 
@@ -49,9 +52,9 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 {% row(margin="moderate" bgColor="#F7F4F1") %}
 
-## LET'S <br> FREEFLOW.
+## LET'S <br> FREEFLOW. {#text-9xl}
 
-The FreeFlow Node was designed to fit any home or office. It is packed with performance for its price and doesn’t require any technical knowledge. Just order, plug it in and start earning!
+### The FreeFlow Node was designed to fit any home or office. It is packed with performance for its price and doesn’t require any technical knowledge. Just order, plug it in and start earning!
 
 <button>[GET A NODE]("/")</button>
 
