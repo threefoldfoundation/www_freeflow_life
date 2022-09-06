@@ -181,7 +181,7 @@ button :is(:where(p)) {
 
 
 .experience-btn h4 {
-    white-space: nowrap;
+    white-space: normal;
 }
 
 header .freeflow {
