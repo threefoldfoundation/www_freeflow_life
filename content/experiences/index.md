@@ -9,224 +9,205 @@ weight: 2
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgColor="#d1c3b9" bgStyle="hero") %}
+{% row(style="center" margin="tight" bgColor="#F2F2F2" bgStyle="hero") %}
 
-![Experiences Hero Image](FF_experiences.png)
+![Experiences Hero Image](experiences1.png)
 
-Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
-
-{% end %}
-
-<!-- section 2 (experiences) -->
-
-{% row(style="center") %}
-
-# FREEFLOW <br> **EXPERIENCES**
+#### Unlimited access to decentralized alternatives to the world's most popular applications. Stay safe, secure and green with experiences built especially for FreeFlow users. 
 
 {% end %}
 
-<!-- experiences row 1 -->
+{% row(style="center between" bgColor="#F2F2F2" ) %}
 
-{% row(style="center between") %}
+<button class="experience-btn" onclick="window.location.href='quantum';">
 
-![EXPERIENCES 1](FF_experiences_1.png#md#mx-auto)
+![Quantum Icon](experiences2.png#md#mx-auto)
 
-#### EDUCATION VIDEOS <br> **SIKANA**
+### QUANTUM {#xp-heading}
+#### DECENTRALIZED FILE MANAGER {#xp-heading}
 
-Improve your life - one skill at a time. Sikana is a free education platform, with more than 4 million views, aiming to deliver quality education and necessary skills to everyone. 
+The decentralized alternative to file storage programs such as Dropbox and Google Drive.
 
-|||
-
-![EXPERIENCES 2](FF_experiences_2.png#md#mx-auto)
-
-#### CHAT APP
-### **OURCHAT**
-
-Is it really necessary to use tens of different chat mediums just to get a message across? The FreeFlow Chat is a cross application chat tool that can connect you to anyone. No need to juggle different applications and remember multiple email aliases, phone numbers, etc. An end to end encrypted, decentralized, simple chat experience. 
-
-<br>
+</button>
 
 |||
 
-![EXPERIENCES 3](FF_experiences_3.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='whisper';">
 
-<br>
-<br>
 
-#### METAVERSE
-### **OURVERSE**
+![Whisper Icon](experiences3.png#md#mx-auto)
 
-<br>
+### WHISPER {#xp-heading}
+#### DECENTRALIZED CHATTING {#xp-heading}
 
-State of the art rendering and experiences beyond e-commerce and marketing. A metaverse built by and for the people using it, with worthwhile capabilities that enhance your virtual experience. Visit a museum or a renovated ancient city, or the local farmer you buy your produce from, at OurVerse.
+The decentralized alternative to chatting apps like WhatsApp and Telegram.  Offers full encryption and true privacy.
 
-<br>
+</button>
+
+|||
+
+<button class="experience-btn" onclick="window.location.href='kutana';">
+
+![Kutana Icon](experiences4.png#md#mx-auto)
+
+### KUTANA {#xp-heading}
+#### DECENTRALIZED MEETINGS {#xp-heading}
+
+The perfect alternative to video conferencing tools like Meet and Zoom with all the benefits of decentralization.
+
+</button>
 
 {% end %}
 
-<!-- experiences row 2 -->
+{% row(style="center between" bgColor="#F2F2F2" ) %}
 
-{% row(style="center between") %}
+<button class="experience-btn" onclick="window.location.href='glass';">
 
-![EXPERIENCES 4](FF_experiences_4.png#md#mx-auto)
+![EXPERIENCES 1](experiences5.png#md#mx-auto)
 
-<br>
-<br>
+### GLASS {#xp-heading}
+#### DECENTRALIZED BROWSING {#xp-heading}
 
-#### OFFICE TOOLS
-### **FREEFLOW DOCS**
+Forget all other browsers and experience the meaning of true anonymous browsing by using the decentralized Glass Browser.
 
-<br>
-
-Keep your business files in your own personal server and collaborate with your colleagues seamlessly. Strengthen security and access control. No additional cost, entirely included in your FreeFlow life.
-
-<br>
+</button>
 
 |||
 
-![EXPERIENCES 5](FF_experiences_5.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='river';">
 
-<br>
-<br>
+![EXPERIENCES 2](experiences6.png#md#mx-auto)
 
-#### VIDEO CONFERENCING
-### **FREEFLOW ROOMS**
+### RIVER {#xp-heading}
+#### DECENTRALIZED SOCIAL MEDIA {#xp-heading}
 
-<br>
+Unlike other social media platforms, River allows you to own every bit of your data including every uploaded photo or video.
 
-A truly peer to peer video chat experience starting from your digital twin to your guests', without stopping by a data center in between. Of course, free.
-
-<br>
+</button>
 
 |||
 
-![EXPERIENCES 6](FF_experiences_6.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='wallet';">
 
-<br>
-<br>
+![Wallet Icon](experiences7.png#md#mx-auto)
 
-#### BROWSING
-### **FREEFLOW DISCOVER**
+### FREEFLOW WALLET {#xp-heading}
+#### DECENTRALIZED WALLET {#xp-heading}
 
-<br>
+The most secure, decentralized wallet on the planet is now available free to all FreeFlow users.
 
-A browser that protects your privacy all the way. Regain control over your digital presence, own you data, and access the digital world over your personal server.
-
-<br>
+</button>
 
 {% end %}
 
-<!-- experiences row 3 -->
+{% row(style="center between" bgColor="#F2F2F2" ) %}
 
-{% row(style="center between") %}
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-![EXPERIENCES 7](FF_experiences_7.png#md#mx-auto)
+![EXPERIENCES 1](experiences8.png#md#mx-auto)
 
-<br>
-<br>
+### FREEFLOW TUBE {#xp-heading}
+#### VIDEO BROWSING {#xp-heading}
 
-#### DISCORD ALTERNATIVE
-### **FREEFLOW CHILL**
+The perfect decentralized alternative to video platforms where all uploaded videos belong to the creator and creator only.
 
-<br>
-
-Host your own servers and chatrooms from your own server. Seamlessly provide access to data you wish to share, create a meeting point for your audience.
-
-<br>
+</button>
 
 |||
 
-![EXPERIENCES 8](FF_experiences_8.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-<br>
-<br>
+![EXPERIENCES 2](experiences9.png#md#mx-auto)
 
-#### GITHUB ALTERNATIVE
-### **FREEFLOW GIT**
+### FREEFLOW PUBLISHER {#xp-heading}
+#### DECENTRALIZED WEB BUILDER {#xp-heading}
 
-<br>
+Build decentralized websites with easy-to-use tools created specifically for FreeFlow users.
 
-Host your own servers and chatrooms from your own server. Seamlessly provide access to data you wish to share, create a meeting point for your audience. 
-
-<br>
+</button>
 
 |||
 
-![EXPERIENCES 9](FF_experiences_9.png#md#mx-auto#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-<br>
-<br>
+![Dev Tools Icon](experiences10.png#md#mx-auto)
 
-#### FORUM
-### **FREEFLOW FORUM**
+### FREEFLOW DEVELOPER {#xp-heading}
+#### DECENTRALIZED DEV TOOLS {#xp-heading}
 
-<br>
+Develop applications to host on the the decentralized FreeFlow Grid and showcase them to the entire ecosystem.
 
-Host your own servers and chatrooms from your own server. Seamlessly provide access to data you wish to share, create a meeting point for your audience. 
-
-<br>
+</button>
 
 {% end %}
 
+{% row(style="center between" bgColor="#F2F2F2" ) %}
 
-<!-- coming soon row 1 -->
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-{% row(style="center between" bgColor="#e8f2f5") %}
+![EXPERIENCES 1](experiences11.png#md#mx-auto)
 
-<br>
-<br>
+### FREEFLOW ROOMS {#xp-heading}
+#### DECENTRALIZED FORUMS {#xp-heading}
 
-## COMING {#text-6xl}
-## **SOON** {#text-6xl}
+Discussion forums where prying eyes are no longer a concern are exclusively available to FreeFlow users.
+
+</button>
+
+|||
+
+<button class="experience-btn" onclick="window.location.href='ourverse';">
+
+![EXPERIENCES 2](experiences12.png#md#mx-auto)
+
+### OURVERSE {#xp-heading}
+#### DECENTRALIZED METAVERSE {#xp-heading}
+
+Better, faster, safer and more diverse, the OurVerse metaverse is FreeFlow’s answer to the latest hype.
+
+</button>
+
+|||
+
+<button class="experience-btn" onclick="window.location.href='sikana';">
+
+![Sikana Icon](experiences13.png#md#mx-auto)
+
+### SIKANA {#xp-heading}
+#### DECENTRALIZED VIDEO ED {#xp-heading}
+
+Watch and learn from thousands of videos built specifically to empower those most in need.
+
+</button>
 
 {% end %}
 
-{% row(style="center between" bgColor="#e8f2f5") %}
+{% row(style="center between" bgColor="#F2F2F2" ) %}
 
-![comingsoon 1](comingsoon_1.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-<br>
-<br>
+![EXPERIENCES 1](experiences14.png#md#mx-auto)
 
-#### REGENERATION EFFORTS
-### **UTOPIA** {#text-4xl}
+### SHARE IT {#xp-heading}
+#### DECENTRALIZED SHARING TOOLS {#xp-heading}
 
-<br>
+Share small and large files via the wordl’s first decentralized file sharing service without worrying about data loss.
 
-A social experience that flows like a river, where you choose what you interact with, and aren't the product. Shape your own digital presence, define what social media means to you. No dopamine hooks, attention-span lowering content, unsolicited ads and data mining for manipulation.
-
-<br>
+</button>
 
 |||
 
-![comingsoon 2](comingsoon_2.png#md#mx-auto)
+<button class="experience-btn" onclick="window.location.href='coming-soon';">
 
-<br>
-<br>
+![Coming Soon Icon](experiences15.png#md#mx-auto)
 
-#### REGENERATION EFFORTS
-### **MATTERMOST** {#text-4xl}
+### MANY MORE {#xp-heading}
+#### APPLICATIONS TO COME {#xp-heading}
 
-<br>
+More and more experiences are being conceptualized, designed and produced for FreeFlow users. Stay tuned!
 
-In FreeFlow Cloud Your data is kept in your digital home, never leaving the presence of your digital twin. Control and own your own data. Choose who gets to access it. Protected by quantum safe storage, a state of the art secure storage system.
-
-<br>
+</button>
 
 |||
-
-![comingsoon 3](comingsoon_3.png#md#mx-auto)
-
-<br>
-<br>
-
-#### MANY MORE
-### **APPS TO COME** {#text-4xl}
-
-<br>
-
-Lorem ipsum dolor sit amet, consectetur adipisc-ing elit, sed do eiusmod tempor incididunt ut . . labore et dolore magna aliqua. 
-
-<br>
 
 {% end %}

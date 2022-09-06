@@ -114,7 +114,7 @@ img[src*="#tft_img"] {
     @apply font-medium;
   }
   h4 {
-    @apply text-xl lg:text-2xl font-normal;
+    @apply text-xl lg:text-xl font-normal;
   }
   h5 {
     @apply text-xl lg:text-xl font-normal;
@@ -123,7 +123,7 @@ img[src*="#tft_img"] {
     @apply text-lg not-italic font-normal my-1;
   }
   p {
-    @apply text-base lg:text-xl leading-tight tracking-normal font-normal my-4;
+    @apply text-base lg:text-lg leading-tight tracking-normal font-normal my-4;
     font-family: "CercoDEMO", sans-serif;
   }
   blockquote {
@@ -145,7 +145,6 @@ img[src*="#tft_img"] {
     my-10
     border-2
     shadow
-    capitalize;
   }
 }
 
@@ -154,8 +153,25 @@ button:hover :is(:where(a)) {
 }
 
 button :is(:where(p)) {
-  color: #3d3b39;
   font-weight: 400;
+}
+
+.experience-btn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding: 20px;
+    width: fit-content;
+}
+
+.experience-btn:hover {
+    background: white;
+}
+
+
+.experience-btn h4 {
+    white-space: nowrap;
 }
 
 header .freeflow {
@@ -185,23 +201,12 @@ header .freeflow div {
 }
 
 button {
-  background-color: #1a1a1a;
-  border-radius: 20px;
-  border: 2px solid white;
+  background: transparent;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid black;
   box-shadow: none;
   font-size: 20px;
-}
-
-button {
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    border: none;
-    box-shadow: none;
-    font-size: 20px;
-  }
-
-button a {
-  color: white;
 }
 
 a {

@@ -1,5 +1,5 @@
 ---
-title: "Quantum"
+title: "Coming Soon"
 description: ""
 date: 2018-09-14
 updated: 2021-02-20
@@ -11,6 +11,6 @@ extra:
 
 {% row(style="center" margin="none" bgColor="#f2f2f2" bgStyle="hero") %}
 
-![Quantum](QUANTUM.png#fill)
+![Coming Soon](ComingSoon.png#fill)
 
 {% end %}

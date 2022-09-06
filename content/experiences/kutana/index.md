@@ -11,6 +11,6 @@ extra:
 
 {% row(style="center" margin="none" bgColor="#f2f2f2" bgStyle="hero") %}
 
-![Quantum](KUTANA.png#fill)
+![Kutana](Kutana.png#fill)
 
 {% end %}
