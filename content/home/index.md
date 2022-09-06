@@ -31,7 +31,11 @@ FreeFlow is the new internet, where you own your data, and security and privacy 
 
 |||
 
-Earn revenue by plugging in a FreeFlow Node and generating internet capacity for the world.
+<br>
+
+### Earn revenue by plugging in a FreeFlow Node and generating internet capacity for the world.
+
+<br>
 
 <button>[TAKE PART]("/take-part")</button>
 
@@ -47,7 +51,7 @@ Earn revenue by plugging in a FreeFlow Node and generating internet capacity for
 
 ![FF Logo](FFAsset7.png#fill) 
 
-The FreeFlow Twin is your unique NFT-based identification to access any information hosted on the FreeFlow Grid.
+### The FreeFlow Twin is your unique NFT-based identification to access any information hosted on the FreeFlow Grid.
 
 <button>[GET MY TWIN]("/twin")</button>
 
@@ -61,7 +65,7 @@ The FreeFlow Twin is your unique NFT-based identification to access any informat
 
 |||
 
-We are all achieving this vision together.  Find out more about what the world looks like with FreeFlow.
+### We are all achieving this vision together.  Find out more about what the world looks like with FreeFlow.
 
 <button>[VISION FREEFLOW]("/vision")</button>
 
