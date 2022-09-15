@@ -30,7 +30,7 @@ weight: 3
 ![FF Logo](nodify_small.png#mx-auto) 
 
 
-<button>[KNOW MORE](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">KNOW MORE</button>
 
 {% end %}
 
@@ -55,13 +55,21 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 <br>
 
 
-<button>[FULL DETAILS](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
-
-
-
-
-
-
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
 
 {% end %}
 
+{% row(style="center" margin="moderate" bgColor="#EAE8E3" bgStyle="hero") %}
+
+## THE FREEFLOW INTERNET <br> IS GROWING FAST
+
+![FreeFlow map](map.png#mx-auto)
+
+{% end %}
+
+
+{% grid_stats() %}
+
+## THE FREEFLOW INTERNET <br> IS GROWING FAST
+
+{% end %}
