@@ -9,65 +9,67 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgPath="FFAsset3.png" bgStyle="hero") %}
+{% row(style="center" margin="tight" bgPath="bg_home.jpg" bgStyle="hero") %}
 
 <br>
 
-![FF Logo](FFAsset4.png#medium#mx-auto) 
+<br>
 
 <br>
 
-FreeFlow is the new internet, where you own your data, and security and privacy is just not an issue.  Formed by people just like you, the FreeFlow movement is now truly global.
+![FF Logo](f_logo_small.png#mx-auto)
 
-<button>[TAKE PART]("/take-part")</button>
+<br>
+
+
+
+
+
+## A SOVEREIGN DIGITAL <br> LIFE IS NOW HERE
+
+### **FOR ALL OF US**
+
+
+Imagine having the power to control every aspect of your digital life.  It is now possible.
+
+<button>[KNOW MORE]("/take-part")</button>
 
 {% end %}
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#eae8e2" margin="moderate") %}
+{% row(style="center" bgColor="#F5F1ED" margin="moderate") %}
 
-![FreeFlow Life](FFAsset5.png#fill)
+<br>
+
+## THE FREEFLOW <br> VISION.
+
+### Our vision is to the create a better digital life
+
+We are on our way to achieve this vision by setting up a new internet, a global network of decentralized compute and storage and by creating a safer and more private digital identity for everyone. 
+
+<br>
+
+
+<button>[MORE DETAILS]("/vision")</button>
 
 |||
 
-<br>
 
-### Earn revenue by plugging in a FreeFlow Node and generating internet capacity for the world.
 
-<br>
-
-<button>[TAKE PART]("/take-part")</button>
+![FreeFlow Life](ff_vision.png#fill)
 
 {% end %}
-
-{% row(style="center" margin="moderate" bgColor="#F2EDE8") %}
-
-![FF Logo](FFAsset9.png#fill) 
-
-{% end %}
-
-{% row(style="center" margin="tight") %}
-
-![FF Logo](FFAsset7.png#fill) 
-
-### The FreeFlow Twin is your unique NFT-based identification to access any information hosted on the FreeFlow Grid.
-
-<button>[GET MY TWIN]("/twin")</button>
-
-{% end %}
-
-<!-- section 3 (ECOSYSTEM) -->
 
 {% row(style="center" margin="moderate") %}
 
-![FreeFlow Ecosystem](FFAsset8.png)
+## JOIN THE <br> MOVEMENT
 
-|||
+### **FreeFlow invites you to your new sovereign digital life.**
 
-### We are all achieving this vision together.  Find out more about what the world looks like with FreeFlow.
-
-<button>[VISION FREEFLOW]("/vision")</button>
 
 {% end %}
+
+
+
 

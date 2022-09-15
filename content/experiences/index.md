@@ -13,9 +13,15 @@ weight: 4
 
 <br>
 
-![FF Logo](tf_experience.png#medium#mx-auto) 
+<br>
 
 <br>
+
+![FF Logo](tf_experience_small.png#mx-auto) 
+
+<br>
+
+
 
 ## THE FREEFLOW <br> EXPERIENCES
 
