@@ -11,13 +11,11 @@ weight: 3
 
 {% row(style="center" margin="moderate" bgColor="#FCFBF9" bgStyle="hero") %}
 
-
 <br>
 
 <br>
 
 <br>
-
 
 ## NODIFY {#text-9xl}
 
@@ -27,20 +25,17 @@ weight: 3
 
 <br>
 
-![FF Logo](nodify_small.png#mx-auto) 
+![FF Logo](nodify_small.png#mx-auto)
 
+ 
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">KNOW MORE</button>
 
 {% end %}
 
-
-
 <!-- section 2 (BE THE INTERNET) -->
 
 {% row(bgColor="#F5F1ED" margin="moderate") %}
-
-
 
 ![FreeFlow Life](be_the-internet.png)
 
@@ -48,12 +43,9 @@ weight: 3
 
 ## BE THE <br> INTERNET
 
-
-
 By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users. 
 
 <br>
-
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
 
@@ -67,9 +59,21 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 {% end %}
 
-
 {% grid_stats() %}
 
+## THE FREEFLOW INTERNET <br> IS GROWING FAST
+
+{% end %}
+
+{% row(style="center" bgColor="#F2EDE8") %}
+
+## EARN
+
+Provide the compute, storage and network capacity needed to <br />store data and run applications on the FreeFlow Grid and start earning
+
+{% end %}
+
+{% earn_sec() %}
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
 
 {% end %}
