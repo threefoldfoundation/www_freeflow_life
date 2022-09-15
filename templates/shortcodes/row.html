@@ -46,6 +46,14 @@ Parameters:
 
 {% set col_class = "flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12 " %}
 
+
+{% set row_id = '' %}
+
+{% if id %}
+{% set row_id = id %}
+
+{% endif %}
+
 <!-- Margins -->
 
 {% set margin_class = " mx-4 md:mx-16 lg:mx-24" %}
@@ -154,8 +162,8 @@ Parameters:
 {% set no_margins = " -mx-8 md:-mx-12 lg:-mx-16 xl:-mx-20" %}
 
 
-<div id="{{anchor_link}}" class="{{'w-screen relative justify-center flex ' ~ div_class }}" style="{{styles}}">
-    <div class="{{row_class}}" style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        <div id="{{anchor_link}}" class="{{'w-screen relative justify-center flex ' ~ div_class }}" style="{{styles}}">
+            <div id="{{row_id}}" class="{{row_class}}" style="min-width: -webkit-fill-available; min-width: -moz-available"> 
         
         {% for column in columns%} 
 
