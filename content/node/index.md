@@ -9,57 +9,59 @@ weight: 3
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="moderate" bgStyle="hero") %}
+{% row(style="center" margin="moderate" bgColor="#FCFBF9" bgStyle="hero") %}
+
 
 <br>
+
 <br>
 
-![FF Logo](node1.png#fill) 
+<br>
+
+
+## NODIFY {#text-9xl}
+
+### Add decentralized capacity to <br> the new internet and earn. 
+
+<br>
+
+<br>
+
+![FF Logo](nodify_small.png#mx-auto) 
+
+
+<button>[KNOW MORE](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
 
 {% end %}
 
-{% row(style="center" margin="tight" bgColor="#F2EDE8") %}
 
-## EARN.{#text-9xl}
 
-Provide the compute, storage and network capacity needed to store data and run applications on the FreeFlow Grid and start earning.
+<!-- section 2 (BE THE INTERNET) -->
 
-{% end %}
+{% row(bgColor="#F5F1ED" margin="moderate") %}
 
-{% row(style="center" margin="moderate" bgColor="#F2EDE8") %}
 
-![FF Logo](node2.png#fill) 
 
-{% end %}
-
-{% row(margin="moderate") %}
-
-![FF Logo](node3.png#fill) 
+![FreeFlow Life](be_the-internet.png)
 
 |||
 
-## BE THE <br> INTERNET.{#text-9xl}
+## BE THE <br> INTERNET
 
-### By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users.
 
-{% end %}
 
-{% row(style="center" margin="moderate" bgColor="#F2EDE8") %}
+By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users. 
 
-![FF Logo](node4.png#fill) 
+<br>
 
-{% end %}
 
-{% row(margin="moderate" bgColor="#F7F4F1") %}
+<button>[FULL DETAILS](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
 
-## LET'S <br> FREEFLOW. {#text-9xl}
 
-### The FreeFlow Node was designed to fit any home or office. It is packed with performance for its price and doesn’t require any technical knowledge. Just order, plug it in and start earning!
 
-<button>[GET A NODE]("/")</button>
 
-|||
 
-![FF Logo](node5.png#fill) 
+
 
 {% end %}
+
