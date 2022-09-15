@@ -6,18 +6,16 @@ updated: 2021-02-20
 draft: false
 weight: 5
 ---
-<!-- section 1 (header) -->
+{% row(style="center" margin="moderate") %}
 
-{% row(style="center") %}
+## JOIN THE <br> MOVEMENT
 
-<a href="">![Node Image](takepart1.png)</a>
+### **FreeFlow invites you to your new <br />sovereign digital life.**
 
-|||
+{% end %}
 
-<a href="">![Node Image](takepart2.png)</a>
+{% featured_stories() %}
 
-|||
-
-<a href="">![Node Image](takepart3.png)</a>
+## Join The Movement
 
 {% end %}
