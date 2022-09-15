@@ -32,13 +32,13 @@ weight: 0
 
 Imagine having the power to control every aspect of your digital life.  It is now possible.
 
-<button>[KNOW MORE](/take-part)</button>
+<button>[KNOW MORE](#fflow_vision)</button>
 
 {% end %}
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center" bgColor="#F5F1ED" margin="moderate") %}
+{% row(style="center" bgColor="#F5F1ED" margin="moderate" id="fflow_vision") %}
 
 <br>
 
@@ -51,7 +51,7 @@ We are on our way to achieve this vision by setting up a new internet, a global 
 <br>
 
 
-<button>[MORE DETAILS]("/vision")</button>
+<button>[MORE DETAILS](/vision)</button>
 
 |||
 

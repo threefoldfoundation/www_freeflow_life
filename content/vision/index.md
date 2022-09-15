@@ -19,13 +19,13 @@ weight: 1
 
 A global network of decentralized compute and storage that fuels unparalleled privacy, impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
 
-<button>[KNOW MORE](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
+<button>[KNOW MORE](/vision/#fflow_grid)</button>
 
 {% end %}
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#f0ece8" margin="moderate") %}
+{% row(bgColor="#f0ece8" margin="moderate" id="fflow_grid") %}
 
 ![FF LIFE](vision2.png#fill)
 
@@ -105,7 +105,7 @@ Each application is decentralized and allows users a fully private and secure ex
 
 ### Play your part in the rise of the new digital life. 
 
-<button>[TAKE PART]("/take-part")</button>
+<button>[TAKE PART](/take-part)</button>
 
 <br>
 
