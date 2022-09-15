@@ -13,7 +13,7 @@ weight: 2
 
 <br>
 
-<br>
+
 
 ### THE FREEFLOW TWIN
 
@@ -23,14 +23,18 @@ weight: 2
 
 The FreeFlow Twin is your new digital identity.
 
-<button>[KNOW MORE]("/twin")</button>
-<button>[GET THE TWIN]("/twin")</button>
+<button>[KNOW MORE](/twin/#identity)</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
 |||
 
 <br>
 
 <br>
+
+<br>
+
+
 
 ![FF TWIN](twin_header.png)
 
@@ -41,17 +45,19 @@ The FreeFlow Twin is your new digital identity.
 <!-- section 2  -->
 
 
-{% row(style="center" bgColor="#F5F1ED" margin="wide") %}
+{% row(style="center" bgColor="#F5F1ED" margin="wide" id="identity") %}
 
 ![FF LIFE](twin3.png)
 
 |||
 
+
+### **THE FREEFLOW KEY**
+
 ## NFT BASED <br> AUTHENTICATION
 
-Your digital identity is an NFT known as the FreeFlow Key.
-
-This ultra-secure and unique attribute allows you to stay completely safe while accessing all the different functions offered via the FreeFlow Twin.
+Your Twin is accessed through a unique NTF Know as the FreeFlow Key, an ultra-secure and unique attribute allows you to stay completely safe and private.
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
 
 {% end %}
 
@@ -81,7 +87,7 @@ Your FreeFlow Twin comes with endless skills and capabilities.
 
 Communicate, network and collaborate with anyone without worrying about data breaches and identiy theft.  Experience the feeling of freedom.
 
-<button>[THE EXPERIENCES]("/experiences")</button>
+<button>[THE EXPERIENCES](/experiences)</button>
 
 {% end %}
 
@@ -95,7 +101,7 @@ Your FreeFlow Twin is the only place where your dispersed data is reassemled.
 
 This model completely alliviates the concerns of the centralized data center model.
 
-<button>[COMPARE MODELS]("/")</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/mytwin/intro/twin_architecture.html', '_blank')">ARCHITECTURE</button>
 
 |||
 
@@ -128,7 +134,8 @@ This ultra-sustainable approach allows the system to easily scale without being 
 
 Become the center of your digital life and <br> experience complete control.  Get your FreeFlow key now!
 
-<button>[GET THE TWIN](https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html)</button>
+
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
 
 
