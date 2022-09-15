@@ -9,13 +9,37 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="twin1.png" bgStyle="hero") %}
+{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero") %}
 
-![FF TWIN](twin2.png)
+<br>
 
+<br>
+
+### THE FREEFLOW TWIN
+
+## control every <br> aspect of your <br> digital life
+
+
+
+The FreeFlow Twin is your new digital identity.
+
+<button>[KNOW MORE]("/twin")</button>
 <button>[GET THE TWIN]("/twin")</button>
 
+|||
+
+<br>
+
+<br>
+
+![FF TWIN](twin_header.png)
+
+
+
 {%end%}
+
+<!-- section 2  -->
+
 
 {% row(style="center" bgColor="#F5F1ED" margin="wide") %}
 
@@ -93,20 +117,19 @@ This ultra-sustainable approach allows the system to easily scale without being 
 
 {% end %}
 
-{% row(style="center" bgColor="#EFEDEB" margin="moderate" css="!pb-0") %}
 
-![FF LIFE](twin6.png#fill)
+{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
 
-{% end %}
-
-{% row(style="center" bgColor="#EFEDEB" margin="none" css="!pt-0") %}
+![FF LIFE](digital_life.png)
 
 |||
 
-Become the center of your digital life and experience complete control. Get your FreeFlow key now!
+## OWN YOUR <br> DIGITAL LIFE
+
+Become the center of your digital life and <br> experience complete control.  Get your FreeFlow key now!
 
 <button>[GET THE TWIN]("/")</button>
 
-|||
+
 
 {% end %}
