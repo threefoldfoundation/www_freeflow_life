@@ -57,7 +57,7 @@ The FreeFlow Twin is your new digital identity.
 ## NFT BASED <br> AUTHENTICATION
 
 Your Twin is accessed through a unique NTF Know as the FreeFlow Key, an ultra-secure and unique attribute allows you to stay completely safe and private.
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
+<button class="flex mx-auto" onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
 
 {% end %}
 

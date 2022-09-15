@@ -71,7 +71,7 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 {% end %}
 
-{% row(margin="moderate") %}
+{% row(margin="moderate" bgColor="#fff") %}
 
 ![FF LIFE](vision8.png#fill)
 
@@ -89,7 +89,7 @@ Each application is decentralized and allows users a fully private and secure ex
 
 {% end %}
 
-{% row(style="center" margin="narrow") %}
+{% row(style="center" margin="narrow" bgColor="#fff") %}
 
 ![FF LIFE](vision10.png#fill)
 

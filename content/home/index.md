@@ -61,7 +61,7 @@ We are on our way to achieving this vision by setting up a new internet, a globa
 
 {% end %}
 
-{% row(style="center" margin="moderate") %}
+{% row(style="center" margin="moderate" bgColor="#fff") %}
 
 ## JOIN THE <br> MOVEMENT
 
