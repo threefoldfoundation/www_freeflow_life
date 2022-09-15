@@ -57,7 +57,7 @@ We are on our way to achieve this vision by setting up a new internet, a global 
 
 
 
-![FreeFlow Life](ff_vision.png#fill)
+![FreeFlow Life](ff_vision.png)
 
 {% end %}
 
