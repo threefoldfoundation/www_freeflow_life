@@ -32,7 +32,7 @@ weight: 0
 
 Imagine having the power to control every aspect of your digital life.  It is now possible.
 
-<button>[KNOW MORE]("/take-part")</button>
+<button>[KNOW MORE](/take-part)</button>
 
 {% end %}
 
@@ -67,6 +67,11 @@ We are on our way to achieve this vision by setting up a new internet, a global 
 
 ### **FreeFlow invites you to your new sovereign digital life.**
 
+{% end %}
+
+{% featured_stories() %}
+
+## Join The Movement
 
 {% end %}
 
