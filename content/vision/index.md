@@ -9,11 +9,17 @@ weight: 1
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="FFVISIONAsset_20.png" bgStyle="hero" margin="tight") %}
+{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero" margin="tight") %}
 
-![FF TWIN](vision1.png#fill)
+<br>
+
+<br>
+
+![FF TWIN](vision_header.png#mx-auto)
 
 A global network of decentralized compute and storage that fuels unparalleled privacy, impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
+
+<button>[KNOW MORE](https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html)</button>
 
 {% end %}
 
@@ -33,6 +39,8 @@ People just like you deploy the FreeFlow Node is residential and commercial unit
 
 Our unique operating system interconnects these nodes to create the FreeFlow Grid, your own sovereign and decentralized Internet. 
 
+<button>[KNOW MORE](/node)</button>
+
 {% end %}
 
 {% row(style="center" bgColor="#f0ece8" margin="narrow") %}
@@ -50,6 +58,8 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 The FreeFlow Twin allows users to access the applications and programs on the FreeFlow Grid.  
 
 By eliminating the need for centralized servers, the FreeFlow Twin allows you, the user, to be the only central point of data accumulation, making YOU the server.
+
+<button>[KNOW MORE](/twin)</button>
 
 <br>
 
@@ -79,6 +89,8 @@ Numerous applications and programs are immediately available to users of the Fre
 
 Each application is decentralized and allows users a fully private and secure experience.
 
+<button>[KNOW MORE](/experiences)</button>
+
 {% end %}
 
 {% row(style="center" margin="narrow") %}
@@ -89,11 +101,11 @@ Each application is decentralized and allows users a fully private and secure ex
 
 {% row(style="center" margin="tight" bgColor="#f9f8f6") %}
 
-![FF LIFE](vision11.png#fill)
+![FF LIFE](be_with_us.png#mx-auto)
 
 ### Play your part in the rise of the new digital life. 
 
-<button>[TAKE PART]("/experiences")</button>
+<button>[TAKE PART]("/take-part")</button>
 
 <br>
 
