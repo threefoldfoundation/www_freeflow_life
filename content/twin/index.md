@@ -128,7 +128,7 @@ This ultra-sustainable approach allows the system to easily scale without being 
 
 Become the center of your digital life and <br> experience complete control.  Get your FreeFlow key now!
 
-<button>[GET THE TWIN]("/")</button>
+<button>[GET THE TWIN](https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html)</button>
 
 
 
