@@ -44,9 +44,9 @@ Imagine having the power to control every aspect of your digital life.  It is no
 
 ## THE FREEFLOW <br> VISION.
 
-### Our vision is to the create a better digital life
+### Our vision is to the create a better digital life.
 
-We are on our way to achieve this vision by setting up a new internet, a global network of decentralized compute and storage and by creating a safer and more private digital identity for everyone. 
+We are on our way to achieving this vision by setting up a new internet, a global network of decentralized compute and storage and by creating a safer and more private digital identity for everyone. 
 
 <br>
 

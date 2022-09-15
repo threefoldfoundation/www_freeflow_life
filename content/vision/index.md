@@ -11,10 +11,6 @@ weight: 1
 
 {% row(style="center" bgPath="bg_home.jpg" bgStyle="hero" margin="tight") %}
 
-<br>
-
-<br>
-
 ![FF TWIN](vision_header.png#mx-auto)
 
 A global network of decentralized compute and storage that fuels unparalleled privacy, impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
@@ -51,7 +47,7 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 {% row(bgColor="#D9E7DF" margin="moderate") %}
 
-## YOUR FREEFLOW TWIN <br> PROVIDES YOU ACCESS
+## YOUR FREEFLOW TWIN <br /> PROVIDES YOU ACCESS
 
 <br>
 

@@ -11,12 +11,6 @@ weight: 4
 
 {% row(style="center" margin="tight" bgPath="bg_home.jpg" bgStyle="hero") %}
 
-<br>
-
-<br>
-
-<br>
-
 ![FF Logo](tf_experience_small.png#mx-auto) 
 
 <br>

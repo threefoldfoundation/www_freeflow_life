@@ -105,7 +105,7 @@ img[src*="#tft_img"] {
     @apply text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold leading-none my-4;
     font-family: "BebasNeue", sans-serif;
     line-height: 0.8;
-    font-size:5rem
+    font-size:4.5rem
   }
   h2 strong {
     @apply font-medium;
@@ -142,7 +142,7 @@ img[src*="#tft_img"] {
     @apply inline-block
     text-base
     lg:text-lg
-    px-12
+    px-8
     py-1
     mr-5
     my-10
@@ -151,15 +151,15 @@ img[src*="#tft_img"] {
   }
 }
 
-button:hover :is(:where(a)) {
+button:hover  {
   color: #984210;
 }
 
-button :is(:where(a)) {
+button  {
 font-weight: 500;
 }
 
-button :is(:where(p)) {
+button {
   font-weight: 400;
 }
 
@@ -368,6 +368,11 @@ header {
 .header:hover .back {
   transform: none;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
 @media (max-width: 640px) {
   .banner h2 {
     font: 600 7vw/10vw;
@@ -386,5 +391,9 @@ header {
   .banner,
   .header {
     padding: 80px 0;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 }
