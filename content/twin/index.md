@@ -63,7 +63,7 @@ Your Twin is accessed through a unique NTF Know as the FreeFlow Key, an ultra-se
 
 <!-- section 3 (oldnew) -->
 
-{% row(style="center" margin="narrow") %}
+{% row(style="center" margin="narrow" padding="top") %}
 
 ## DO ANYTHING. <br> DO EVERYTHING.
 
@@ -71,7 +71,7 @@ Your FreeFlow Twin comes with endless skills and capabilities.
 
 {% end %}
 
-{% row(style="center" margin="narrow") %}
+{% row(style="center" margin="narrow" padding="bottom") %}
 
 ![Twin Capabilities](twin4.png)
 

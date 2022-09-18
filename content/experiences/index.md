@@ -9,15 +9,15 @@ weight: 4
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgPath="bg_home.jpg" bgStyle="hero") %}
+{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="hero") %}
 
 ![FF Logo](tf_experience_small.png#mx-auto) 
+
 
 <br>
 
 
-
-## THE FREEFLOW <br> EXPERIENCES
+## THE FREEFLOW EXPERIENCES
 
 Fully decentralized and completely secure applications built to enable and to empower.
 

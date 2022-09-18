@@ -6,7 +6,7 @@ updated: 2021-02-20
 draft: false
 weight: 5
 ---
-{% row(style="center" margin="moderate") %}
+{% row(style="center" margin="moderate" padding="top") %}
 
 ## JOIN THE <br> MOVEMENT
 

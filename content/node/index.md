@@ -51,7 +51,7 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 {% end %}
 
-{% row(style="center" margin="moderate" bgColor="#EAE8E3" bgStyle="hero") %}
+{% row(style="center" margin="moderate" padding="top" bgColor="#EAE8E3" bgStyle="hero") %}
 
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
 
@@ -65,7 +65,7 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 {% end %}
 
-{% row(style="center" bgColor="#F2EDE8") %}
+{% row(style="center" bgColor="#F2EDE8" padding="top") %}
 
 ## EARN
 

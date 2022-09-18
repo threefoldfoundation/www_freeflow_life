@@ -21,7 +21,7 @@ A global network of decentralized compute and storage that fuels unparalleled pr
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#f0ece8" margin="moderate" id="fflow_grid") %}
+{% row(bgColor="#f0ece8" margin="moderate" padding="top" id="fflow_grid") %}
 
 ![FF LIFE](vision2.png#fill)
 
@@ -39,13 +39,13 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 {% end %}
 
-{% row(style="center" bgColor="#f0ece8" margin="narrow") %}
+{% row(style="center" bgColor="#f0ece8" margin="narrow" padding="bottom") %}
 
 ![FF LIFE](vision5.png#fill)
 
 {% end %}
 
-{% row(bgColor="#D9E7DF" margin="moderate") %}
+{% row(bgColor="#D9E7DF" margin="moderate" padding="top") %}
 
 ## YOUR FREEFLOW TWIN <br /> PROVIDES YOU ACCESS
 
@@ -65,13 +65,13 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 {% end %}
 
-{% row(bgColor="#D9E7DF" margin="narrow") %}
+{% row(bgColor="#D9E7DF" margin="narrow" padding="bottom") %}
 
 ![FF LIFE](vision7.png#fill)
 
 {% end %}
 
-{% row(margin="moderate" bgColor="#fff") %}
+{% row(margin="moderate" bgColor="#fff" padding="top") %}
 
 ![FF LIFE](vision8.png#fill)
 
@@ -89,7 +89,7 @@ Each application is decentralized and allows users a fully private and secure ex
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#fff") %}
+{% row(style="center" margin="narrow" bgColor="#fff" padding="bottom") %}
 
 ![FF LIFE](vision10.png#fill)
 
