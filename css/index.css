@@ -93,6 +93,11 @@ img[src*="#tft_img"] {
   width: 200px;
 }
 
+.advance{
+
+  font-family: "BebasNeue";
+}
+
 @layer components {
   h1, #h1  {
     @apply text-4xl md:text-4xl lg:text-6xl leading-none font-normal my-4;
