@@ -9,13 +9,9 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="tight" bgPath="bg_home.jpg" bgStyle="hero") %}
+{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="hero") %}
 
-<br>
 
-<br>
-
-<br>
 
 ![FF Logo](f_logo_small.png#mx-auto)
 
@@ -48,7 +44,7 @@ Imagine having the power to control every aspect of your digital life.  It is no
 
 We are on our way to achieving this vision by setting up a new internet, a global network of decentralized compute and storage and by creating a safer and more private digital identity for everyone. 
 
-<br>
+
 
 
 <button>[MORE DETAILS](/vision)</button>

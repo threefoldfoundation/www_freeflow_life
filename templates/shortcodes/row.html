@@ -69,6 +69,8 @@ Parameters:
         {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-40" %}
     {% elif "tight" in margin %}
         {% set margin_class = " mx-20 sm:mx-32 md:mx-40 lg:mx-80 xl:mx-96" %}
+    {% elif "header" in margin %}
+        {% set margin_class = " mx-12 sm:mx-20 md:mx-28 lg:mx-40 my-10" %}
     {% endif %}
     {% if "lean-left" in margin %}
         {% set margin = margin_class | replace(from=" ", to=" first:")%}

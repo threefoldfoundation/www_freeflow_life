@@ -2,7 +2,7 @@
 base_url = "https://www2.freeflow.life"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
-title = "ThreeFold"
+title = "FreeFlow"
 description="Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.

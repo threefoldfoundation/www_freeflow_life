@@ -9,11 +9,11 @@ weight: 1
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero" margin="tight") %}
+{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero" margin="header") %}
 
-![FF TWIN](vision_header.png#mx-auto)
+![FF TWIN](vision_header.png#medium#mx-auto)
 
-A global network of decentralized compute and storage that fuels unparalleled privacy, impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
+A global network of decentralized compute and storage that fuels unparalleled privacy, <br> impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
 
 <button>[KNOW MORE](/vision/#fflow_grid)</button>
 
