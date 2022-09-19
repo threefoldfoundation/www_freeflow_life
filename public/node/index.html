@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+
+    
+
+
+
+
+
+<head>
+  <meta name="generator" content="Zola v.0.13.0 - getzola.org" />
+
+  
+  
+  <title>Node &bull; FreeFlow</title>
+  <meta property="og:title" content="Node &bull; FreeFlow" />
+  
+  
+
+  <!-- Required meta categories -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- **** BEGINNING, favicons **** -->
+
+  <!-- generics -->
+
+  <!-- iOS -->
+
+  <!-- Android -->
+
+  <!-- Windows 8, IE 10 -->
+
+  <!-- Windows 8.1 and up, IE 11 -->
+
+  <!-- **** CONCLUSION, favicons **** -->
+
+  <!-- CSS/SCSS -->
+  <link rel="stylesheet" href="https://www2.freeflow.life/css/index.css?h=74b7e51240071fda414650715349ae534a7a6ee9d014b734be64908336fd217a" />  <style>@-moz-document url-prefix() {.lazy:-moz-loading {visibility:hidden;}}.ieOnly {display: none;}@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {.ieOnly {display: block;}}</style>
+  
+</head>
+
+    
+    <body>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+--><!-- This example requires Tailwind CSS v1.4.0+ -->
+
+<script type="text/javascript">
+    
+    var displayedMenu = "";
+    var hamburgerShown = false;
+    let width = screen.width;
+    var isMobile = width < 1024;
+
+    function toggleMenu(button) {
+        if (displayedMenu === button.id.split("-")[0]) { 
+            button.className = button.className.replace(" text-blue-500 bg-stone-200 sm:bg-transparent", " text-gray-900");
+            hideMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("rotate-0", "-rotate-90")
+            displayedMenu = "";
+        }
+        else { 
+            showMenu(button.id.split("-")[0]);
+            button.lastElementChild.className = button.lastElementChild.className.replace("-rotate-90", "rotate-0")
+            button.className = button.className.replace(" text-gray-900", " text-blue-500 bg-stone-200 sm:bg-transparent");
+            displayedMenu = button.id.split("-")[0]
+        }
+    }
+
+    function handleClick(button) {
+        if (button.id === "hamburger-btn" || button.id === "close-hamburger-btn") { toggleHamburger() }
+        if (button.id.indexOf("menu") !== -1 ) { 
+            toggleMenu(button) 
+        }
+    }
+
+    function toggleHamburger() {
+        if (hamburgerShown) { 
+            hideHamburger();
+            hamburgerShown = false;
+        }
+        else { 
+            showHamburger();
+            hamburgerShown = true;
+        }
+    }
+
+    function showMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuBtnId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace(" hidden" , "");
+        setTimeout(function() { menuElement.className = menuElement.className.replace("duration-200 ease-in opacity-0 -translate-y-1", "duration-150 ease-out opacity-1 -translate-y-0"); }, 10);
+    }
+
+    function hideMenu(menuName) {
+        var menuId = menuName + (isMobile ? '-mobile-menu' : '-menu');
+        var menuElement = document.getElementById(menuId)
+        menuElement.className = menuElement.className.replace("duration-150 ease-out opacity-1 -translate-y-0", "duration-200 ease-in opacity-0 -translate-y-1");
+        setTimeout(function() { menuElement.className = menuElement.className + " hidden" }, 300);
+    }
+
+    function showHamburger() {
+        document.getElementById('header-container').className = "overflow-hidden";
+        document.getElementById('hamburger').className = "fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right";
+        document.getElementById('hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+    }
+
+    function hideHamburger() {
+        document.getElementById('header-container').className = "";
+        document.getElementById('hamburger').className = "hidden absolute z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden";
+        document.getElementById('hamburger-btn').className = "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        document.getElementById('close-hamburger-btn').className = "hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2";
+        if (displayedMenu !== "") { hideMenu(displayedMenu); }
+    }
+
+    window.onload = function(){
+        let elements = document.getElementsByTagName("button");
+        let buttons = [...elements]
+        buttons.forEach((button) => {
+            button.addEventListener( 'click', function() { handleClick(button) });
+        })
+        document.getElementById("mobile-learn-btn").addEventListener( 'click', toggleMenu);
+    }
+
+</script>
+
+
+<!-- set variables used for header template -->
+
+
+
+
+
+    <header id="header-container">
+        
+        <div class="z-10 bg-white fixed w-screen freeflow">
+            <div class="relative z-50 shadow">
+            <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pr-0 lg:py-5  md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+                <div>
+                    <a href="/" class="flex">
+                        <img class="w-48 h-auto sm:w-15" src="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;images&#x2F;ff_logo.png" alt="FreeFlow Logo" />
+                    </a>
+                </div>
+                <div class="-mr-2 -my-2 lg:hidden">
+                    <button id="hamburger-btn" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                        <!-- Heroicon name: menu -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                <button id="close-hamburger-btn" type="button" class="hidden lg:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out my-2">
+                    <!-- Heroicon name: x -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex-1 lg:flex lg:items-center lg:justify-end lg:space-x-12">
+                    <nav class="flex space-x-10">    
+                    
+                     
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;vision&#x2F;" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Vision
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;twin&#x2F;" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Twin
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;node&#x2F;" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Node
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;experiences&#x2F;" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Experiences
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    
+                        <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;take-part&#x2F;" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            Take Part
+                        </a>
+                        <div class="relative">
+                        </div>
+                    
+                    
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    
+        
+            <!--
+            Mobile menu, show/hide based on mobile menu state.
+        
+            Entering: "duration-200 ease-out"
+                From: "opacity-0 scale-95"
+                To: "opacity-100 scale-100"
+            Leaving: "duration-100 ease-in"
+                From: "opacity-100 scale-100"
+                To: "opacity-0 scale-95"
+            -->
+        <div id="hamburger" class="hidden fixed mt-16 z-20 top-0 inset-x-0 transition transform origin-top-right lg:hidden">
+            <div>
+                <div class="shadow-xs h-screen bg-white divide-y-2 divide-gray-50">
+                    <div class="pb-6 sm:px-12 md:px-16 lg:px-20 space-y-6 sm:space-y-8 sm:pb-8 max-h-screen overflow-y-auto">
+    
+                        <nav class="flex flex-col justify-around pb-12">
+                        
+                             
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;vision&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Vision
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;twin&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Twin
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;node&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Node
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;experiences&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Experiences
+                            </a>
+                            <hr/>
+                        
+                            
+                            
+                            <a href="https:&#x2F;&#x2F;www2.freeflow.life&#x2F;take-part&#x2F;" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                                Take Part
+                            </a>
+                            <hr/>
+                        
+                        
+                        
+                        </nav>                    
+                    </div>
+                
+            </div>
+            
+            </div>
+        </div>
+    
+    
+    </header>
+    
+
+
+
+
+        <div id="content" class="pt-8 mx-auto">
+            
+
+<main>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <div>
+        
+            <!-- section 1 (header) -->
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+    
+        
+    
+
+
+    
+    
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="w-screen relative justify-center flex   -mt-24 pt-12 " style="background-color: #FCFBF9; background-size: cover">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden lg:items-center py-8 md:py-8 lg:py-28 mx-8 sm:mx-16 md:mx-20 lg:mx-28 text-center items-center mx-auto " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12  flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <br>
+<br>
+<br>
+<h2 id="text-9xl">NODIFY</h2>
+<h3 id="add-decentralized-capacity-to-the-new-internet-and-earn">Add decentralized capacity to <br> the new internet and earn.</h3>
+<br>
+<br>
+<p><img src="https://www2.freeflow.life/node/nodify_small.png#mx-auto" alt="FF Logo" /></p>
+<p><button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">KNOW MORE</button></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div><!-- section 2 (BE THE INTERNET) -->
+<!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+    
+    
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="w-screen relative justify-center flex  " style="background-color: #F5F1ED; background-size: cover">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden lg:items-center py-8 md:py-8 lg:py-28 mx-8 sm:mx-16 md:mx-20 lg:mx-28 " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <p><img src="https://www2.freeflow.life/node/be_the-internet.png" alt="FreeFlow Life" /></p>
+
+                    
+                </div>
+            
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        
+<h2 id="be-the-internet">BE THE <br> INTERNET</h2>
+<p>By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users. </p>
+<br>
+<p><button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div><!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+    
+    
+        
+            
+            
+        
+            
+            
+            
+                
+            
+            
+        
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+    
+        
+    
+
+
+    
+    
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="w-screen relative justify-center flex   -mt-24 pt-12 " style="background-color: #EAE8E3; background-size: cover">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden lg:items-center py-2 md:py-4 lg:pt-28 mx-8 sm:mx-16 md:mx-20 lg:mx-28 text-center items-center mx-auto " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12  flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <h2 id="the-freeflow-internet-is-growing-fast">THE FREEFLOW INTERNET <br> IS GROWING FAST</h2>
+<p><img src="https://www2.freeflow.life/node/map.png#mx-auto" alt="FreeFlow map" /></p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div>
+
+
+
+
+
+
+<style>
+    .bg-map {
+        background-color: #EAE8E3;
+    }
+</style>
+<div class="bg-map pb-24">
+    <div class="relative max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
+            <div class=" overflow-hidden">
+                <div class="px-2 py-16">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <img src="/images/node_icon.png"  width="65" alt="">
+                        </div>
+                        <div class="ml-5 w-0 flex-1 pt-3">
+                            <dl>
+                                <dd class="flex items-baseline mb-5 ">
+                                    <div class="text-6xl advance leading-8 font-extrabold text-gray-900">
+                                        2717
+                                    </div>
+                                </dd>
+                                <dt class="text-2xl leading-8 uppercase font-medium text-gray-900 truncate">
+                                    freeflow nodes <br />deployed
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" overflow-hidden bg-no-repeat bg-center	bg-contain	text-center" style="background-image: url(&#x27;&#x2F;images&#x2F;ston_bg.png&#x27;);">
+                <div class="px-2 py-16">
+                    <div class="flex items-start">
+                        <div class="ml-5 w-0 flex-1 pt-3">
+                            <dl>
+                                <dd class="flex items-baseline mb-5 ">
+                                    <div class="text-6xl advance leading-8 mx-auto font-extrabold text-gray-900">
+                                        65
+                                    </div>
+                                </dd>
+                                <dt class="text-2xl leading-8 uppercase font-medium text-gray-900 truncate">
+                                    countries <br />involved
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" overflow-hidden">
+                <div class="px-2 py-16">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <img src="/images/capacity_icon.png" width="65" alt="">
+                        </div>
+                        <div class="ml-5 w-0 flex-1 pt-3">
+                            <dl>
+                                <dd class="flex items-baseline mb-5 ">
+                                    <div class="text-6xl advance leading-8 font-extrabold text-gray-900">
+                                        32900484563692500TB
+                                    </div>
+                                </dd>
+                                <dt class="text-2xl leading-8 uppercase font-medium text-gray-900 truncate">
+                                    capacity <br />generated
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- row shortcode 
+Shortcode used in markdown for the creation of mobile compatible vertical rows
+Divides markdown into columns by splitting content using column identifier "|||"
+Creates equal width blocks in a flex row.
+
+Parameters: 
+- style: 
+    - lean: if style is lean, the row doesn't have outer margins
+- bgPath: if bgPath is passed, the row has a full width background
+-->
+
+
+<!-- This fixes link & img paths in local, prod, and wth prefix -->
+
+    
+
+
+
+
+
+
+<!-- aligns columns depending on col number-->
+ 
+    
+
+
+
+
+
+
+
+
+
+<!-- Padding -->
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+<!-- Margins -->
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+
+     <!-- makes row semi-full screen width, strips margins -->
+    
+
+        <!-- makes row full screen width, strips margins -->
+    
+
+    
+    
+
+
+
+
+
+<!-- makes row full screen width and adds background img -->
+
+
+
+
+
+    
+    
+
+
+<!-- Cancels page margins so that rows can have separate margins -->
+
+
+
+        <div id="" class="w-screen relative justify-center flex  " style="background-color: #F2EDE8; background-size: cover">
+            <div id="" class="relative flex flex-col md:flex md:flex-row flex-wrap max-w-fit overflow-hidden lg:items-center py-2 md:py-4 lg:pt-28 mx-4 md:mx-16 lg:mx-24 text-center items-center mx-auto " style="min-width: -webkit-fill-available; min-width: -moz-available"> 
+        
+         
+
+            <!-- Hides empty columns if displayed vertically in small screen -->
+            
+                <div class="flex-1 mb-4 md:mb-12 lg:mb-0 lg:mx-8 xl:mx-12  flex-1 ">
+                    <!-- handles mermaid markdown content display -->
+
+                    
+                        <h2 id="earn">EARN</h2>
+<p>Provide the compute, storage and network capacity needed to <br />store data and run applications on the FreeFlow Grid and start earning</p>
+
+                    
+                </div>
+            
+        
+    </div>
+</div><style>
+    .bg_earn {
+        background-color: #F2EDE8;
+    }
+
+    .bg-boxs {
+        background-color: #f7f4f0;
+    }
+</style>
+<div class="relative px-4 sm:px-6 lg:pb-28 lg:px-8 bg_earn">
+    <div class="relative max-w-7xl mx-auto">
+        <div class="grid gap-5 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+
+            <div class="flex flex-col pb-10 rounded-lg shadow-lg overflow-hidden bg-boxs">
+                <div class="flex-shrink-0">
+                    <img class="h-full w-full object-cover" src="/images/1_plug_in.png" alt="" />
+                </div>
+                <div class="flex-1 p-6 flex flex-col justify-between text-center">
+                    <div class="flex-1">
+                        <div class="mt-3 leading-6 text-gray-900 text-2xl max-w-sm">All you need to get started is
+                            electricity, a network connection, and a FreeFlow Node</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col pb-10 rounded-lg shadow-lg overflow-hidden bg-boxs">
+                <div class="flex-shrink-0">
+                    <img class="h-full w-full object-cover" src="/images/2_offer_capacity.png" alt="" />
+                </div>
+                <div class="flex-1 p-6 flex flex-col justify-between text-center">
+                    <div class="flex-1">
+                        <div class="mt-3 leading-6 text-gray-900 text-2xl max-w-sm">Provide peer-to-peer storage and
+                            compute capacity to host humanity's edge workloads</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col pb-10 rounded-lg shadow-lg overflow-hidden bg-boxs">
+                <div class="flex-shrink-0">
+                    <img class="h-full w-full object-cover" src="/images/3_earn.png" alt="" />
+                </div>
+                <div class="flex-1 p-6 flex flex-col justify-between text-center">
+                    <div class="flex-1">
+                        <div class="mt-3 leading-6 text-gray-900 text-2xl max-w-sm">Earn in the most valuable and
+                            rapidly growing economy: the Internet and cloud</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="flex mx-auto uppercase"
+            onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_reward.html', '_blank')">see
+            rewards</button>
+    </div>
+</div>
+        
+    </div>
+
+ </main>     
+        </div>
+        <!--
+  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
+  Read the documentation to get started: https://tailwindui.com/documentation
+-->
+
+
+
+<footer class="bottom-0 mx-20">
+    
+        
+        <div class="freeflow -mx-20 pt-20">
+            <img src="https://www2.freeflow.life/images/footer_logo.png" alt="">
+            ALL RIGHTS RESERVED 2022
+        </div>
+    
+</footer>
+    </body>
+</html>
