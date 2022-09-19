@@ -71,9 +71,9 @@ Your FreeFlow Twin comes with all required skills and capabilities.
 
 {% end %}
 
-{% row(style="center" margin="narrow" padding="bottom") %}
+{% fflow_skills() %}
 
-![Twin Capabilities](twin4.png)
+## fflow_skills
 
 {% end %}
 

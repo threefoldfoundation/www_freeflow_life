@@ -40,9 +40,10 @@ Our unique operating system interconnects these nodes to create the FreeFlow Net
 
 {% end %}
 
-{% row(style="center" bgColor="#f0ece8" margin="narrow" padding="bottom") %}
 
-![FF LIFE](vision5.png#fill)
+{% fflow_grid() %}
+
+## fflow_grid
 
 {% end %}
 
@@ -65,13 +66,14 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 {% end %}
 
-{% row(bgColor="#D9E7DF" margin="narrow" padding="bottom") %}
 
-![FF LIFE](vision7.png#fill)
+{% fflow_twin() %}
+
+## fflow_twin
 
 {% end %}
 
-{% row(margin="moderate" bgColor="#fff" padding="top") %}
+{% row(margin="moderate" bgColor="#F9F8F6" padding="top") %}
 
 ![FF LIFE](vision8.png#fill)
 
@@ -89,9 +91,9 @@ Each experience is decentralized and allows users to be fully private and secure
 
 {% end %}
 
-{% row(style="center" margin="narrow" bgColor="#fff" padding="bottom") %}
+{% fflow_experiences() %}
 
-![FF LIFE](vision10.png#fill)
+## fflow_experiences
 
 {% end %}
 
