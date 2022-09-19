@@ -1,5 +1,5 @@
 # initialized and configures tailwind if not configured
-echo "Initializing tailwind..."
+echo "Build website..."
 if [[ ! -f "tailwind.config.js" ]]
 then
     ./tailwindcss init
@@ -7,7 +7,6 @@ then
 fi
 
 # compiles tailwind css for prod & builds project
-echo "Compiling tailwindcss and building zola project..."
 rm -rf public static/css
 ./tailwindcss -i css/index.css -o ./static/css/index.css --minify
 rm -rf docs
