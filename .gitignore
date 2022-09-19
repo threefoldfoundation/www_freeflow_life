@@ -24,6 +24,5 @@ dist
 .temp
 run*
 install*
-public
 static/css
 tailwindcss
