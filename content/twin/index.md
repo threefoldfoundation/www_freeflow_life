@@ -17,11 +17,11 @@ weight: 2
 
 ### THE FREEFLOW TWIN
 
-## control every <br> aspect of your <br> digital life
+## own every <br> aspect of your <br> digital life
 
 
 
-The FreeFlow Twin is your new digital identity.
+The FreeFlow Twin is your digital avatar.
 
 <button>[KNOW MORE](/twin/#identity)</button>
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
@@ -54,9 +54,9 @@ The FreeFlow Twin is your new digital identity.
 
 ### **THE FREEFLOW KEY**
 
-## NFT BASED <br> AUTHENTICATION
+## YOUR VALUABLE KEY <br> TO YOUR DIGITAL LIFE
 
-Your Twin is accessed through a unique NTF Know as the FreeFlow Key, an ultra-secure and unique attribute allows you to stay completely safe and private.
+To get access to your FreeFlow Twin you need a unique NTF known as a FreeFlow Key (FFK), these keys are valuable and unique.
 <button class="flex mx-auto" onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
 
 {% end %}
@@ -67,7 +67,7 @@ Your Twin is accessed through a unique NTF Know as the FreeFlow Key, an ultra-se
 
 ## DO ANYTHING. <br> DO EVERYTHING.
 
-Your FreeFlow Twin comes with endless skills and capabilities.
+Your FreeFlow Twin comes with all required skills and capabilities.
 
 {% end %}
 
@@ -85,7 +85,7 @@ Your FreeFlow Twin comes with endless skills and capabilities.
 
 ## FREE FLOWING <br> EXPERIENCES
 
-Communicate, network and collaborate with anyone without worrying about data breaches and identiy theft.  Experience the feeling of freedom.
+Communicate, Explore and Collaborate with you in the center of your digital life. Your twin can be used as alternative to Whatsapp, Google Drive, Zoom, Facebook, Linkedin, ...
 
 <button>[THE EXPERIENCES](/experiences)</button>
 
@@ -95,11 +95,11 @@ Communicate, network and collaborate with anyone without worrying about data bre
 
 ## THIS IS WHERE <br> DATA COMES <br> TOGETHER
 
-All of your data is always dispersed into different servers on the FreeFlow Grid.
+### Quantum Safe Data Storage System
 
-Your FreeFlow Twin is the only place where your dispersed data is reassemled.
+All your data is yours, can not be stolen, not corrupted nor lost. <br>Your data is usable over all your experiences. 
 
-This model completely alliviates the concerns of the centralized data center model.
+Your digital twin manages all of this for you. e.g. you can use same chat from your collaboration app or your metaverse exploration.
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/mytwin/intro/twin_architecture.html', '_blank')">ARCHITECTURE</button>
 
@@ -113,7 +113,7 @@ This model completely alliviates the concerns of the centralized data center mod
 
 ## RIDICULOUSLY <br> GREEN.
 
-A typical FreeFlow user consumes less than five watts to access their entire digital life. 
+A typical FreeFlow user consumes less than 1 watt to live their entire digital life. 
 
 This ultra-sustainable approach allows the system to easily scale without being a burden to the planet. 
 
@@ -130,9 +130,9 @@ This ultra-sustainable approach allows the system to easily scale without being 
 
 |||
 
-## OWN YOUR <br> DIGITAL LIFE
+## LETS GET STARTED<BR>OWN YOUR TWIN
 
-Become the center of your digital life and <br> experience complete control.  Get your FreeFlow key now!
+Become the center of your digital life and <br> Get your FreeFlow key now!
 
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>

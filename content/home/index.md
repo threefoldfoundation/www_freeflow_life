@@ -21,12 +21,12 @@ weight: 0
 
 
 
-## A SOVEREIGN DIGITAL <br> LIFE IS NOW HERE
+## FREEFLOW INTO<br> YOUR DIGITAL LIFE
 
-### **FOR ALL OF US**
+### **OWN YOUR DATA, DIGITAL SKILLS AND IDENTITY**
 
 
-Imagine having the power to control every aspect of your digital life.  It is now possible.
+It is now possible to own every aspect of your digital life.
 
 <button>[KNOW MORE](#fflow_vision)</button>
 
@@ -40,10 +40,9 @@ Imagine having the power to control every aspect of your digital life.  It is no
 
 ## THE FREEFLOW <br> VISION.
 
-### Our vision is to the create a better digital life.
+### Our vision is to create a more <br>safe and sovereign internet together.
 
-We are on our way to achieving this vision by setting up a new internet, a global network of decentralized compute and storage and by creating a safer and more private digital identity for everyone. 
-
+We dream about a global network of internet capacity <br>which can be the foundation for our digital life <br>where everyone can be equal and powerful, <br>where we don't have to be a product, <br> where information can be authentic.
 
 
 

@@ -13,7 +13,8 @@ weight: 1
 
 ![FF TWIN](vision_header.png#medium#mx-auto)
 
-A global network of decentralized compute and storage that fuels unparalleled privacy, <br> impenetrable security and provides everyone with endless opportunities and complete control of their digital lives.
+### provide a platform which allows us to restore the original intent of the Internet<br>where everyone is equal, communication is direct, secure and private<br>where you can trust the information presented<br>where everything is free without becoming a product.
+
 
 <button>[KNOW MORE](/vision/#fflow_grid)</button>
 
@@ -27,13 +28,13 @@ A global network of decentralized compute and storage that fuels unparalleled pr
 
 |||
 
-## IT STARTS WITH <br> THE FREEFLOW GRID
+## IT STARTS WITH <br> THE FREEFLOW NETWORK
 
 ![FF LIFE](vision3.png)
 
-People just like you deploy the FreeFlow Node is residential and commercial units.  
+People like you and me deploy FreeFlow Nodes to provide the required compute and storage capacity.  
 
-Our unique operating system interconnects these nodes to create the FreeFlow Grid, your own sovereign and decentralized Internet. 
+Our unique operating system interconnects these nodes to create the FreeFlow Network, our own sovereign and decentralized Internet. 
 
 <button>[KNOW MORE](/node)</button>
 
@@ -47,13 +48,12 @@ Our unique operating system interconnects these nodes to create the FreeFlow Gri
 
 {% row(bgColor="#D9E7DF" margin="moderate" padding="top") %}
 
-## YOUR FREEFLOW TWIN <br /> PROVIDES YOU ACCESS
+## GET YOUR FREEFLOW TWIN
+### YOU BECOME THE CENTER OF YOUR INTERNET.
 
-<br>
+The FreeFlow Twin allows everyone to experience a more sustainable and safe Internet Life.  
 
-The FreeFlow Twin allows users to access the applications and programs on the FreeFlow Grid.  
-
-By eliminating the need for centralized servers, the FreeFlow Twin allows you, the user, to be the only central point of data accumulation, making YOU the server.
+By eliminating the need for centralized servers, the FreeFlow Twin allows you, the user, to be the only central point of data accumulation, communication and execution of digital capabilities.
 
 <button>[KNOW MORE](/twin)</button>
 
@@ -77,13 +77,13 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 |||
 
-## EXPERIENCES <br> ARE BUILT
+## EXPERIENCES <br> ARE BEING CREATED
 
 <br>
 
-Numerous applications and programs are immediately available to users of the FreeFlow Grid.  
+Numerous applications (experiences) will be available soon to users of the FreeFlow Network.  
 
-Each application is decentralized and allows users a fully private and secure experience.
+Each experience is decentralized and allows users to be fully private and secure.
 
 <button>[KNOW MORE](/experiences)</button>
 
@@ -99,7 +99,7 @@ Each application is decentralized and allows users a fully private and secure ex
 
 ![FF LIFE](be_with_us.png#mx-auto)
 
-### Play your part in the rise of the new digital life. 
+### Become part of this movement where we create <br>a new version of the internet with us in the center.
 
 <button>[TAKE PART](/take-part)</button>
 

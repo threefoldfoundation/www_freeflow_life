@@ -17,9 +17,9 @@ weight: 3
 
 <br>
 
-## NODIFY {#text-9xl}
+## DIGITAL FARMING {#text-8xl}
 
-### Add decentralized capacity to <br> the new internet and earn. 
+### Become a digital farmer for the FreeFlow network, <br>add decentralized storage and compute capacity, earn rewards. 
 
 <br>
 
@@ -43,7 +43,7 @@ weight: 3
 
 ## BE THE <br> INTERNET
 
-By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide billions of users. 
+By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide to billions of users. 
 
 <br>
 
@@ -54,6 +54,8 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 {% row(style="center" margin="moderate" padding="top" bgColor="#EAE8E3" bgStyle="hero") %}
 
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
+
+FreeFlow extends and has been built on top of the [threefold.io](http://www.threefold.io) project.
 
 ![FreeFlow map](map.png#mx-auto)
 
@@ -69,7 +71,7 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 ## EARN
 
-Provide the compute, storage and network capacity needed to <br />store data and run applications on the FreeFlow Grid and start earning
+Provide the compute, storage and network capacity needed to <br />store data and run applications on the FreeFlow Network and start earning
 
 {% end %}
 
