@@ -24,7 +24,7 @@ weight: 2
 The FreeFlow Twin is your digital avatar.
 
 <button>[KNOW MORE](/twin/#identity)</button>
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
 |||
 
@@ -135,7 +135,7 @@ This ultra-sustainable approach allows the system to easily scale without being 
 Become the center of your digital life and <br> Get your FreeFlow key now!
 
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
 
 
