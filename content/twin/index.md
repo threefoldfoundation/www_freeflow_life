@@ -4,222 +4,139 @@ description: ""
 date: 2018-09-14
 updated: 2021-02-20
 draft: false
-weight: 4
+weight: 2
 ---
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgColor="#F9F8F6") %}
+{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero") %}
 
-![FF TWIN](twin/FF_twin.png)
+<br>
+
+
+
+### THE FREEFLOW TWIN
+
+## own every <br> aspect of your <br> digital life
+
+
+
+The FreeFlow Twin is your digital avatar.
+
+<button>[KNOW MORE](/twin/#identity)</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
 |||
 
-### Introducing the Free Flow Twin
+<br>
 
 <br>
 
-## BECOME THE CENTER 
-
-## **OF YOUR DIGITAL LIFE**
-
-*_____________________*
-
 <br>
 
-Let's become the center of our own digital lives, free from external influences, manipulation and attacks. 
 
-<br>
 
-Let's progress our societies towards true freedom and absolute inclusion. by utilizing the power of decentralizing our data, storage and compute. 
+![FF TWIN](twin_header.png)
 
-{% end %}
 
-<!-- section 2 (FF LIFE) -->
 
-{% row(style="center" bgColor="#eae8e3" margin="wide") %}
+{%end%}
 
-![FF LIFE](twin/FF_life.png)
+<!-- section 2  -->
+
+
+{% row(style="center" bgColor="#F5F1ED" margin="wide" id="identity") %}
+
+![FF LIFE](twin3.png)
 
 |||
 
-## THE GATEWAY TO
 
-## THE FREEFLOW LIFE.
+### **THE FREEFLOW KEY**
 
-<br
+## YOUR VALUABLE KEY <br> TO YOUR DIGITAL LIFE
 
-The Free Flow Twin provdes you with access to decentralized alternatives to world's most popular applications. 
-
-<br>
-
-Every application is available for you and your society to utilize endlessly without ever worrying about online privacy. 
+To get access to your FreeFlow Twin you need a unique NTF known as a FreeFlow Key (FFK), these keys are valuable and unique.
+<button class="flex mx-auto" onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
 
 {% end %}
-
 
 <!-- section 3 (oldnew) -->
 
-{% row(style="center" bgColor="#EFEDEB" margin="narrow") %}
+{% row(style="center" margin="narrow" padding="top") %}
 
-## OUT WITH 
-## THE OLD... 
+## DO ANYTHING. <br> DO EVERYTHING.
 
-<br>
-
-Centralized hosting creates many obstacles in privacy and security. Due to most popular applications being hosted in large, centralized data centers, their users have limited control over their own digital identity. 
-
-<br>
-
-![CENTRALIZED](twin/centralized.png)
-
-<br>
-<br>
-<br>
-
-|||
-
-## YOU ARE 
-## THE SERVER 
-
-<br>
-
-Your FreeFlow Twin utlizes distributed and decentralized hosting. All functions, applications and capabilities of your FreeFlow Twin are part of your digital identity and __not stored in centralized servers.__ With the FreeFlow Twin, YOU become the server and the center of your online presence. 
-
-<br>
-
-![DECENTRALIZED](twin/decentralized.png)
-
-<br>
-<br>
-<br>
+Your FreeFlow Twin comes with all required skills and capabilities.
 
 {% end %}
 
-<!-- section 4 (SUSTAINABLE) -->
+{% fflow_skills() %}
 
-{% row(bgColor="#f3fdf6" margin="narrow") %}
-
-<!-- row 1 sustainability-->
-
-![SUSTAINABLE 1](twin/sustainable_1.png)
-
-<br>
-
-## ULTRA
-## SUSTAINABLE
-
-<br>
-
-Uses less than 5 watts per person for a full blown digital life (ultra sustainable).
-
-<br>
-
-|||
-
-![SUSTAINABLE 2](twin/sustainable_2.png)
-
-<br>
-
-## SUPER
-## SECURE
-
-<br>
-
-Access to your digital life is personal and ultra secure. No one can ever manipulate data
-
-<br>
-
-|||
-
-![SUSTAINABLE 3](twin/sustainable_3.png)
-
-<br>
-
-## NUMEROOUS
-## APPS
-
-<br>
-
-An array of tools and applica-tions is readily available to every user with no limits. 
-
-<br>
+## fflow_skills
 
 {% end %}
 
-<!-- row 2 sustainability -->
+{% row(style="center" bgColor="#EAF3F7" margin="wide") %}
 
-{% row(style="center between margin" bgColor="#f3fdf6") %}
-
-![FF SUSTAINABLE 4](twin/sustainable_4.png)
-
-<br>
-
-## READY
-## TO GIFT
-
-<br>
-
-Available to gift to anyone of your choosing
-
-<br>
-<br>
-<br>
+![FF LIFE](twin5.png)
 
 |||
 
-![SUSTAINABLE 5](twin/sustainable_5.png)
+## FREE FLOWING <br> EXPERIENCES
 
-<br>
+Communicate, Explore and Collaborate with you in the center of your digital life. Your twin can be used as alternative to Whatsapp, Google Drive, Zoom, Facebook, Linkedin, ...
 
-## UNLIMITED
-## ACCESS
-
-<br>
-
-Unlimited information and educational content will now be a click away for every member of society.
-
-<br>
-<br>
-<br>
-
-|||
-
-![SUSTAINABLE 6](twin/sustainable_6.png)
-
-<br>
-
-## CONTROLLED BY
-## ONLY YOU
-
-<br>
-
-NO server or companies involved, all data is yours forever and 100% private.
-
-<br>
-<br>
-<br>
+<button>[THE EXPERIENCES](/experiences)</button>
 
 {% end %}
 
-<!-- section 5 (EXPERIENCES) -->
+{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
 
-{% row(style="center" margin="wide" bgColor="#f9f8f6") %}
+## THIS IS WHERE <br> DATA COMES <br> TOGETHER
 
-![experiences](twin/FF_twin_experiences.png)
+### Quantum Safe Data Storage System
+
+All your data is yours, can not be stolen, not corrupted nor lost. <br>Your data is usable over all your experiences. 
+
+Your digital twin manages all of this for you. e.g. you can use same chat from your collaboration app or your metaverse exploration.
+
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/mytwin/intro/twin_architecture.html', '_blank')">ARCHITECTURE</button>
 
 |||
 
-## CHECK OUT
+![FF LIFE](twin8.png#fill)
 
-### **THE EXPERIENCES**
+{% end %}
 
-Lorem ipsum
+{% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
 
-<button>[EXPERIENCES]("/experiences")</button>
+## RIDICULOUSLY <br> GREEN.
 
-<br>
-<br>
-<br>
+A typical FreeFlow user consumes less than 1 watt to live their entire digital life. 
+
+This ultra-sustainable approach allows the system to easily scale without being a burden to the planet. 
+
+|||
+
+![FreeFlow Benefits](twin7.png)
+
+{% end %}
+
+
+{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
+
+![FF LIFE](digital_life.png)
+
+|||
+
+## LETS GET STARTED<BR>OWN YOUR TWIN
+
+Become the center of your digital life and <br> Get your FreeFlow key now!
+
+
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
+
+
 
 {% end %}

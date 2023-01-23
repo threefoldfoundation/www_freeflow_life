@@ -84,25 +84,25 @@
 
 </script>
 
-{%- set section = get_section(path="_index.md") %}
 
+<!-- set variables used for header template -->
+{% set section = get_section(path="_index.md") %}
+{% set subsections_str = section.subsections | join(sep=" ") %}
+{% set logo_path = get_url(path=section.extra.logo_path | default(value='')) %}
 
-{% for section in section.subsections %}
-{% endfor %}
-
-{% if "header/_index.md" in section.subsections %}
-    {%- set section = get_section(path="header/_index.md") %}
+{% if "header/_index.md" in subsections_str %}
+    {% set section = get_section(path="header/_index.md") %}
     {% set header_items = section.content | safe | split(pat="<li>") %}
-    {% include "partials/custom_header" %}
+    {% include "partials/header_custom.html" %}
 {% else %}
     <header id="header-container">
-        {{section.subsections}}
-        <div class="z-10 bg-white fixed w-screen">
+        {% set header_class = config.extra.header_class | default(value='') %}
+        <div class="{{'z-10 bg-white fixed w-screen ' ~ header_class}}">
             <div class="relative z-50 shadow">
-            <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pl-0 md:pr-0 lg:py-5 sm:px-8 md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
+            <div class="mx-auto flex z-50 shadow justify-between items-center pl-6 pr-2 md:pr-0 lg:py-5  md:px-12 py-2 lg:px-20 lg:justify-start lg:space-x-20">
                 <div>
                     <a href="/" class="flex">
-                        <img class="w-32 h-auto sm:w-15" src="{{section.extra.logo_path}}" alt="Ourworld Logo" />
+                        <img class="w-48 h-auto sm:w-15" src="{{logo_path}}" alt="FreeFlow Logo" />
                     </a>
                 </div>
                 <div class="-mr-2 -my-2 lg:hidden">
@@ -123,7 +123,8 @@
                     <nav class="flex space-x-10">    
                     {% for page in section.pages %}
                     {% if page.relative_path == "home/index.md" %} {% continue %} {% endif %}
-                        <a href="{{page.permalink}}" class="text-lg leading-6 font-medium text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                    {% if page.extra.menu %} {% continue %} {% endif %}
+                        <a href="{{page.permalink}}" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{page.title}}
                         </a>
                         <div class="relative">
@@ -133,7 +134,7 @@
                         {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}                        
                         {% set button_id = subsection ~ "-menu-btn" | slugify %}
                         <div class="relative">
-                        <button type="button" id="{{button_id}}" class="nav_btn font-medium text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 font-normal hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
+                        <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
                             <span>{{ subsection }}</span>
                             <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
                         </button>
@@ -178,6 +179,7 @@
                         <nav class="flex flex-col justify-around pb-12">
                         {% for page in section.pages %}
                             {% if page.relative_path == "home/index.md" %} {% continue %} {% endif %}
+                            {% if page.extra.menu %} {% continue %} {% endif %}
                             <a href="{{page.permalink}}" class="text-lg px-8 py-3 leading-6 font-normal text-gray-900 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                                 {{page.title}}
                             </a>
@@ -199,15 +201,16 @@
                         
                             <hr/>
                         {% endfor %}
+                        {% if "footer/_index.md" in subsections_str %}
                         {% set section = get_section(path="footer/_index.md")%}
-                        {%- set logoPath = section.extra.logoPath %}
                         <div class="mx-8 mt-8">
                             <div class="space-y-8 lg:max-w-lg xl:max-w-lg lg:mr-8 lg:mb-8 xl:col-span-1">
-                              <img class="w-48 h-auto" src="{{logoPath}}" alt="Company name" />
+                              <img class="w-48 h-auto" src="{{logo_path}}" alt="Company name" />
                               <p class="text-gray-500 text-base leading-6 ">
                                 {{section.description}}
                               </p>
                           </div>
+                          {% endif %}
                         </nav>                    
                     </div>
                 

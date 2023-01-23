@@ -4,25 +4,18 @@ description: ""
 date: 2018-09-14
 updated: 2021-02-20
 draft: false
-weight: 3
+weight: 5
 ---
+{% row(style="center" margin="moderate" padding="top") %}
 
-<!-- section 1 (header) -->
+## JOIN THE <br> MOVEMENT
 
-{% row(style="center margin") %}
+### **FreeFlow invites you to your new <br />sovereign digital life.**
 
-![TAKE PART](take-part/___.png)
+{% end %}
 
-|||
+{% featured_stories() %}
 
-## START YOUR 
-
-## __FREEFLOW JOURNEY__
-
-*_____________________*
-
-<br>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ternpor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+## Join The Movement
 
 {% end %}

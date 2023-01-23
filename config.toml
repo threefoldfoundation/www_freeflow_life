@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://www4.ourverse.tf"
+base_url = "https://www2.freeflow.life"
 # Change this to your own URL! Please note this variable **must** be uncommented.
 
-title = "ThreeFold"
+title = "FreeFlow"
 description="Our global digital backbone"
 
 # When set to "true", a feed is automatically generated.
@@ -37,6 +37,9 @@ highlight_theme = "visual-studio-dark"
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
 render_emoji = false
 
+[slugify]
+paths = "on"
+
 # Whether external links are to be opened in a new tab
 # If this is true, a `rel="noopener"` will always automatically be added for security reasons
 external_links_target_blank = true
@@ -62,3 +65,7 @@ name = "categories"
 feed = true
 paginate_by = 2
 paginate_path = "blog-posts"
+
+[extra]
+header_class = "freeflow"
+footer_class = "freeflow"
