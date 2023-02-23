@@ -29,7 +29,7 @@ weight: 3
 
  
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">KNOW MORE</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/node_buy.html', '_blank')">KNOW MORE</button>
 
 {% end %}
 
@@ -47,7 +47,7 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 <br>
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
+<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
 
 {% end %}
 

@@ -28,8 +28,6 @@ weight: 0
 
 It is now possible to own every aspect of your digital life.
 
-<button>[KNOW MORE](#fflow_vision)</button>
-
 {% end %}
 
 <!-- section 2 (FF LIFE) -->
