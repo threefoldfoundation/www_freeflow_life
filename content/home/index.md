@@ -17,10 +17,6 @@ weight: 0
 
 <br>
 
-
-
-
-
 ## FREEFLOW INTO<br> YOUR DIGITAL LIFE
 
 ### **OWN YOUR DATA, DIGITAL SKILLS AND IDENTITY**
