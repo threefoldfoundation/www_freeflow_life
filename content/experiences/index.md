@@ -9,12 +9,11 @@ weight: 4
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="hero") %}
-
-![FF Logo](tf_experience_small.png#mx-auto) 
-
+{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="full") %}
 
 <br>
+
+![FF Logo](tf_experience_small.png#mx-auto) 
 
 
 ## THE FREEFLOW EXPERIENCES

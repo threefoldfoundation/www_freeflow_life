@@ -9,16 +9,19 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero") %}
+{% row(style="center" margin="narrow" bgPath="bg_home.jpg" bgStyle="full") %}
 
 <br>
 
+<br>
+<br>
+
+![FF TWIN](twin_header.png#medium#mx-auto)
 
 
 ### THE FREEFLOW TWIN
 
-## own every <br> aspect of your <br> digital life
-
+## own every aspect of <br> your digital life
 
 
 The FreeFlow Twin is your digital avatar.
@@ -26,17 +29,7 @@ The FreeFlow Twin is your digital avatar.
 <button>[KNOW MORE](/twin/#identity)</button>
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
-|||
 
-<br>
-
-<br>
-
-<br>
-
-
-
-![FF TWIN](twin_header.png)
 
 
 

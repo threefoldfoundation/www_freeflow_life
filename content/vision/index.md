@@ -9,11 +9,13 @@ weight: 1
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="bg_home.jpg" bgStyle="hero" margin="header") %}
+{% row(style="center" bgPath="bg_home.jpg" bgStyle="full" margin="tight") %}
+
+<br>
 
 ![FF TWIN](vision_header.png#medium#mx-auto)
 
-### provide a platform which allows us to restore the original intent of the Internet<br>where everyone is equal, communication is direct, secure and private<br>where you can trust the information presented<br>where everything is free without becoming a product.
+provide a platform which allows us to restore the original intent of the Internet where everyone is equal, communication is direct, secure and private where you can trust the information presented where everything is free without becoming a product.
 
 
 <button>[KNOW MORE](/vision/#fflow_grid)</button>
@@ -48,6 +50,7 @@ Our unique operating system interconnects these nodes to create the FreeFlow Net
 {% end %}
 
 {% row(bgColor="#D9E7DF" margin="moderate" padding="top") %}
+
 
 ## GET YOUR FREEFLOW TWIN
 ### YOU BECOME THE CENTER OF YOUR INTERNET.

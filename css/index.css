@@ -150,7 +150,7 @@ img[src*="#tft_img"] {
     px-8
     py-1
     mr-5
-    my-4
+    my-2
     border-2
     shadow
   }
@@ -192,12 +192,13 @@ header .freeflow {
 }
 
 footer .freeflow {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #eae8e3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 footer .freeflow img {
@@ -218,7 +219,6 @@ button {
   border-radius: 10px;
   border: 2px solid black;
   box-shadow: none;
-  font-size: 20px;
 }
 
 a {

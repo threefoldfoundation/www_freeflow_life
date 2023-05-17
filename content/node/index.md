@@ -9,21 +9,17 @@ weight: 3
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="moderate" bgColor="#FCFBF9" bgStyle="hero") %}
+{% row(style="center" margin="narrow" bgColor="#FCFBF9" bgStyle="full") %}
+
 
 <br>
 
 <br>
 
-<br>
-
-## DIGITAL FARMING {#text-8xl}
+## DIGITAL FARMING {#text-7xl}
 
 ### Become a digital farmer for the FreeFlow network, <br>add decentralized storage and compute capacity, earn rewards. 
 
-<br>
-
-<br>
 
 ![FF Logo](nodify_small.png#mx-auto)
 
@@ -37,7 +33,7 @@ weight: 3
 
 {% row(bgColor="#F5F1ED" margin="moderate") %}
 
-![FreeFlow Life](be_the-internet.png)
+![FreeFlow Life](be_the-internet.png#mx-auto)
 
 |||
 
@@ -45,13 +41,12 @@ weight: 3
 
 By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide to billions of users. 
 
-<br>
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
 
 {% end %}
 
-{% row(style="center" margin="moderate" padding="top" bgColor="#EAE8E3" bgStyle="hero") %}
+{% row(style="center" margin="moderate" padding="top" bgColor="#EAE8E3") %}
 
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
 

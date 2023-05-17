@@ -9,7 +9,7 @@ weight: 0
 
 <!-- section 1 (header) -->
 
-{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="hero") %}
+{% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="full") %}
 
 
 
@@ -62,8 +62,11 @@ We dream about a global network of internet capacity <br>which can be the founda
 
 ## Join The Movement
 
+
+
 {% end %}
 
+<br>
 
 
 

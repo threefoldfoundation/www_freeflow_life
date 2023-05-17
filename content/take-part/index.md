@@ -6,9 +6,16 @@ updated: 2021-02-20
 draft: false
 weight: 5
 ---
-{% row(style="center" margin="moderate" padding="top") %}
+{% row(style="center" margin="moderate" padding="none") %}
 
-## JOIN THE <br> MOVEMENT
+<br>
+
+<br>
+
+<br>
+
+
+## JOIN THE MOVEMENT
 
 ### **FreeFlow invites you to your new <br />sovereign digital life.**
 
