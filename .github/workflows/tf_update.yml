@@ -18,5 +18,6 @@ jobs:
         script: |
           cd /opt/www_freeflow_life
           git log -1
+          git restore .
           git pull
           bash build.sh
