@@ -26,9 +26,10 @@ It is now possible to own every aspect of your digital life.
 
 {% end %}
 
+
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center" bgColor="#F5F1ED" margin="moderate" id="fflow_vision") %}
+{% row(style="center" reverse="rightreserve" bgColor="#F5F1ED" margin="moderate" id="fflow_vision") %}
 
 <br>
 

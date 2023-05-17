@@ -49,7 +49,7 @@ Our unique operating system interconnects these nodes to create the FreeFlow Net
 
 {% end %}
 
-{% row(bgColor="#D9E7DF" margin="moderate" padding="top") %}
+{% row(bgColor="#D9E7DF" reverse="rightreserve" margin="moderate" padding="top") %}
 
 
 ## GET YOUR FREEFLOW TWIN

@@ -98,6 +98,9 @@ img[src*="#tft_img"] {
   font-family: "BebasNeue";
 }
 
+a:hover{
+  color: #686868;
+}
 @layer components {
   h1, #h1  {
     @apply text-4xl md:text-4xl lg:text-6xl leading-none font-normal my-4;
@@ -157,7 +160,7 @@ img[src*="#tft_img"] {
 }
 
 button:hover  {
-  color: #984210;
+  color: #686868;
 }
 
 button  {

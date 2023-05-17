@@ -84,7 +84,7 @@ Communicate, Explore and Collaborate with you in the center of your digital life
 
 {% end %}
 
-{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
+{% row(style="center" reverse="rightreserve" bgColor="#EFEDEB" margin="moderate") %}
 
 ## THIS IS WHERE <br> DATA COMES <br> TOGETHER
 
