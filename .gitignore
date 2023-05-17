@@ -1,4 +1,4 @@
-config.toml
+.github/
 *dSYM/
 publisher/publish
 install_publisher
