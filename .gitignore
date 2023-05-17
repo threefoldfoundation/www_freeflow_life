@@ -21,6 +21,7 @@ yarn.lock
 .installed
 package-lock.json
 dist
+config.toml
 .temp
 run*
 install*
