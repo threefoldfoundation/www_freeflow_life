@@ -1,3 +1,4 @@
+config.toml
 *dSYM/
 publisher/publish
 install_publisher
