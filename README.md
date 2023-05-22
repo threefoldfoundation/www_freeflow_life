@@ -5,7 +5,8 @@
 <<<<<<< HEAD
 The official website of Freeflow Life
 
-[https://www.freeflow.life/](https://www.freeflow.life/)
+Production[https://www.freeflow.life/](https://www.freeflow.life/) Master branch
+Staging [https://www2.freeflow.life/](https://www2.freeflow.life/) development branch
 
 Last Updated: March 2023
 
