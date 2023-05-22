@@ -2,10 +2,11 @@
 
 ## About
 
-<<<<<<< HEAD
+
 The official website of Freeflow Life
 
 Production[https://www.freeflow.life/](https://www.freeflow.life/) Master branch
+
 Staging [https://www2.freeflow.life/](https://www2.freeflow.life/) development branch
 
 Last Updated: March 2023
@@ -46,4 +47,4 @@ by creating a new branch from 'Master' you will be provided with the latest copy
 
 
 
->>>>>>> development
+
