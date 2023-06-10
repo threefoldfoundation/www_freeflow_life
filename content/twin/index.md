@@ -9,7 +9,11 @@ weight: 2
 
 <!-- section 1 (heade FF TWIN) -->
 
+
+
 {% row(style="center" margin="narrow" bgPath="bg_home.jpg" bgStyle="full") %}
+
+<div class="container mx-auto">
 
 <br>
 
@@ -29,16 +33,20 @@ The FreeFlow Twin is your digital avatar.
 <button>[KNOW MORE](/twin/#identity)</button>
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
-
-
-
+</div>
 
 {%end%}
 
+
+
 <!-- section 2  -->
 
+<div class="myColor">
 
-{% row(style="center" bgColor="#F5F1ED" margin="wide" id="identity") %}
+<div class="container mx-auto">
+
+{% row(style="center"  margin="wide" id="identity") %}
+
 
 ![FF LIFE](twin3.png)
 
@@ -53,6 +61,12 @@ To get access to your FreeFlow Twin you need a unique NTF known as a FreeFlow Ke
 <button class="flex mx-auto" onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
 
 {% end %}
+
+</div>
+
+</div>
+
+
 
 <!-- section 3 (oldnew) -->
 
@@ -70,7 +84,15 @@ Your FreeFlow Twin comes with all required skills and capabilities.
 
 {% end %}
 
-{% row(style="center" bgColor="#EAF3F7" margin="wide") %}
+
+
+
+<!-- section 4 -->
+
+<div class="myColor2">
+<div class="container mx-auto">
+
+{% row(style="center" margin="wide") %}
 
 ![FF LIFE](twin5.png)
 
@@ -84,7 +106,16 @@ Communicate, Explore and Collaborate with you in the center of your digital life
 
 {% end %}
 
-{% row(style="center" reverse="rightreserve" bgColor="#EFEDEB" margin="moderate") %}
+</div>
+</div>
+
+
+<!-- section 5 -->
+
+<div class="myColor">
+<div class="container mx-auto">
+
+{% row(style="center" reverse="rightreserve" margin="moderate") %}
 
 ## THIS IS WHERE <br> DATA COMES <br> TOGETHER
 
@@ -102,13 +133,23 @@ Your digital twin manages all of this for you. e.g. you can use same chat from y
 
 {% end %}
 
+</div>
+</div>
+
+
+<!-- section 6 -->
+
+
 {% row(bgColor="#f3fcf6" style="center" margin="moderate lean-right") %}
+<div class="container mx-auto">
 
 ## RIDICULOUSLY <br> GREEN.
 
 A typical FreeFlow user consumes less than 1 watt to live their entire digital life. 
 
 This ultra-sustainable approach allows the system to easily scale without being a burden to the planet. 
+
+</div>
 
 |||
 
@@ -117,7 +158,12 @@ This ultra-sustainable approach allows the system to easily scale without being 
 {% end %}
 
 
-{% row(style="center" bgColor="#EFEDEB" margin="moderate") %}
+
+<!-- section 7 -->
+
+<div class="container mx-auto">
+
+{% row(style="center" margin="moderate") %}
 
 ![FF LIFE](digital_life.png)
 
@@ -130,6 +176,20 @@ Become the center of your digital life and <br> Get your FreeFlow key now!
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
 
-
-
 {% end %}
+
+</div>
+
+
+<style>
+.myColor{
+
+    background-color:#F5F1ED;
+}
+
+.myColor2{
+
+    background-color:#EAF3F7;
+}
+
+    </style>
