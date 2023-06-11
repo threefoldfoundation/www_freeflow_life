@@ -9,22 +9,33 @@ weight: 1
 
 <!-- section 1 (heade FF TWIN) -->
 
-{% row(style="center" bgPath="bg_home.jpg" bgStyle="full" margin="tight") %}
+{% row(style="center" margin="narrow" bgPath="bg_home.jpg" bgStyle="full") %}
+
+<div class="container mx-auto">
 
 <br>
 
 ![FF TWIN](vision_header.png#medium#mx-auto)
 
-provide a platform which allows us to restore the original intent of the Internet where everyone is equal, communication is direct, secure and private where you can trust the information presented where everything is free without becoming a product.
+provide a platform which allows us to restore the original intent of the Internet where everyone is equal, <br>communication is direct, secure and private where you can trust the information presented where everything is free without becoming a product.
 
 
 <button>[KNOW MORE](/vision/#fflow_grid)</button>
 
+</div>
+
 {% end %}
+
+
+
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(bgColor="#f0ece8" margin="moderate" padding="top" id="fflow_grid") %}
+<div class="myColor3">
+
+<div class="container mx-auto">
+
+{% row(margin="moderate" padding="top" id="fflow_grid") %}
 
 ![FF LIFE](vision2.png#fill)
 
@@ -49,7 +60,18 @@ Our unique operating system interconnects these nodes to create the FreeFlow Net
 
 {% end %}
 
-{% row(bgColor="#D9E7DF" reverse="rightreserve" margin="moderate" padding="top") %}
+</div>
+</div>
+
+
+<!-- section 3 -->
+
+
+<div class="myColor4">
+
+<div class="container mx-auto">
+
+{% row(reverse="rightreserve" margin="moderate" padding="top") %}
 
 
 ## GET YOUR FREEFLOW TWIN
@@ -76,6 +98,18 @@ By eliminating the need for centralized servers, the FreeFlow Twin allows you, t
 
 {% end %}
 
+
+</div>
+</div>
+
+
+
+<!-- section 4 -->
+
+
+<div class="myColor5">
+<div class="container mx-auto">
+
 {% row(margin="moderate" bgColor="#F9F8F6" padding="top") %}
 
 ![FF LIFE](vision8.png#fill)
@@ -100,7 +134,13 @@ Each experience is decentralized and allows users to be fully private and secure
 
 {% end %}
 
-{% row(style="center" margin="tight" bgColor="#f9f8f6") %}
+</div>
+</div>
+
+
+<!-- section 5 -->
+
+{% row(style="center" margin="tight") %}
 
 ![FF LIFE](be_with_us.png#mx-auto)
 
@@ -111,3 +151,4 @@ Each experience is decentralized and allows users to be fully private and secure
 <br>
 
 {% end %}
+

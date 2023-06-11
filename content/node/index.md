@@ -11,6 +11,7 @@ weight: 3
 
 {% row(style="center" margin="narrow" bgColor="#FCFBF9" bgStyle="full") %}
 
+<div class="container mx-auto">
 
 <br>
 
@@ -20,18 +21,22 @@ weight: 3
 
 ### Become a digital farmer for the FreeFlow network, <br>add decentralized storage and compute capacity, earn rewards. 
 
-
 ![FF Logo](nodify_small.png#mx-auto)
-
- 
 
 <button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/node_buy.html', '_blank')">KNOW MORE</button>
 
+</div>
+
 {% end %}
+
+
 
 <!-- section 2 (BE THE INTERNET) -->
 
-{% row(bgColor="#F5F1ED" margin="moderate") %}
+<div class="myColor">
+<div class="container mx-auto">
+
+{% row(margin="moderate") %}
 
 ![FreeFlow Life](be_the-internet.png#mx-auto)
 
@@ -46,7 +51,16 @@ By simply plugging in a FreeFlow Node, you can provide the services that the wor
 
 {% end %}
 
-{% row(style="center" margin="moderate" padding="top" bgColor="#EAE8E3") %}
+</div>
+</div>
+
+
+<!-- section 3  -->
+
+<div class="myColor6">
+<div class="container mx-auto">
+
+{% row(style="center" margin="moderate" padding="top") %}
 
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
 
@@ -62,6 +76,12 @@ FreeFlow extends and has been built on top of the [threefold.io](http://www.thre
 
 {% end %}
 
+</div>
+</div>
+
+
+<!-- section 4  -->
+
 {% row(style="center" bgColor="#F2EDE8" padding="top") %}
 
 ## EARN
@@ -74,3 +94,7 @@ Provide the compute, storage and network capacity needed to <br />store data and
 ## THE FREEFLOW INTERNET <br> IS GROWING FAST
 
 {% end %}
+
+
+
+

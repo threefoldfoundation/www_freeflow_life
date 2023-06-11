@@ -11,7 +11,7 @@ weight: 0
 
 {% row(style="center" margin="header" bgPath="bg_home.jpg" bgStyle="full") %}
 
-
+<div class="container mx-auto">
 
 ![FF Logo](f_logo_small.png#mx-auto)
 
@@ -24,12 +24,18 @@ weight: 0
 
 It is now possible to own every aspect of your digital life.
 
+</div>
+
 {% end %}
 
 
 <!-- section 2 (FF LIFE) -->
 
-{% row(style="center" reverse="rightreserve" bgColor="#F5F1ED" margin="moderate" id="fflow_vision") %}
+<div class="myColor">
+
+<div class="container mx-auto">
+
+{% row(style="center" reverse="rightreserve" margin="moderate" id="fflow_vision") %}
 
 <br>
 
@@ -51,6 +57,12 @@ We dream about a global network of internet capacity <br>which can be the founda
 
 {% end %}
 
+</div>
+</div>
+
+
+<!-- section 3 -->
+
 {% row(style="center" margin="moderate" bgColor="#fff" padding="top") %}
 
 ## JOIN THE <br> MOVEMENT
@@ -63,11 +75,8 @@ We dream about a global network of internet capacity <br>which can be the founda
 
 ## Join The Movement
 
-
-
 {% end %}
 
-<br>
 
 
 
