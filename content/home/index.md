@@ -77,18 +77,6 @@ We dream about a global network of internet capacity <br>which can be the founda
 
 {% end %}
 
-<style>
-.myColor{
-
-    background-color:#F5F1ED;
-}
-
-.myColor2{
-
-    background-color:#EAF3F7;
-}
-
-    </style>
 
 
 

@@ -96,35 +96,5 @@ Provide the compute, storage and network capacity needed to <br />store data and
 {% end %}
 
 
-<style>
-.myColor{
 
-    background-color:#F5F1ED;
-}
 
-.myColor2{
-
-    background-color:#EAF3F7;
-}
-
-.myColor3{
-
-    background-color:#f0ece8;
-}
-
-.myColor4{
-
-    background-color:#D9E7DF;
-}
-
-.myColor5{
-
-    background-color:#F9F8F6;
-}
-
-.myColor6{
-
-    background-color:#EAE8E3;
-}
-
-    </style>

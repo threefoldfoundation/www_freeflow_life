@@ -180,16 +180,3 @@ Become the center of your digital life and <br> Get your FreeFlow key now!
 
 </div>
 
-
-<style>
-.myColor{
-
-    background-color:#F5F1ED;
-}
-
-.myColor2{
-
-    background-color:#EAF3F7;
-}
-
-    </style>
