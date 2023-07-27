@@ -1,7 +1,7 @@
-name: freeflow.life
-on: 
+name: www2.freeflow.life
+on:
   push:
-    branch: [ development ]
+    branches: [ development ]
 
 jobs:
   job_one:
@@ -16,8 +16,9 @@ jobs:
         key: ${{ secrets.TF_SECRET }}
         port: 34022
         script: |
-          cd websites/www2/www_freeflow_life
+          cd websites/www2/www_freeflow_life/
           git log -1
-          git restore .
-          git pull
-          bash build.sh
+          git fetch
+          git reset --hard origin/development
+          sed -i "s/https:\/\/freeflow.life/https:\/\/www2.freeflow.life/g" config.toml
+          ./build.sh
