@@ -20,6 +20,6 @@ weight: 4
 
 Fully decentralized and completely secure applications built to enable and to empower.
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/mytwin/experiences/experiences.html', '_blank')">SEE EXPERIENCES</button>
+<button onclick="window.open('https://demo.freeflow.life/', '_blank')">SEE EXPERIENCES</button>
 
 {% end %}
