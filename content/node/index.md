@@ -23,7 +23,7 @@ weight: 3
 
 ![FF Logo](nodify_small.png#mx-auto)
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/node_buy.html', '_blank')">KNOW MORE</button>
+<button onclick="window.open('https://manual.grid.tf/intro/grid3_howitworks.html#3nodes-unleashing-the-power-of-raw-capacity', '_blank')">KNOW MORE</button>
 
 </div>
 
@@ -47,7 +47,7 @@ weight: 3
 By simply plugging in a FreeFlow Node, you can provide the services that the world’s largest tech companies provide to billions of users. 
 
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/network/farming/farming_intro.html', '_blank')">FULL DETAILS</button>
+<button onclick="window.open('https://manual.grid.tf/farmers/farmers.html', '_blank')">FULL DETAILS</button>
 
 {% end %}
 

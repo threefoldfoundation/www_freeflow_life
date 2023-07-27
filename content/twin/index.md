@@ -31,41 +31,11 @@ weight: 2
 The FreeFlow Twin is your digital avatar.
 
 <button>[KNOW MORE](/twin/#identity)</button>
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
+<button onclick="window.open('mailto:info@myfreeflow.org')">GET THE TWIN</button>
 
 </div>
 
 {%end%}
-
-
-
-<!-- section 2  -->
-
-<div class="myColor">
-
-<div class="container mx-auto">
-
-{% row(style="center"  margin="wide" id="identity") %}
-
-
-![FF LIFE](twin3.png)
-
-|||
-
-
-### **THE FREEFLOW KEY**
-
-## YOUR VALUABLE KEY <br> TO YOUR DIGITAL LIFE
-
-To get access to your FreeFlow Twin you need a unique NTF known as a FreeFlow Key (FFK), these keys are valuable and unique.
-<button class="flex mx-auto" onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/network/tokens/ffk.html', '_blank')">MORE INFO</button>
-
-{% end %}
-
-</div>
-
-</div>
-
 
 
 <!-- section 3 (oldnew) -->
@@ -125,7 +95,7 @@ All your data is yours, can not be stolen, not corrupted nor lost. <br>Your data
 
 Your digital twin manages all of this for you. e.g. you can use same chat from your collaboration app or your metaverse exploration.
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/mytwin/intro/twin_architecture.html', '_blank')">ARCHITECTURE</button>
+<button onclick="window.open('https://manual.grid.tf/intro/grid3_howitworks.html', '_blank')">ARCHITECTURE</button>
 
 |||
 
@@ -174,7 +144,7 @@ This ultra-sustainable approach allows the system to easily scale without being 
 Become the center of your digital life and <br> Get your FreeFlow key now!
 
 
-<button onclick="window.open('https://threefoldfoundation.github.io/books/freeflow/freeflow/buy/buy_my_twin.html', '_blank')">GET THE TWIN</button>
+<button onclick="window.open('mailto:info@myfreeflow.org', '_blank')">GET THE TWIN</button>
 
 {% end %}
 
