@@ -13,7 +13,8 @@ Last Updated: March 2023
 
 ## Contribution
 
-Feel free to [create a new issue](https://github.com/freeflowuniverse/www_freeflow_life/issues) to report an error on the website, or if you have any suggestions on website improvements. 
+Feel free to [create a new issue](https://git.ourworld.tf/tfgrid/circle_web_presence/issues) to report an error on the website, or if you have any suggestions on website improvements. 
+
 =======
 [www.freeflow.life](https://freeflow.life)
 
@@ -28,7 +29,7 @@ It is highly important to follow this procedure to contribute to the website con
 __WARNING__: DO NOT commit straight into __master__ / __development__ branch.
 
 1. Create an Issue
-Feel free to [create a new issue](https://github.com/threefoldfoundation/www_threefold_io/issues/new) to report an error on the website, or if you have any suggestions on website improvements. 
+Feel free to [create a new issue](https://git.ourworld.tf/tfgrid/circle_web_presence/issues)  to report an error on the website, or if you have any suggestions on website improvements. 
 
 2. Make your own branch from __'development'__ branch.
 by creating a new branch from 'Master' you will be provided with the latest copy of the live website content.
